@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "metrics": {
+    "zap_actions": {
+      "definition": "Number of ZAP action groups reported by Stacker News itemGrowth.",
+      "unit": "actions",
+      "safe_language": "Stacker News zap actions",
+      "avoid_language": "Lightning transactions",
+      "caveat": "The public aggregate does not establish that every zap action settled as a real Lightning payment."
+    },
+    "zap_sats": {
+      "definition": "Gross zap-denominated value reported for ZAP by Stacker News spendingGrowth.",
+      "unit": "sats",
+      "safe_language": "zap-denominated sats",
+      "avoid_language": "sats settled over Lightning",
+      "caveat": "The aggregate may include activity involving Cowboy Credits."
+    },
+    "daily_unique_zappers": {
+      "definition": "Distinct users associated with ZAP activity in one daily aggregation bucket.",
+      "unit": "users",
+      "safe_language": "daily unique zappers",
+      "avoid_language": "unique Lightning wallets",
+      "caveat": "Do not sum daily values to claim a weekly distinct-user count."
+    },
+    "daily_unique_spenders": {
+      "definition": "Distinct users across tracked paid-action types in one daily aggregation bucket.",
+      "unit": "users",
+      "caveat": "Do not sum daily values to claim a weekly distinct-user count."
+    },
+    "tracked_paid_actions": {
+      "definition": "Sum of action-group counts for all pay-in types returned by itemGrowth after the API's exclusions.",
+      "unit": "actions",
+      "caveat": "This is scoped to the action types included by the public growth resolver."
+    },
+    "content_items_created": {
+      "definition": "ITEM_CREATE action groups reported by Stacker News itemGrowth.",
+      "unit": "actions",
+      "safe_language": "paid item-creation actions",
+      "avoid_language": "independently verified distinct posts and comments",
+      "caveat": "Use as a content-activity proxy unless the upstream semantics are separately verified."
+    },
+    "seconds_per_zap": {
+      "definition": "Seconds in the observed period divided by zap actions.",
+      "unit": "seconds per action",
+      "caveat": "This is an average interval, not a claim that actions occur at regular spacing."
+    },
+    "average_zap_sats": {
+      "definition": "Zap-denominated sats divided by zap actions.",
+      "unit": "sats per action",
+      "caveat": "This is a ratio of public aggregate values and does not prove Lightning settlement."
+    },
+    "zaps_per_100_content_items": {
+      "definition": "100 times zap actions divided by ITEM_CREATE action groups.",
+      "unit": "actions per 100 item-creation actions",
+      "caveat": "The denominator is the ITEM_CREATE action-group count, used as a content-activity proxy."
+    }
+  },
+  "global_caveats": [
+    "Never describe zap_actions as Lightning transactions without separate settlement data.",
+    "Never sum daily_unique_zappers to obtain weekly distinct zappers.",
+    "Treat API observations as public aggregates, not independently audited figures."
+  ]
+}
+

@@ -1,0 +1,46 @@
+name: Collect SN stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 4:17 a.m. or 5:17 a.m. America/Chicago, depending on daylight saving time.
+    - cron: "17 10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-sn-stats
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect and summarize
+        run: python scripts/run_pipeline.py
+
+      - name: Commit changed data
+        run: |
+          git config user.name "SN Stats Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "Update SN statistics"
+          git push
+

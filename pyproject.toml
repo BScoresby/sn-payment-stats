@@ -1,0 +1,6 @@
+[project]
+name = "sn-payment-stats"
+version = "1.0.0"
+description = "Collect and summarize public Stacker News payment statistics"
+requires-python = ">=3.9"
+

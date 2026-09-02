@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T21:53:38Z",
+  "latest_completed_week": {
+    "period": {
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "days": 7
+    },
+    "zap_actions": 7513,
+    "zap_sats": 709733,
+    "tracked_paid_actions": 14957,
+    "content_items_created": 4979,
+    "zaps_per_day": 1073.29,
+    "seconds_per_zap": 80.5,
+    "average_zap_sats": 94.47,
+    "average_daily_unique_zappers": 96.57,
+    "peak_daily_unique_zappers": 102,
+    "average_daily_unique_spenders": 183.71,
+    "zap_share_of_tracked_paid_actions_pct": 50.23,
+    "zaps_per_100_content_items": 150.89,
+    "quality_status": "ok",
+    "warning_days": [],
+    "week_over_week_pct": {
+      "zap_actions": 8.85,
+      "zap_sats": -8.97,
+      "tracked_paid_actions": 11.98,
+      "content_items_created": 23.06
+    },
+    "versus_prior_4_week_average_pct": {
+      "zap_actions": -8.02,
+      "zap_sats": -44.31,
+      "tracked_paid_actions": -4.49,
+      "content_items_created": 0.99
+    },
+    "records": {
+      "zap_actions_all_time_high": false,
+      "zap_sats_all_time_high": false
+    }
+  },
+  "analysis_context": {
+    "prior_completed_weeks_available": 11,
+    "global_caveats": [
+      "Never describe zap_actions as Lightning transactions without separate settlement data.",
+      "Never sum daily_unique_zappers to obtain weekly distinct zappers.",
+      "Treat API observations as public aggregates, not independently audited figures."
+    ],
+    "suggested_questions": [
+      "Which metrics changed most from the previous week?",
+      "Did activity change mainly through frequency, value, participation, or content volume?",
+      "Is the latest week unusual relative to the prior four completed weeks?",
+      "Which accurate statistic best illustrates frequent money-native interaction?"
+    ]
+  }
+}

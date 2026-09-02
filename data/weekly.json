@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T21:53:38Z",
+  "week_definition": "Monday through Sunday in America/Chicago daily API buckets",
+  "week_count": 12,
+  "weeks": [
+    {
+      "period": {
+        "start": "2026-06-08",
+        "end": "2026-06-14",
+        "days": 7
+      },
+      "zap_actions": 6671,
+      "zap_sats": 641080,
+      "tracked_paid_actions": 12176,
+      "content_items_created": 4156,
+      "zaps_per_day": 953.0,
+      "seconds_per_zap": 90.66,
+      "average_zap_sats": 96.1,
+      "average_daily_unique_zappers": 86.71,
+      "peak_daily_unique_zappers": 98,
+      "average_daily_unique_spenders": 156.57,
+      "zap_share_of_tracked_paid_actions_pct": 54.79,
+      "zaps_per_100_content_items": 160.51,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": null,
+        "zap_sats": null,
+        "tracked_paid_actions": null,
+        "content_items_created": null
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": null,
+        "zap_sats": null,
+        "tracked_paid_actions": null,
+        "content_items_created": null
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-06-15",
+        "end": "2026-06-21",
+        "days": 7
+      },
+      "zap_actions": 5792,
+      "zap_sats": 494180,
+      "tracked_paid_actions": 11665,
+      "content_items_created": 3986,
+      "zaps_per_day": 827.43,
+      "seconds_per_zap": 104.42,
+      "average_zap_sats": 85.32,
+      "average_daily_unique_zappers": 83.57,
+      "peak_daily_unique_zappers": 91,
+      "average_daily_unique_spenders": 162.43,
+      "zap_share_of_tracked_paid_actions_pct": 49.65,
+      "zaps_per_100_content_items": 145.31,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -13.18,
+        "zap_sats": -22.91,
+        "tracked_paid_actions": -4.2,
+        "content_items_created": -4.09
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -13.18,
+        "zap_sats": -22.91,
+        "tracked_paid_actions": -4.2,
+        "content_items_created": -4.09
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-06-22",
+        "end": "2026-06-28",
+        "days": 7
+      },
+      "zap_actions": 6126,
+      "zap_sats": 694723,
+      "tracked_paid_actions": 11892,
+      "content_items_created": 3994,
+      "zaps_per_day": 875.14,
+      "seconds_per_zap": 98.73,
+      "average_zap_sats": 113.41,
+      "average_daily_unique_zappers": 86,
+      "peak_daily_unique_zappers": 95,
+      "average_daily_unique_spenders": 150,
+      "zap_share_of_tracked_paid_actions_pct": 51.51,
+      "zaps_per_100_content_items": 153.38,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": 5.77,
+        "zap_sats": 40.58,
+        "tracked_paid_actions": 1.95,
+        "content_items_created": 0.2
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -1.69,
+        "zap_sats": 22.39,
+        "tracked_paid_actions": -0.24,
+        "content_items_created": -1.89
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-06-29",
+        "end": "2026-07-05",
+        "days": 7
+      },
+      "zap_actions": 5320,
+      "zap_sats": 544784,
+      "tracked_paid_actions": 10109,
+      "content_items_created": 3393,
+      "zaps_per_day": 760.0,
+      "seconds_per_zap": 113.68,
+      "average_zap_sats": 102.4,
+      "average_daily_unique_zappers": 74.29,
+      "peak_daily_unique_zappers": 86,
+      "average_daily_unique_spenders": 144.86,
+      "zap_share_of_tracked_paid_actions_pct": 52.63,
+      "zaps_per_100_content_items": 156.79,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -13.16,
+        "zap_sats": -21.58,
+        "tracked_paid_actions": -14.99,
+        "content_items_created": -15.05
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -14.14,
+        "zap_sats": -10.69,
+        "tracked_paid_actions": -15.13,
+        "content_items_created": -16.13
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-06",
+        "end": "2026-07-12",
+        "days": 7
+      },
+      "zap_actions": 5288,
+      "zap_sats": 507859,
+      "tracked_paid_actions": 10587,
+      "content_items_created": 3709,
+      "zaps_per_day": 755.43,
+      "seconds_per_zap": 114.37,
+      "average_zap_sats": 96.04,
+      "average_daily_unique_zappers": 79.57,
+      "peak_daily_unique_zappers": 88,
+      "average_daily_unique_spenders": 151.43,
+      "zap_share_of_tracked_paid_actions_pct": 49.95,
+      "zaps_per_100_content_items": 142.57,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -0.6,
+        "zap_sats": -6.78,
+        "tracked_paid_actions": 4.73,
+        "content_items_created": 9.31
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -11.53,
+        "zap_sats": -14.46,
+        "tracked_paid_actions": -7.62,
+        "content_items_created": -4.46
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-13",
+        "end": "2026-07-19",
+        "days": 7
+      },
+      "zap_actions": 6313,
+      "zap_sats": 1031951,
+      "tracked_paid_actions": 12528,
+      "content_items_created": 4442,
+      "zaps_per_day": 901.86,
+      "seconds_per_zap": 95.8,
+      "average_zap_sats": 163.46,
+      "average_daily_unique_zappers": 87.86,
+      "peak_daily_unique_zappers": 94,
+      "average_daily_unique_spenders": 166.57,
+      "zap_share_of_tracked_paid_actions_pct": 50.39,
+      "zaps_per_100_content_items": 142.12,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": 19.38,
+        "zap_sats": 103.2,
+        "tracked_paid_actions": 18.33,
+        "content_items_created": 19.76
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": 12.1,
+        "zap_sats": 84.15,
+        "tracked_paid_actions": 13.24,
+        "content_items_created": 17.81
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-26",
+        "days": 7
+      },
+      "zap_actions": 9514,
+      "zap_sats": 1341358,
+      "tracked_paid_actions": 18434,
+      "content_items_created": 5271,
+      "zaps_per_day": 1359.14,
+      "seconds_per_zap": 63.57,
+      "average_zap_sats": 140.99,
+      "average_daily_unique_zappers": 85.43,
+      "peak_daily_unique_zappers": 97,
+      "average_daily_unique_spenders": 168.71,
+      "zap_share_of_tracked_paid_actions_pct": 51.61,
+      "zaps_per_100_content_items": 180.5,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": 50.7,
+        "zap_sats": 29.98,
+        "tracked_paid_actions": 47.14,
+        "content_items_created": 18.66
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": 65.12,
+        "zap_sats": 93.05,
+        "tracked_paid_actions": 63.44,
+        "content_items_created": 35.69
+      },
+      "records": {
+        "zap_actions_all_time_high": true,
+        "zap_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-27",
+        "end": "2026-08-02",
+        "days": 7
+      },
+      "zap_actions": 9142,
+      "zap_sats": 1182368,
+      "tracked_paid_actions": 16850,
+      "content_items_created": 5187,
+      "zaps_per_day": 1306.0,
+      "seconds_per_zap": 66.16,
+      "average_zap_sats": 129.33,
+      "average_daily_unique_zappers": 99.71,
+      "peak_daily_unique_zappers": 107,
+      "average_daily_unique_spenders": 186,
+      "zap_share_of_tracked_paid_actions_pct": 54.26,
+      "zaps_per_100_content_items": 176.25,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -3.91,
+        "zap_sats": -11.85,
+        "tracked_paid_actions": -8.59,
+        "content_items_created": -1.59
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": 38.33,
+        "zap_sats": 38.05,
+        "tracked_paid_actions": 30.47,
+        "content_items_created": 23.39
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-03",
+        "end": "2026-08-09",
+        "days": 7
+      },
+      "zap_actions": 9094,
+      "zap_sats": 2139307,
+      "tracked_paid_actions": 17251,
+      "content_items_created": 5405,
+      "zaps_per_day": 1299.14,
+      "seconds_per_zap": 66.51,
+      "average_zap_sats": 235.24,
+      "average_daily_unique_zappers": 104.86,
+      "peak_daily_unique_zappers": 114,
+      "average_daily_unique_spenders": 199.43,
+      "zap_share_of_tracked_paid_actions_pct": 52.72,
+      "zaps_per_100_content_items": 168.25,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -0.53,
+        "zap_sats": 80.93,
+        "tracked_paid_actions": 2.38,
+        "content_items_created": 4.2
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": 20.22,
+        "zap_sats": 110.59,
+        "tracked_paid_actions": 18.16,
+        "content_items_created": 16.18
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-10",
+        "end": "2026-08-16",
+        "days": 7
+      },
+      "zap_actions": 7534,
+      "zap_sats": 996316,
+      "tracked_paid_actions": 15181,
+      "content_items_created": 5082,
+      "zaps_per_day": 1076.29,
+      "seconds_per_zap": 80.28,
+      "average_zap_sats": 132.24,
+      "average_daily_unique_zappers": 97.29,
+      "peak_daily_unique_zappers": 123,
+      "average_daily_unique_spenders": 186.71,
+      "zap_share_of_tracked_paid_actions_pct": 49.63,
+      "zaps_per_100_content_items": 148.25,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -17.15,
+        "zap_sats": -53.43,
+        "tracked_paid_actions": -12.0,
+        "content_items_created": -5.98
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -11.53,
+        "zap_sats": -30.02,
+        "tracked_paid_actions": -6.67,
+        "content_items_created": 0.11
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-17",
+        "end": "2026-08-23",
+        "days": 7
+      },
+      "zap_actions": 6902,
+      "zap_sats": 779660,
+      "tracked_paid_actions": 13357,
+      "content_items_created": 4046,
+      "zaps_per_day": 986.0,
+      "seconds_per_zap": 87.63,
+      "average_zap_sats": 112.96,
+      "average_daily_unique_zappers": 94.57,
+      "peak_daily_unique_zappers": 108,
+      "average_daily_unique_spenders": 180.57,
+      "zap_share_of_tracked_paid_actions_pct": 51.67,
+      "zaps_per_100_content_items": 170.59,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": -8.39,
+        "zap_sats": -21.75,
+        "tracked_paid_actions": -12.02,
+        "content_items_created": -20.39
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -21.75,
+        "zap_sats": -44.89,
+        "tracked_paid_actions": -21.1,
+        "content_items_created": -22.73
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-24",
+        "end": "2026-08-30",
+        "days": 7
+      },
+      "zap_actions": 7513,
+      "zap_sats": 709733,
+      "tracked_paid_actions": 14957,
+      "content_items_created": 4979,
+      "zaps_per_day": 1073.29,
+      "seconds_per_zap": 80.5,
+      "average_zap_sats": 94.47,
+      "average_daily_unique_zappers": 96.57,
+      "peak_daily_unique_zappers": 102,
+      "average_daily_unique_spenders": 183.71,
+      "zap_share_of_tracked_paid_actions_pct": 50.23,
+      "zaps_per_100_content_items": 150.89,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": 8.85,
+        "zap_sats": -8.97,
+        "tracked_paid_actions": 11.98,
+        "content_items_created": 23.06
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": -8.02,
+        "zap_sats": -44.31,
+        "tracked_paid_actions": -4.49,
+        "content_items_created": 0.99
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    }
+  ]
+}
