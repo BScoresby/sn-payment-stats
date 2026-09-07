@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T13:43:10Z",
+  "generated_at": "2026-09-07T15:54:33Z",
   "week_definition": "Monday through Sunday in America/Chicago daily API buckets",
-  "week_count": 12,
+  "week_count": 13,
   "weeks": [
     {
       "period": {
@@ -442,6 +442,43 @@
         "zap_sats": -44.31,
         "tracked_paid_actions": -4.49,
         "content_items_created": 0.99
+      },
+      "records": {
+        "zap_actions_all_time_high": false,
+        "zap_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "days": 7
+      },
+      "zap_actions": 8699,
+      "zap_sats": 835269,
+      "tracked_paid_actions": 16849,
+      "content_items_created": 5054,
+      "zaps_per_day": 1242.71,
+      "seconds_per_zap": 69.53,
+      "average_zap_sats": 96.02,
+      "average_daily_unique_zappers": 92.57,
+      "peak_daily_unique_zappers": 103,
+      "average_daily_unique_spenders": 176.43,
+      "zap_share_of_tracked_paid_actions_pct": 51.63,
+      "zaps_per_100_content_items": 172.12,
+      "quality_status": "ok",
+      "warning_days": [],
+      "week_over_week_pct": {
+        "zap_actions": 15.79,
+        "zap_sats": 17.69,
+        "tracked_paid_actions": 12.65,
+        "content_items_created": 1.51
+      },
+      "versus_prior_4_week_average_pct": {
+        "zap_actions": 12.09,
+        "zap_sats": -27.76,
+        "tracked_paid_actions": 10.95,
+        "content_items_created": 3.61
       },
       "records": {
         "zap_actions_all_time_high": false,
