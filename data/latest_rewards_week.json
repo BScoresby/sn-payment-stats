@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-08T19:37:48Z",
+  "latest_completed_reward_week": {
+    "period": {
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "days": 7
+    },
+    "source_activity_period": {
+      "start": "2026-08-30",
+      "end": "2026-09-05"
+    },
+    "reward_pool_sats": 844847,
+    "reward_distributed_sats": 844831,
+    "reward_distribution_gap_sats": 16,
+    "average_daily_reward_pool_sats": 120692.43,
+    "average_daily_reward_distributed_sats": 120690.14,
+    "average_daily_unique_reward_recipients": 61.14,
+    "peak_daily_unique_reward_recipients": 67,
+    "reward_recipient_days": 428,
+    "reward_sats_per_recipient_day": 1973.9,
+    "reward_sources_msats": {
+      "BOOST": 177607704,
+      "BOUNTY_PAYMENT": 370493,
+      "DONATE": 5283000,
+      "DOWN_ZAP": 557798000,
+      "ITEM_CREATE": 24859600,
+      "ITEM_UPDATE": 122700,
+      "MEDIA_UPLOAD": 160001,
+      "POLL_VOTE": 17100,
+      "PROXY_PAYMENT": 1827804,
+      "ZAP": 76801689
+    },
+    "reward_source_shares_pct": {
+      "BOOST": 21.02,
+      "BOUNTY_PAYMENT": 0.04,
+      "DONATE": 0.63,
+      "DOWN_ZAP": 66.02,
+      "ITEM_CREATE": 2.94,
+      "ITEM_UPDATE": 0.01,
+      "MEDIA_UPLOAD": 0.02,
+      "POLL_VOTE": 0.0,
+      "PROXY_PAYMENT": 0.22,
+      "ZAP": 9.09
+    },
+    "boost_and_downzap_reward_share_pct": 87.05,
+    "quality_status": "ok",
+    "warning_days": [],
+    "anomaly_days": [
+      "2026-09-06"
+    ],
+    "week_over_week_pct": {
+      "reward_pool_sats": 107.02,
+      "reward_distributed_sats": 107.03,
+      "average_daily_unique_reward_recipients": -6.76,
+      "reward_sats_per_recipient_day": 122.02
+    },
+    "versus_prior_4_week_average_pct": {
+      "reward_pool_sats": 119.71,
+      "reward_distributed_sats": 119.93,
+      "average_daily_unique_reward_recipients": -13.58,
+      "reward_sats_per_recipient_day": 153.51
+    },
+    "records": {
+      "reward_pool_sats_all_time_high": false,
+      "reward_distributed_sats_all_time_high": false
+    }
+  },
+  "analysis_context": {
+    "prior_completed_weeks_available": 11,
+    "reward_caveats": [
+      "Reward dates are payout dates; reward-source activity occurred on the preceding America/Chicago calendar day.",
+      "Reward payouts are custodial SN reward sats and must not be described as confirmed Lightning payments.",
+      "reward_pool_sats measures the source-funded pool shown by the historical rewards page; reward_distributed_sats measures REWARD payouts actually credited and can be slightly lower.",
+      "Do not sum daily_unique_reward_recipients to obtain weekly distinct recipients; use recipient-days.",
+      "Reward source values are stored in raw millisats. BOOST represents only the reward-pool share of boosts.",
+      "Treat public reward aggregates as unaudited and allow a one-sat cross-endpoint rounding difference."
+    ],
+    "suggested_questions": [
+      "Were the reward pool and the amount distributed unusually large this week?",
+      "Which paid-action types supplied most of the reward value?",
+      "Did rewards grow through more recipients or more sats per recipient-day?",
+      "Were rewards unusually concentrated in boosts or downzaps?"
+    ]
+  }
+}

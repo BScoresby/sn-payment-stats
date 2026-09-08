@@ -158,6 +158,11 @@ def main() -> int:
         "analysis_context": {
             "prior_completed_weeks_available": len(weeks) - 1,
             "global_caveats": definitions.get("global_caveats", []),
+            "related_datasets": {
+                "daily_rewards": "data/rewards_daily.json",
+                "weekly_rewards": "data/rewards_weekly.json",
+                "latest_reward_week": "data/latest_rewards_week.json",
+            },
             "suggested_questions": [
                 "Which metrics changed most from the previous week?",
                 "Did activity change mainly through frequency, value, participation, or content volume?",
@@ -178,4 +183,3 @@ if __name__ == "__main__":
     except SummaryError as exc:
         print(f"ERROR: {exc}", file=__import__("sys").stderr)
         raise SystemExit(1)
-

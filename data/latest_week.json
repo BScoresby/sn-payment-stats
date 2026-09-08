@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T14:37:40Z",
+  "generated_at": "2026-09-08T19:37:48Z",
   "latest_completed_week": {
     "period": {
       "start": "2026-08-31",
@@ -45,6 +45,11 @@
       "Never sum daily_unique_zappers to obtain weekly distinct zappers.",
       "Treat API observations as public aggregates, not independently audited figures."
     ],
+    "related_datasets": {
+      "daily_rewards": "data/rewards_daily.json",
+      "weekly_rewards": "data/rewards_weekly.json",
+      "latest_reward_week": "data/latest_rewards_week.json"
+    },
     "suggested_questions": [
       "Which metrics changed most from the previous week?",
       "Did activity change mainly through frequency, value, participation, or content volume?",

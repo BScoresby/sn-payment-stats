@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-08T19:37:48Z",
+  "week_definition": "Monday through Sunday reward dates in America/Chicago",
+  "date_semantics": "Each reward week contains payouts made during the period; the funding activity occurred one day earlier, as shown in source_activity_period",
+  "week_count": 12,
+  "weeks": [
+    {
+      "period": {
+        "start": "2026-06-15",
+        "end": "2026-06-21",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-06-14",
+        "end": "2026-06-20"
+      },
+      "reward_pool_sats": 114845,
+      "reward_distributed_sats": 114785,
+      "reward_distribution_gap_sats": 60,
+      "average_daily_reward_pool_sats": 16406.43,
+      "average_daily_reward_distributed_sats": 16397.86,
+      "average_daily_unique_reward_recipients": 50.14,
+      "peak_daily_unique_reward_recipients": 57,
+      "reward_recipient_days": 351,
+      "reward_sats_per_recipient_day": 327.02,
+      "reward_sources_msats": {
+        "BOOST": 12659516,
+        "BOUNTY_PAYMENT": 63000,
+        "DONATE": 1007000,
+        "DOWN_ZAP": 30106000,
+        "ITEM_CREATE": 19611700,
+        "ITEM_UPDATE": 107100,
+        "MEDIA_UPLOAD": 60000,
+        "POLL_VOTE": 34200,
+        "PROXY_PAYMENT": 28692,
+        "ZAP": 51167250
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 11.02,
+        "BOUNTY_PAYMENT": 0.05,
+        "DONATE": 0.88,
+        "DOWN_ZAP": 26.21,
+        "ITEM_CREATE": 17.08,
+        "ITEM_UPDATE": 0.09,
+        "MEDIA_UPLOAD": 0.05,
+        "POLL_VOTE": 0.03,
+        "PROXY_PAYMENT": 0.02,
+        "ZAP": 44.55
+      },
+      "boost_and_downzap_reward_share_pct": 37.24,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": null,
+        "reward_distributed_sats": null,
+        "average_daily_unique_reward_recipients": null,
+        "reward_sats_per_recipient_day": null
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": null,
+        "reward_distributed_sats": null,
+        "average_daily_unique_reward_recipients": null,
+        "reward_sats_per_recipient_day": null
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-06-22",
+        "end": "2026-06-28",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-06-21",
+        "end": "2026-06-27"
+      },
+      "reward_pool_sats": 152300,
+      "reward_distributed_sats": 152031,
+      "reward_distribution_gap_sats": 269,
+      "average_daily_reward_pool_sats": 21757.14,
+      "average_daily_reward_distributed_sats": 21718.71,
+      "average_daily_unique_reward_recipients": 54.14,
+      "peak_daily_unique_reward_recipients": 65,
+      "reward_recipient_days": 379,
+      "reward_sats_per_recipient_day": 401.14,
+      "reward_sources_msats": {
+        "BOOST": 29496706,
+        "BOUNTY_PAYMENT": 349300,
+        "DONATE": 4034000,
+        "DOWN_ZAP": 31027000,
+        "ITEM_CREATE": 21938200,
+        "ITEM_UPDATE": 171300,
+        "MEDIA_UPLOAD": 60000,
+        "POLL_VOTE": 9000,
+        "PROXY_PAYMENT": 67430,
+        "ZAP": 65147323
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 19.37,
+        "BOUNTY_PAYMENT": 0.23,
+        "DONATE": 2.65,
+        "DOWN_ZAP": 20.37,
+        "ITEM_CREATE": 14.4,
+        "ITEM_UPDATE": 0.11,
+        "MEDIA_UPLOAD": 0.04,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.04,
+        "ZAP": 42.78
+      },
+      "boost_and_downzap_reward_share_pct": 39.74,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": 32.61,
+        "reward_distributed_sats": 32.45,
+        "average_daily_unique_reward_recipients": 7.98,
+        "reward_sats_per_recipient_day": 22.67
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 32.61,
+        "reward_distributed_sats": 32.45,
+        "average_daily_unique_reward_recipients": 7.98,
+        "reward_sats_per_recipient_day": 22.67
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": true,
+        "reward_distributed_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-06-29",
+        "end": "2026-07-05",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-06-28",
+        "end": "2026-07-04"
+      },
+      "reward_pool_sats": 101892,
+      "reward_distributed_sats": 101864,
+      "reward_distribution_gap_sats": 28,
+      "average_daily_reward_pool_sats": 14556.0,
+      "average_daily_reward_distributed_sats": 14552.0,
+      "average_daily_unique_reward_recipients": 48.14,
+      "peak_daily_unique_reward_recipients": 54,
+      "reward_recipient_days": 337,
+      "reward_sats_per_recipient_day": 302.27,
+      "reward_sources_msats": {
+        "BOOST": 4411403,
+        "BOUNTY_PAYMENT": 368500,
+        "DONATE": 4308000,
+        "DOWN_ZAP": 18794000,
+        "ITEM_CREATE": 17909700,
+        "ITEM_UPDATE": 30600,
+        "MEDIA_UPLOAD": 30000,
+        "POLL_VOTE": 15000,
+        "PROXY_PAYMENT": 308499,
+        "ZAP": 55715763
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 4.33,
+        "BOUNTY_PAYMENT": 0.36,
+        "DONATE": 4.23,
+        "DOWN_ZAP": 18.45,
+        "ITEM_CREATE": 17.58,
+        "ITEM_UPDATE": 0.03,
+        "MEDIA_UPLOAD": 0.03,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.3,
+        "ZAP": 54.68
+      },
+      "boost_and_downzap_reward_share_pct": 22.77,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": -33.1,
+        "reward_distributed_sats": -33.0,
+        "average_daily_unique_reward_recipients": -11.08,
+        "reward_sats_per_recipient_day": -24.65
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -23.72,
+        "reward_distributed_sats": -23.64,
+        "average_daily_unique_reward_recipients": -7.67,
+        "reward_sats_per_recipient_day": -16.98
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-06",
+        "end": "2026-07-12",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-07-05",
+        "end": "2026-07-11"
+      },
+      "reward_pool_sats": 112879,
+      "reward_distributed_sats": 110575,
+      "reward_distribution_gap_sats": 2304,
+      "average_daily_reward_pool_sats": 16125.57,
+      "average_daily_reward_distributed_sats": 15796.43,
+      "average_daily_unique_reward_recipients": 49.14,
+      "peak_daily_unique_reward_recipients": 56,
+      "reward_recipient_days": 344,
+      "reward_sats_per_recipient_day": 321.44,
+      "reward_sources_msats": {
+        "BOOST": 14293407,
+        "BOUNTY_PAYMENT": 63000,
+        "DONATE": 5065000,
+        "DOWN_ZAP": 18834000,
+        "ITEM_CREATE": 16968300,
+        "ITEM_UPDATE": 297900,
+        "POLL_VOTE": 14400,
+        "PROXY_PAYMENT": 11157355,
+        "ZAP": 46185782
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 12.66,
+        "BOUNTY_PAYMENT": 0.06,
+        "DONATE": 4.49,
+        "DOWN_ZAP": 16.69,
+        "ITEM_CREATE": 15.03,
+        "ITEM_UPDATE": 0.26,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 9.88,
+        "ZAP": 40.92
+      },
+      "boost_and_downzap_reward_share_pct": 29.35,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": 10.78,
+        "reward_distributed_sats": 8.55,
+        "average_daily_unique_reward_recipients": 2.08,
+        "reward_sats_per_recipient_day": 6.34
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -8.24,
+        "reward_distributed_sats": -10.02,
+        "average_daily_unique_reward_recipients": -3.28,
+        "reward_sats_per_recipient_day": -6.42
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-13",
+        "end": "2026-07-19",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-07-12",
+        "end": "2026-07-18"
+      },
+      "reward_pool_sats": 894198,
+      "reward_distributed_sats": 893976,
+      "reward_distribution_gap_sats": 222,
+      "average_daily_reward_pool_sats": 127742.57,
+      "average_daily_reward_distributed_sats": 127710.86,
+      "average_daily_unique_reward_recipients": 58.57,
+      "peak_daily_unique_reward_recipients": 73,
+      "reward_recipient_days": 410,
+      "reward_sats_per_recipient_day": 2180.43,
+      "reward_sources_msats": {
+        "BOOST": 35301228,
+        "BOUNTY_PAYMENT": 360880,
+        "DONATE": 2279000,
+        "DOWN_ZAP": 731813000,
+        "ITEM_CREATE": 21583300,
+        "ITEM_UPDATE": 224700,
+        "MEDIA_UPLOAD": 60000,
+        "POLL_VOTE": 16500,
+        "PROXY_PAYMENT": 4150380,
+        "ZAP": 98408373
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 3.95,
+        "BOUNTY_PAYMENT": 0.04,
+        "DONATE": 0.25,
+        "DOWN_ZAP": 81.84,
+        "ITEM_CREATE": 2.41,
+        "ITEM_UPDATE": 0.03,
+        "MEDIA_UPLOAD": 0.01,
+        "POLL_VOTE": 0.0,
+        "PROXY_PAYMENT": 0.46,
+        "ZAP": 11.01
+      },
+      "boost_and_downzap_reward_share_pct": 85.79,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [
+        "2026-07-19"
+      ],
+      "week_over_week_pct": {
+        "reward_pool_sats": 692.17,
+        "reward_distributed_sats": 708.48,
+        "average_daily_unique_reward_recipients": 19.19,
+        "reward_sats_per_recipient_day": 578.33
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 642.2,
+        "reward_distributed_sats": 646.14,
+        "average_daily_unique_reward_recipients": 16.23,
+        "reward_sats_per_recipient_day": 545.16
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": true,
+        "reward_distributed_sats_all_time_high": true
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-20",
+        "end": "2026-07-26",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-07-19",
+        "end": "2026-07-25"
+      },
+      "reward_pool_sats": 871776,
+      "reward_distributed_sats": 871446,
+      "reward_distribution_gap_sats": 330,
+      "average_daily_reward_pool_sats": 124539.43,
+      "average_daily_reward_distributed_sats": 124492.29,
+      "average_daily_unique_reward_recipients": 55.29,
+      "peak_daily_unique_reward_recipients": 64,
+      "reward_recipient_days": 387,
+      "reward_sats_per_recipient_day": 2251.8,
+      "reward_sources_msats": {
+        "BOOST": 101089681,
+        "BOUNTY_PAYMENT": 63000,
+        "DONATE": 3538000,
+        "DOWN_ZAP": 620699000,
+        "ITEM_CREATE": 24960100,
+        "ITEM_UPDATE": 212700,
+        "MEDIA_UPLOAD": 220000,
+        "POLL_VOTE": 40826,
+        "PROXY_PAYMENT": 1280495,
+        "ZAP": 119673588
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 11.6,
+        "BOUNTY_PAYMENT": 0.01,
+        "DONATE": 0.41,
+        "DOWN_ZAP": 71.2,
+        "ITEM_CREATE": 2.86,
+        "ITEM_UPDATE": 0.02,
+        "MEDIA_UPLOAD": 0.03,
+        "POLL_VOTE": 0.0,
+        "PROXY_PAYMENT": 0.15,
+        "ZAP": 13.73
+      },
+      "boost_and_downzap_reward_share_pct": 82.8,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [
+        "2026-07-25"
+      ],
+      "week_over_week_pct": {
+        "reward_pool_sats": -2.51,
+        "reward_distributed_sats": -2.52,
+        "average_daily_unique_reward_recipients": -5.6,
+        "reward_sats_per_recipient_day": 3.27
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 176.48,
+        "reward_distributed_sats": 176.99,
+        "average_daily_unique_reward_recipients": 5.32,
+        "reward_sats_per_recipient_day": 181.01
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-07-27",
+        "end": "2026-08-02",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-07-26",
+        "end": "2026-08-01"
+      },
+      "reward_pool_sats": 554670,
+      "reward_distributed_sats": 554322,
+      "reward_distribution_gap_sats": 348,
+      "average_daily_reward_pool_sats": 79238.57,
+      "average_daily_reward_distributed_sats": 79188.86,
+      "average_daily_unique_reward_recipients": 65.86,
+      "peak_daily_unique_reward_recipients": 75,
+      "reward_recipient_days": 461,
+      "reward_sats_per_recipient_day": 1202.43,
+      "reward_sources_msats": {
+        "BOOST": 59319019,
+        "BOUNTY_PAYMENT": 359903,
+        "DONATE": 8873000,
+        "DOWN_ZAP": 338602000,
+        "ITEM_CREATE": 28158500,
+        "ITEM_UPDATE": 302700,
+        "MEDIA_UPLOAD": 220000,
+        "POLL_VOTE": 41100,
+        "PROXY_PAYMENT": 355641,
+        "ZAP": 118436516
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 10.69,
+        "BOUNTY_PAYMENT": 0.06,
+        "DONATE": 1.6,
+        "DOWN_ZAP": 61.05,
+        "ITEM_CREATE": 5.08,
+        "ITEM_UPDATE": 0.05,
+        "MEDIA_UPLOAD": 0.04,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.06,
+        "ZAP": 21.35
+      },
+      "boost_and_downzap_reward_share_pct": 71.74,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": -36.37,
+        "reward_distributed_sats": -36.39,
+        "average_daily_unique_reward_recipients": 19.12,
+        "reward_sats_per_recipient_day": -46.6
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 12.01,
+        "reward_distributed_sats": 12.11,
+        "average_daily_unique_reward_recipients": 24.77,
+        "reward_sats_per_recipient_day": -4.87
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-03",
+        "end": "2026-08-09",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-08-02",
+        "end": "2026-08-08"
+      },
+      "reward_pool_sats": 447743,
+      "reward_distributed_sats": 447675,
+      "reward_distribution_gap_sats": 68,
+      "average_daily_reward_pool_sats": 63963.29,
+      "average_daily_reward_distributed_sats": 63953.57,
+      "average_daily_unique_reward_recipients": 72.71,
+      "peak_daily_unique_reward_recipients": 82,
+      "reward_recipient_days": 509,
+      "reward_sats_per_recipient_day": 879.52,
+      "reward_sources_msats": {
+        "BOOST": 90282409,
+        "BOUNTY_PAYMENT": 355138,
+        "DONATE": 3117000,
+        "DOWN_ZAP": 119626000,
+        "ITEM_CREATE": 26080200,
+        "ITEM_UPDATE": 259200,
+        "MEDIA_UPLOAD": 60000,
+        "POLL_VOTE": 54016,
+        "PROXY_PAYMENT": 1659115,
+        "ZAP": 206248862
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 20.16,
+        "BOUNTY_PAYMENT": 0.08,
+        "DONATE": 0.7,
+        "DOWN_ZAP": 26.72,
+        "ITEM_CREATE": 5.82,
+        "ITEM_UPDATE": 0.06,
+        "MEDIA_UPLOAD": 0.01,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.37,
+        "ZAP": 46.06
+      },
+      "boost_and_downzap_reward_share_pct": 46.88,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": -19.28,
+        "reward_distributed_sats": -19.24,
+        "average_daily_unique_reward_recipients": 10.4,
+        "reward_sats_per_recipient_day": -26.85
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -26.4,
+        "reward_distributed_sats": -26.32,
+        "average_daily_unique_reward_recipients": 27.08,
+        "reward_sats_per_recipient_day": -40.93
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-10",
+        "end": "2026-08-16",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-08-09",
+        "end": "2026-08-15"
+      },
+      "reward_pool_sats": 277312,
+      "reward_distributed_sats": 277066,
+      "reward_distribution_gap_sats": 246,
+      "average_daily_reward_pool_sats": 39616.0,
+      "average_daily_reward_distributed_sats": 39580.86,
+      "average_daily_unique_reward_recipients": 72.86,
+      "peak_daily_unique_reward_recipients": 96,
+      "reward_recipient_days": 510,
+      "reward_sats_per_recipient_day": 543.27,
+      "reward_sources_msats": {
+        "BOOST": 55533609,
+        "BOUNTY_PAYMENT": 15920956,
+        "DONATE": 75000,
+        "DOWN_ZAP": 73086000,
+        "ITEM_CREATE": 26091500,
+        "ITEM_UPDATE": 152400,
+        "MEDIA_UPLOAD": 90000,
+        "POLL_VOTE": 49206,
+        "PROXY_PAYMENT": 431124,
+        "ZAP": 105882523
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 20.03,
+        "BOUNTY_PAYMENT": 5.74,
+        "DONATE": 0.03,
+        "DOWN_ZAP": 26.36,
+        "ITEM_CREATE": 9.41,
+        "ITEM_UPDATE": 0.05,
+        "MEDIA_UPLOAD": 0.03,
+        "POLL_VOTE": 0.02,
+        "PROXY_PAYMENT": 0.16,
+        "ZAP": 38.18
+      },
+      "boost_and_downzap_reward_share_pct": 46.38,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": -38.06,
+        "reward_distributed_sats": -38.11,
+        "average_daily_unique_reward_recipients": 0.21,
+        "reward_sats_per_recipient_day": -38.23
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -59.93,
+        "reward_distributed_sats": -59.95,
+        "average_daily_unique_reward_recipients": 15.45,
+        "reward_sats_per_recipient_day": -66.64
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-17",
+        "end": "2026-08-23",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-08-16",
+        "end": "2026-08-22"
+      },
+      "reward_pool_sats": 404967,
+      "reward_distributed_sats": 403750,
+      "reward_distribution_gap_sats": 1217,
+      "average_daily_reward_pool_sats": 57852.43,
+      "average_daily_reward_distributed_sats": 57678.57,
+      "average_daily_unique_reward_recipients": 71.86,
+      "peak_daily_unique_reward_recipients": 85,
+      "reward_recipient_days": 503,
+      "reward_sats_per_recipient_day": 802.68,
+      "reward_sources_msats": {
+        "BOOST": 58017009,
+        "BOUNTY_PAYMENT": 92000,
+        "DONATE": 4279000,
+        "DOWN_ZAP": 238781000,
+        "ITEM_CREATE": 23408300,
+        "ITEM_UPDATE": 110700,
+        "MEDIA_UPLOAD": 60000,
+        "POLL_VOTE": 57617,
+        "PROXY_PAYMENT": 2578128,
+        "ZAP": 77583770
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 14.33,
+        "BOUNTY_PAYMENT": 0.02,
+        "DONATE": 1.06,
+        "DOWN_ZAP": 58.96,
+        "ITEM_CREATE": 5.78,
+        "ITEM_UPDATE": 0.03,
+        "MEDIA_UPLOAD": 0.01,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.64,
+        "ZAP": 19.16
+      },
+      "boost_and_downzap_reward_share_pct": 73.29,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": 46.03,
+        "reward_distributed_sats": 45.72,
+        "average_daily_unique_reward_recipients": -1.37,
+        "reward_sats_per_recipient_day": 47.75
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -24.71,
+        "reward_distributed_sats": -24.9,
+        "average_daily_unique_reward_recipients": 7.77,
+        "reward_sats_per_recipient_day": -34.17
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-24",
+        "end": "2026-08-30",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-08-23",
+        "end": "2026-08-29"
+      },
+      "reward_pool_sats": 408096,
+      "reward_distributed_sats": 408077,
+      "reward_distribution_gap_sats": 19,
+      "average_daily_reward_pool_sats": 58299.43,
+      "average_daily_reward_distributed_sats": 58296.71,
+      "average_daily_unique_reward_recipients": 65.57,
+      "peak_daily_unique_reward_recipients": 74,
+      "reward_recipient_days": 459,
+      "reward_sats_per_recipient_day": 889.06,
+      "reward_sources_msats": {
+        "BOOST": 72214306,
+        "BOUNTY_PAYMENT": 312654,
+        "DONATE": 54997000,
+        "DOWN_ZAP": 178839000,
+        "ITEM_CREATE": 27299200,
+        "ITEM_UPDATE": 195600,
+        "POLL_VOTE": 24904,
+        "PROXY_PAYMENT": 2023592,
+        "ZAP": 72190194
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 17.7,
+        "BOUNTY_PAYMENT": 0.08,
+        "DONATE": 13.48,
+        "DOWN_ZAP": 43.82,
+        "ITEM_CREATE": 6.69,
+        "ITEM_UPDATE": 0.05,
+        "POLL_VOTE": 0.01,
+        "PROXY_PAYMENT": 0.5,
+        "ZAP": 17.69
+      },
+      "boost_and_downzap_reward_share_pct": 61.52,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [],
+      "week_over_week_pct": {
+        "reward_pool_sats": 0.77,
+        "reward_distributed_sats": 1.07,
+        "average_daily_unique_reward_recipients": -8.75,
+        "reward_sats_per_recipient_day": 10.76
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": -3.1,
+        "reward_distributed_sats": -3.0,
+        "average_daily_unique_reward_recipients": -7.42,
+        "reward_sats_per_recipient_day": 3.74
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-08-31",
+        "end": "2026-09-06",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-08-30",
+        "end": "2026-09-05"
+      },
+      "reward_pool_sats": 844847,
+      "reward_distributed_sats": 844831,
+      "reward_distribution_gap_sats": 16,
+      "average_daily_reward_pool_sats": 120692.43,
+      "average_daily_reward_distributed_sats": 120690.14,
+      "average_daily_unique_reward_recipients": 61.14,
+      "peak_daily_unique_reward_recipients": 67,
+      "reward_recipient_days": 428,
+      "reward_sats_per_recipient_day": 1973.9,
+      "reward_sources_msats": {
+        "BOOST": 177607704,
+        "BOUNTY_PAYMENT": 370493,
+        "DONATE": 5283000,
+        "DOWN_ZAP": 557798000,
+        "ITEM_CREATE": 24859600,
+        "ITEM_UPDATE": 122700,
+        "MEDIA_UPLOAD": 160001,
+        "POLL_VOTE": 17100,
+        "PROXY_PAYMENT": 1827804,
+        "ZAP": 76801689
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 21.02,
+        "BOUNTY_PAYMENT": 0.04,
+        "DONATE": 0.63,
+        "DOWN_ZAP": 66.02,
+        "ITEM_CREATE": 2.94,
+        "ITEM_UPDATE": 0.01,
+        "MEDIA_UPLOAD": 0.02,
+        "POLL_VOTE": 0.0,
+        "PROXY_PAYMENT": 0.22,
+        "ZAP": 9.09
+      },
+      "boost_and_downzap_reward_share_pct": 87.05,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [
+        "2026-09-06"
+      ],
+      "week_over_week_pct": {
+        "reward_pool_sats": 107.02,
+        "reward_distributed_sats": 107.03,
+        "average_daily_unique_reward_recipients": -6.76,
+        "reward_sats_per_recipient_day": 122.02
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 119.71,
+        "reward_distributed_sats": 119.93,
+        "average_daily_unique_reward_recipients": -13.58,
+        "reward_sats_per_recipient_day": 153.51
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": false,
+        "reward_distributed_sats_all_time_high": false
+      }
+    }
+  ]
+}

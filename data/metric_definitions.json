@@ -53,12 +53,52 @@
       "definition": "100 times zap actions divided by ITEM_CREATE action groups.",
       "unit": "actions per 100 item-creation actions",
       "caveat": "The denominator is the ITEM_CREATE action-group count, used as a content-activity proxy."
+    },
+    "reward_pool_sats": {
+      "definition": "Reward-pool value shown on the historical Stacker News rewards page for the reward date.",
+      "unit": "sats",
+      "safe_language": "SN reward pool",
+      "avoid_language": "Lightning payments distributed",
+      "caveat": "The activity funding the pool occurred on the preceding America/Chicago calendar day. This may differ slightly from reward_distributed_sats."
+    },
+    "reward_distributed_sats": {
+      "definition": "Custodial SN reward sats credited through REWARD payouts on the reward date, as reported by stackingGrowth.",
+      "unit": "sats",
+      "safe_language": "SN reward sats distributed",
+      "avoid_language": "Lightning payments distributed",
+      "caveat": "The public aggregate does not establish Lightning settlement. It can be lower than the source-funded reward pool because it measures the resulting payouts."
+    },
+    "daily_unique_reward_recipients": {
+      "definition": "Distinct SN users receiving a REWARD payout in one daily aggregation bucket.",
+      "unit": "users",
+      "safe_language": "daily reward recipients",
+      "avoid_language": "unique weekly reward recipients",
+      "caveat": "Do not sum daily recipient counts to claim a weekly distinct-user count."
+    },
+    "reward_sats_per_recipient_day": {
+      "definition": "Reward sats in a period divided by the sum of daily unique reward-recipient counts.",
+      "unit": "sats per recipient-day",
+      "safe_language": "average reward sats per recipient-day",
+      "avoid_language": "typical individual reward",
+      "caveat": "This is a mean over recipient-days and does not describe the payout distribution or deduplicate users across days."
+    },
+    "reward_source_share_pct": {
+      "definition": "A pay-in type's contribution to the reward pool divided by all recorded reward-pool sources for the period.",
+      "unit": "percent",
+      "caveat": "BOOST means only the portion assigned to rewards, not gross boost spending. Source values are supplied by the API in millisats."
     }
   },
   "global_caveats": [
     "Never describe zap_actions as Lightning transactions without separate settlement data.",
     "Never sum daily_unique_zappers to obtain weekly distinct zappers.",
     "Treat API observations as public aggregates, not independently audited figures."
+  ],
+  "reward_caveats": [
+    "Reward dates are payout dates; reward-source activity occurred on the preceding America/Chicago calendar day.",
+    "Reward payouts are custodial SN reward sats and must not be described as confirmed Lightning payments.",
+    "reward_pool_sats measures the source-funded pool shown by the historical rewards page; reward_distributed_sats measures REWARD payouts actually credited and can be slightly lower.",
+    "Do not sum daily_unique_reward_recipients to obtain weekly distinct recipients; use recipient-days.",
+    "Reward source values are stored in raw millisats. BOOST represents only the reward-pool share of boosts.",
+    "Treat public reward aggregates as unaudited and allow a one-sat cross-endpoint rounding difference."
   ]
 }
-

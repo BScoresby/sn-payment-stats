@@ -1,6 +1,5 @@
 [project]
 name = "sn-payment-stats"
-version = "1.0.0"
-description = "Collect and summarize public Stacker News payment statistics"
+version = "1.1.0"
+description = "Collect and summarize public Stacker News payment and reward statistics"
 requires-python = ">=3.9"
-
