@@ -1,11 +1,14 @@
-# Stacker News payment statistics collector
+# Stacker News and Nostr payment statistics collectors
 
 This small project downloads public aggregate activity data from the Stacker
 News GraphQL API, keeps reproducible daily payment and reward datasets, and
 creates weekly JSON summaries designed for analysis by ChatGPT or another LLM.
+It can also independently collect NIP-57 zap receipt events from a diversified
+set of public Nostr relays and calculate an exact rolling median zap size.
 
-It uses only Python's standard library. There are no API keys, paid services,
-or Python packages to install.
+The Stacker News collector uses only Python's standard library. The optional
+Nostr collector uses two pinned open-source packages and does not require an
+API key or paid service.
 
 ## What it collects
 
@@ -35,6 +38,80 @@ America/Chicago calendar day.
 The collector deliberately does **not** call zap actions "Lightning
 transactions." The public aggregates do not establish which actions settled as
 real Lightning payments rather than involving Cowboy Credits.
+
+## Collect Nostr zap receipts and median zap size
+
+The Nostr component is deliberately separate from the Stacker News pipeline.
+It contacts multiple configured public relays for kind `9735` NIP-57 zap
+receipts, deduplicates them by event ID, validates the receipt and embedded zap
+request signatures, decodes each BOLT11 invoice, and retains a compact record of
+each individual amount. Keeping the individual amounts is what makes the median
+exact and reproducible.
+
+Install its pinned dependencies and run it:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-nostr.txt
+python scripts/collect_nostr_zaps.py
+python scripts/summarize_nostr_zaps.py
+python scripts/audit_nostr_relays.py
+```
+
+The first run retrieves the previous 30 completed UTC days. Later runs refresh
+the previous three days to pick up late or previously missed receipts. The
+maximum allowed span per run is 30 days:
+
+```bash
+python scripts/collect_nostr_zaps.py --days 14
+python scripts/summarize_nostr_zaps.py
+python scripts/audit_nostr_relays.py
+```
+
+Relay load is predictable and bounded. The collector uses fixed six-hour
+windows: 120 WebSocket requests per relay for the one-time 30-day backfill and
+12 per relay during a normal three-day refresh. Requests to the same relay are
+spaced one second apart. Hard budgets stop a normal run at 20 requests per relay
+and a backfill at 150. A window returning 2,000 events is rejected as possibly
+truncated instead of being recursively subdivided. The collector also makes one
+small NIP-11 metadata request per relay per run.
+
+Each window must end with an explicit NIP-01 `EOSE`. Timeouts, server `CLOSED`
+messages, authentication demands, bans, rate limits, and result-limit warnings
+are never interpreted as zero activity. Partial data from an incomplete relay
+is discarded, and at least three approved relays must complete every window
+before any daily observation is updated.
+
+The initial relay list is a seed set, not an assertion that every relay is a
+complete archive. The audit compares coverage and unique contribution after
+each run. It also ranks secure relay URLs found in the embedded zap requests,
+but never contacts or approves those candidates automatically. Edit
+`data/nostr/relay_config.json` to review the approved list or conservative
+limits.
+
+The outputs are:
+
+```text
+data/nostr/events/YYYY-MM-DD.json.gz  deduplicated individual receipt facts
+data/nostr/runs/latest.json           connection, query, and validation report
+data/nostr/daily.json                 exact daily summaries
+data/nostr/latest_30_days.json        rolling count, value, median, and percentiles
+data/nostr/relay_audit.json           coverage, unique contribution, and candidates
+data/nostr/metric_definitions.json    definitions and publication caveats
+```
+
+The GitHub workflow **Collect Nostr zap receipts** runs independently each day.
+Its manual **days** input can select up to 30 completed days without changing
+code. If collection fails its safety gate, it preserves the diagnostic report,
+does not change observations, and finishes with a visible failed status.
+
+These are observations from the configured public relays, not a census of the
+whole Nostr network. A structurally valid NIP-57 receipt is also not independent
+proof of Lightning settlement: verifying that the receipt signer is the
+recipient's authorized LNURL provider would require resolving historical
+recipient metadata and LNURL configuration. The output files preserve this
+caveat for downstream LLM analysis.
 
 ## Run it on Ubuntu
 
@@ -151,6 +228,14 @@ data/
   rewards_weekly.json        completed reward-date weekly summaries
   latest_rewards_week.json   latest completed reward week plus LLM guidance
   metric_definitions.json    meanings and wording caveats
+  nostr/
+    events/*.json.gz         deduplicated NIP-57 receipt facts by UTC day
+    runs/latest.json         latest per-relay protocol and coverage report
+    daily.json               exact daily receipt summaries
+    latest_30_days.json      rolling median, totals, and percentiles
+    relay_audit.json         approved-relay evidence and candidates
+    relay_config.json        approved seed relays and safety limits
+    metric_definitions.json  Nostr-specific meanings and caveats
   raw/
     latest_response.json     latest complete GraphQL response
     history/*.json           responses keyed by collection date and request range
@@ -161,6 +246,9 @@ scripts/
   summarize.py               weekly calculations
   summarize_rewards.py       weekly reward calculations
   run_pipeline.py            one-command wrapper
+  collect_nostr_zaps.py      bounded NIP-01 relay collector
+  summarize_nostr_zaps.py    rolling Nostr zap statistics
+  audit_nostr_relays.py      relay coverage and candidate analysis
   setup_github.sh            optional GitHub setup helper
 tests/                       offline unit tests
 ```

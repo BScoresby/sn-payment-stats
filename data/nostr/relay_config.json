@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "selection_policy": "Approved seed relays are retained or removed based on measured EOSE completion, historical coverage, and unique receipt contribution. Discovered candidates are never queried automatically.",
+  "relays": [
+    {
+      "url": "wss://relay.damus.io",
+      "label": "Damus",
+      "enabled": true,
+      "rationale": "Established public strfry relay; empirical zap coverage will be measured."
+    },
+    {
+      "url": "wss://relay.primal.net",
+      "label": "Primal",
+      "enabled": true,
+      "rationale": "Established public Primal relay; empirical zap coverage will be measured."
+    },
+    {
+      "url": "wss://nos.lol",
+      "label": "nos.lol",
+      "enabled": true,
+      "rationale": "Established public relay with disclosed filtering; useful as one independent observation source, not a complete archive."
+    },
+    {
+      "url": "wss://relay.nostr.band",
+      "label": "Nostr.Band",
+      "enabled": true,
+      "rationale": "Commonly used for Nostr search and analytics; empirical completion and coverage will determine whether it remains enabled."
+    },
+    {
+      "url": "wss://relay.snort.social",
+      "label": "Snort",
+      "enabled": true,
+      "rationale": "Commonly referenced public relay; empirical completion and coverage will determine whether it remains enabled."
+    },
+    {
+      "url": "wss://nostr.bitcoiner.social",
+      "label": "bitcoiner.social",
+      "enabled": true,
+      "rationale": "Public strfry relay whose operator advertises monitoring and nightly off-site backups."
+    }
+  ],
+  "query": {
+    "initial_backfill_days": 30,
+    "daily_overlap_days": 3,
+    "maximum_days_per_run": 30,
+    "window_hours": 6,
+    "request_limit": 2000,
+    "daily_request_budget_per_relay": 20,
+    "backfill_request_budget_per_relay": 150,
+    "request_delay_seconds": 1.0,
+    "query_timeout_seconds": 20,
+    "connect_timeout_seconds": 15,
+    "nip11_timeout_seconds": 10,
+    "connection_attempts": 2,
+    "minimum_complete_relays": 3,
+    "max_message_bytes": 8388608
+  }
+}

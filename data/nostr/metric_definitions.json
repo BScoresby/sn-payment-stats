@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "global_caveats": [
+    "These figures describe validly structured NIP-57 zap receipt events observed across the configured public relays, not every zap on Nostr.",
+    "A NIP-57 zap receipt is evidence published by an LNURL provider; this collector does not independently prove Lightning settlement or verify the provider against the recipient's current LNURL metadata.",
+    "Relay retention, availability, filters, and query limits differ. Historical totals can increase when another relay supplies an event that was previously missed.",
+    "A relay contributes data only when every requested window ends with an explicit EOSE and stays below the configured result limit. At least three approved relays must complete before observations are updated.",
+    "Events are deduplicated by Nostr event ID across relays and collection runs.",
+    "Relay coverage and unique-contribution percentages are relative to the locally observed union, not the unknown universe of all Nostr zap receipts."
+  ],
+  "metrics": {
+    "zap_receipt_count": {
+      "definition": "Deduplicated, structurally valid NIP-57 kind 9735 receipt events observed in the period.",
+      "unit": "events",
+      "safe_language": "observed Nostr zap receipt events",
+      "avoid_language": "all Nostr zaps or confirmed Lightning transactions"
+    },
+    "total_zap_msats": {
+      "definition": "Sum of BOLT11 invoice amounts attached to the observed valid zap receipt events.",
+      "unit": "millisats"
+    },
+    "median_zap_sats": {
+      "definition": "Exact median BOLT11 invoice amount across individual observed valid zap receipts; for an even count it is the arithmetic mean of the two central values.",
+      "unit": "sats"
+    },
+    "unique_senders": {
+      "definition": "Distinct public keys signing the embedded kind 9734 zap requests in the observed receipt set.",
+      "unit": "public keys",
+      "warning": "This is not necessarily the number of people. One person can control multiple keys."
+    },
+    "unique_recipients": {
+      "definition": "Distinct recipient public keys in the p tags of the observed receipt set.",
+      "unit": "public keys",
+      "warning": "This is not necessarily the number of people."
+    }
+  }
+}

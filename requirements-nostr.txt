@@ -1,0 +1,4 @@
+# Pinned because nostr-sdk's Python API is still marked alpha.
+nostr-sdk==0.45.1
+bolt11==2.1.0
+websockets==15.0.1
