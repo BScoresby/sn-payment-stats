@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T13:38:05Z",
+  "generated_at": "2026-09-13T14:27:36Z",
   "week_definition": "Monday through Sunday reward dates in America/Chicago",
   "date_semantics": "Each reward week contains payouts made during the period; the funding activity occurred one day earlier, as shown in source_activity_period",
-  "week_count": 12,
+  "week_count": 13,
   "weeks": [
     {
       "period": {
@@ -773,6 +773,75 @@
       "records": {
         "reward_pool_sats_all_time_high": false,
         "reward_distributed_sats_all_time_high": false
+      }
+    },
+    {
+      "period": {
+        "start": "2026-09-07",
+        "end": "2026-09-13",
+        "days": 7
+      },
+      "source_activity_period": {
+        "start": "2026-09-06",
+        "end": "2026-09-12"
+      },
+      "reward_pool_sats": 5524600,
+      "reward_distributed_sats": 4962954,
+      "reward_distribution_gap_sats": 561646,
+      "average_daily_reward_pool_sats": 789228.57,
+      "average_daily_reward_distributed_sats": 708993.43,
+      "average_daily_unique_reward_recipients": 69,
+      "peak_daily_unique_reward_recipients": 90,
+      "reward_recipient_days": 483,
+      "reward_sats_per_recipient_day": 10275.27,
+      "reward_sources_msats": {
+        "BOOST": 1442697104,
+        "BOUNTY_PAYMENT": 82174,
+        "DONATE": 13709000,
+        "DOWN_ZAP": 3874277000,
+        "ITEM_CREATE": 33867000,
+        "ITEM_UPDATE": 299400,
+        "MEDIA_UPLOAD": 90000,
+        "POLL_VOTE": 86148,
+        "PROXY_PAYMENT": 1803257,
+        "ZAP": 157689836
+      },
+      "reward_source_shares_pct": {
+        "BOOST": 26.11,
+        "BOUNTY_PAYMENT": 0.0,
+        "DONATE": 0.25,
+        "DOWN_ZAP": 70.13,
+        "ITEM_CREATE": 0.61,
+        "ITEM_UPDATE": 0.01,
+        "MEDIA_UPLOAD": 0.0,
+        "POLL_VOTE": 0.0,
+        "PROXY_PAYMENT": 0.03,
+        "ZAP": 2.85
+      },
+      "boost_and_downzap_reward_share_pct": 96.24,
+      "quality_status": "ok",
+      "warning_days": [],
+      "anomaly_days": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10"
+      ],
+      "week_over_week_pct": {
+        "reward_pool_sats": 553.92,
+        "reward_distributed_sats": 487.45,
+        "average_daily_unique_reward_recipients": 12.86,
+        "reward_sats_per_recipient_day": 420.56
+      },
+      "versus_prior_4_week_average_pct": {
+        "reward_pool_sats": 1041.91,
+        "reward_distributed_sats": 926.61,
+        "average_daily_unique_reward_recipients": 1.68,
+        "reward_sats_per_recipient_day": 876.53
+      },
+      "records": {
+        "reward_pool_sats_all_time_high": true,
+        "reward_distributed_sats_all_time_high": true
       }
     }
   ]

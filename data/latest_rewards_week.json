@@ -1,74 +1,77 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T13:38:05Z",
+  "generated_at": "2026-09-13T14:27:36Z",
   "latest_completed_reward_week": {
     "period": {
-      "start": "2026-08-31",
-      "end": "2026-09-06",
+      "start": "2026-09-07",
+      "end": "2026-09-13",
       "days": 7
     },
     "source_activity_period": {
-      "start": "2026-08-30",
-      "end": "2026-09-05"
+      "start": "2026-09-06",
+      "end": "2026-09-12"
     },
-    "reward_pool_sats": 844847,
-    "reward_distributed_sats": 844831,
-    "reward_distribution_gap_sats": 16,
-    "average_daily_reward_pool_sats": 120692.43,
-    "average_daily_reward_distributed_sats": 120690.14,
-    "average_daily_unique_reward_recipients": 61.14,
-    "peak_daily_unique_reward_recipients": 67,
-    "reward_recipient_days": 428,
-    "reward_sats_per_recipient_day": 1973.9,
+    "reward_pool_sats": 5524600,
+    "reward_distributed_sats": 4962954,
+    "reward_distribution_gap_sats": 561646,
+    "average_daily_reward_pool_sats": 789228.57,
+    "average_daily_reward_distributed_sats": 708993.43,
+    "average_daily_unique_reward_recipients": 69,
+    "peak_daily_unique_reward_recipients": 90,
+    "reward_recipient_days": 483,
+    "reward_sats_per_recipient_day": 10275.27,
     "reward_sources_msats": {
-      "BOOST": 177607704,
-      "BOUNTY_PAYMENT": 370493,
-      "DONATE": 5283000,
-      "DOWN_ZAP": 557798000,
-      "ITEM_CREATE": 24859600,
-      "ITEM_UPDATE": 122700,
-      "MEDIA_UPLOAD": 160001,
-      "POLL_VOTE": 17100,
-      "PROXY_PAYMENT": 1827804,
-      "ZAP": 76801689
+      "BOOST": 1442697104,
+      "BOUNTY_PAYMENT": 82174,
+      "DONATE": 13709000,
+      "DOWN_ZAP": 3874277000,
+      "ITEM_CREATE": 33867000,
+      "ITEM_UPDATE": 299400,
+      "MEDIA_UPLOAD": 90000,
+      "POLL_VOTE": 86148,
+      "PROXY_PAYMENT": 1803257,
+      "ZAP": 157689836
     },
     "reward_source_shares_pct": {
-      "BOOST": 21.02,
-      "BOUNTY_PAYMENT": 0.04,
-      "DONATE": 0.63,
-      "DOWN_ZAP": 66.02,
-      "ITEM_CREATE": 2.94,
+      "BOOST": 26.11,
+      "BOUNTY_PAYMENT": 0.0,
+      "DONATE": 0.25,
+      "DOWN_ZAP": 70.13,
+      "ITEM_CREATE": 0.61,
       "ITEM_UPDATE": 0.01,
-      "MEDIA_UPLOAD": 0.02,
+      "MEDIA_UPLOAD": 0.0,
       "POLL_VOTE": 0.0,
-      "PROXY_PAYMENT": 0.22,
-      "ZAP": 9.09
+      "PROXY_PAYMENT": 0.03,
+      "ZAP": 2.85
     },
-    "boost_and_downzap_reward_share_pct": 87.05,
+    "boost_and_downzap_reward_share_pct": 96.24,
     "quality_status": "ok",
     "warning_days": [],
     "anomaly_days": [
-      "2026-09-06"
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-09",
+      "2026-09-10"
     ],
     "week_over_week_pct": {
-      "reward_pool_sats": 107.02,
-      "reward_distributed_sats": 107.03,
-      "average_daily_unique_reward_recipients": -6.76,
-      "reward_sats_per_recipient_day": 122.02
+      "reward_pool_sats": 553.92,
+      "reward_distributed_sats": 487.45,
+      "average_daily_unique_reward_recipients": 12.86,
+      "reward_sats_per_recipient_day": 420.56
     },
     "versus_prior_4_week_average_pct": {
-      "reward_pool_sats": 119.71,
-      "reward_distributed_sats": 119.93,
-      "average_daily_unique_reward_recipients": -13.58,
-      "reward_sats_per_recipient_day": 153.51
+      "reward_pool_sats": 1041.91,
+      "reward_distributed_sats": 926.61,
+      "average_daily_unique_reward_recipients": 1.68,
+      "reward_sats_per_recipient_day": 876.53
     },
     "records": {
-      "reward_pool_sats_all_time_high": false,
-      "reward_distributed_sats_all_time_high": false
+      "reward_pool_sats_all_time_high": true,
+      "reward_distributed_sats_all_time_high": true
     }
   },
   "analysis_context": {
-    "prior_completed_weeks_available": 11,
+    "prior_completed_weeks_available": 12,
     "reward_caveats": [
       "Reward dates are payout dates; reward-source activity occurred on the preceding America/Chicago calendar day.",
       "Reward payouts are custodial SN reward sats and must not be described as confirmed Lightning payments.",
