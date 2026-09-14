@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-14T21:44:36Z",
+  "day_definition": "UTC calendar day, bucketed by payment paidAt",
+  "observation_days": 30,
+  "observations": [
+    {
+      "date_utc": "2026-08-15",
+      "recorded_lightning_contribution_count": 2,
+      "recorded_lightning_payment_count": 2,
+      "recorded_lightning_contribution_sats": 509343,
+      "recorded_lightning_payment_sats": 534810,
+      "recorded_lightning_accounting_amount_paid_sats": 534810,
+      "average_recorded_contribution_sats": 254671.5,
+      "median_recorded_contribution_sats": 254671.5,
+      "minimum_recorded_contribution_sats": 33328,
+      "maximum_recorded_contribution_sats": 476015,
+      "maximum_recorded_payment_sats": 499816,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 2
+      },
+      "payments_by_method": {
+        "STRIKE": 2
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-16",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-17",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 31749,
+      "recorded_lightning_payment_sats": 33336,
+      "recorded_lightning_accounting_amount_paid_sats": 33336,
+      "average_recorded_contribution_sats": 31749.0,
+      "median_recorded_contribution_sats": 31749,
+      "minimum_recorded_contribution_sats": 31749,
+      "maximum_recorded_contribution_sats": 31749,
+      "maximum_recorded_payment_sats": 33336,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-18",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 167640,
+      "recorded_lightning_payment_sats": 176022,
+      "recorded_lightning_accounting_amount_paid_sats": 176022,
+      "average_recorded_contribution_sats": 167640.0,
+      "median_recorded_contribution_sats": 167640,
+      "minimum_recorded_contribution_sats": 167640,
+      "maximum_recorded_contribution_sats": 167640,
+      "maximum_recorded_payment_sats": 176022,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-19",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-20",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-21",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-22",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-23",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-24",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-25",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 12638,
+      "recorded_lightning_payment_sats": 13270,
+      "recorded_lightning_accounting_amount_paid_sats": 13270,
+      "average_recorded_contribution_sats": 12638.0,
+      "median_recorded_contribution_sats": 12638,
+      "minimum_recorded_contribution_sats": 12638,
+      "maximum_recorded_contribution_sats": 12638,
+      "maximum_recorded_payment_sats": 13270,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-26",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-27",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 2518,
+      "recorded_lightning_payment_sats": 2568,
+      "recorded_lightning_accounting_amount_paid_sats": 2568,
+      "average_recorded_contribution_sats": 2518.0,
+      "median_recorded_contribution_sats": 2518,
+      "minimum_recorded_contribution_sats": 2518,
+      "maximum_recorded_contribution_sats": 2518,
+      "maximum_recorded_payment_sats": 2568,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-28",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-29",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 12852,
+      "recorded_lightning_payment_sats": 13495,
+      "recorded_lightning_accounting_amount_paid_sats": 13495,
+      "average_recorded_contribution_sats": 12852.0,
+      "median_recorded_contribution_sats": 12852,
+      "minimum_recorded_contribution_sats": 12852,
+      "maximum_recorded_contribution_sats": 12852,
+      "maximum_recorded_payment_sats": 13495,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-30",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-08-31",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-01",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-02",
+      "recorded_lightning_contribution_count": 2,
+      "recorded_lightning_payment_count": 2,
+      "recorded_lightning_contribution_sats": 58376,
+      "recorded_lightning_payment_sats": 60518,
+      "recorded_lightning_accounting_amount_paid_sats": 60518,
+      "average_recorded_contribution_sats": 29188.0,
+      "median_recorded_contribution_sats": 29188.0,
+      "minimum_recorded_contribution_sats": 25900,
+      "maximum_recorded_contribution_sats": 32476,
+      "maximum_recorded_payment_sats": 34100,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 2
+      },
+      "payments_by_method": {
+        "STRIKE": 2
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-03",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 6149,
+      "recorded_lightning_payment_sats": 6149,
+      "recorded_lightning_accounting_amount_paid_sats": 6149,
+      "average_recorded_contribution_sats": 6149.0,
+      "median_recorded_contribution_sats": 6149,
+      "minimum_recorded_contribution_sats": 6149,
+      "maximum_recorded_contribution_sats": 6149,
+      "maximum_recorded_payment_sats": 6149,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-04",
+      "recorded_lightning_contribution_count": 2,
+      "recorded_lightning_payment_count": 2,
+      "recorded_lightning_contribution_sats": 13573,
+      "recorded_lightning_payment_sats": 13721,
+      "recorded_lightning_accounting_amount_paid_sats": 13721,
+      "average_recorded_contribution_sats": 6786.5,
+      "median_recorded_contribution_sats": 6786.5,
+      "minimum_recorded_contribution_sats": 6169,
+      "maximum_recorded_contribution_sats": 7404,
+      "maximum_recorded_payment_sats": 7552,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 2
+      },
+      "payments_by_method": {
+        "STRIKE": 2
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-05",
+      "recorded_lightning_contribution_count": 2,
+      "recorded_lightning_payment_count": 2,
+      "recorded_lightning_contribution_sats": 234911,
+      "recorded_lightning_payment_sats": 246657,
+      "recorded_lightning_accounting_amount_paid_sats": 246657,
+      "average_recorded_contribution_sats": 117455.5,
+      "median_recorded_contribution_sats": 117455.5,
+      "minimum_recorded_contribution_sats": 100000,
+      "maximum_recorded_contribution_sats": 134911,
+      "maximum_recorded_payment_sats": 141657,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 2
+      },
+      "payments_by_method": {
+        "STRIKE": 2
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-06",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-07",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-08",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 19094,
+      "recorded_lightning_payment_sats": 20049,
+      "recorded_lightning_accounting_amount_paid_sats": 20049,
+      "average_recorded_contribution_sats": 19094.0,
+      "median_recorded_contribution_sats": 19094,
+      "minimum_recorded_contribution_sats": 19094,
+      "maximum_recorded_contribution_sats": 19094,
+      "maximum_recorded_payment_sats": 20049,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-09",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-10",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-11",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-12",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 12927,
+      "recorded_lightning_payment_sats": 13573,
+      "recorded_lightning_accounting_amount_paid_sats": 13573,
+      "average_recorded_contribution_sats": 12927.0,
+      "median_recorded_contribution_sats": 12927,
+      "minimum_recorded_contribution_sats": 12927,
+      "maximum_recorded_contribution_sats": 12927,
+      "maximum_recorded_payment_sats": 13573,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-09-13",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 21,
+        "direct_payments_included": false,
+        "pages": 3,
+        "query_end": "2026-09-13",
+        "query_start": "2026-08-13",
+        "requests": 3,
+        "status": "complete"
+      }
+    }
+  ],
+  "global_caveats": [
+    "These figures cover only contributions recorded by Geyser's public GraphQL contribution data.",
+    "Geyser's temporary direct-payment flow sends users to creator-controlled Bitcoin or Lightning addresses and explicitly does not create Geyser contribution records; those payments are not included.",
+    "Do not describe these figures as all Lightning payments associated with Geyser.",
+    "Geyser contributions are zap-like funding actions, not NIP-57 Nostr zaps.",
+    "The public GraphQL endpoint appears to be an application endpoint rather than a documented, versioned public analytics API and may change without notice.",
+    "UTC calendar days differ from the America/Chicago calendar days used by the Stacker News collector.",
+    "Treat the observations as public application data, not independently audited Lightning settlement records."
+  ]
+}
