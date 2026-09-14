@@ -1,0 +1,71 @@
+name: Collect Geyser Lightning contributions
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Completed UTC days to refresh (blank uses 30 initially, then 7)"
+        required: false
+        type: string
+  schedule:
+    # Well after the SN and Nostr jobs to reduce both API and git-push contention.
+    - cron: "17 12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-geyser-lightning-contributions
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Collect and summarize
+        id: collection
+        env:
+          REQUESTED_DAYS: ${{ inputs.days }}
+        run: |
+          status=0
+          if [ -n "$REQUESTED_DAYS" ]; then
+            python scripts/collect_geyser.py --days "$REQUESTED_DAYS" || status=$?
+          else
+            python scripts/collect_geyser.py || status=$?
+          fi
+          if [ "$status" -eq 0 ]; then
+            python scripts/summarize_geyser.py
+          fi
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Commit changed Geyser data
+        if: always()
+        run: |
+          git config user.name "Geyser Stats Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/geyser/
+          if git diff --cached --quiet; then
+            echo "No Geyser data changes"
+            exit 0
+          fi
+          git commit -m "Update Geyser Lightning statistics"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Fail after preserving diagnostics
+        if: always() && (steps.collection.outcome != 'success' || steps.collection.outputs.status != '0')
+        run: |
+          echo "Geyser collection did not complete safely. Diagnostics were preserved and observations were not replaced."
+          exit 1

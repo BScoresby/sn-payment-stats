@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "metrics": {
+    "recorded_lightning_contribution_count": {
+      "definition": "Distinct confirmed Geyser contributions having at least one PAID payment whose type indicates that the contributor initiated payment over Lightning.",
+      "unit": "contributions",
+      "safe_language": "Geyser-recorded Lightning-funded contributions",
+      "avoid_language": "all Geyser Lightning payments",
+      "zap_like_use": "This is the recommended Geyser count for cross-platform charts of zap-like funding actions.",
+      "caveat": "One contribution is one application-level funding action. Direct-to-creator payments that do not create a Geyser contribution are absent."
+    },
+    "recorded_lightning_payment_count": {
+      "definition": "Distinct PAID Geyser payment records in payer-origin Lightning categories: LIGHTNING, LIGHTNING_PODCAST_KEYSEND, and LIGHTNING_TO_RSK_SWAP.",
+      "unit": "payment records",
+      "safe_language": "paid Lightning payment records attached to recorded Geyser contributions",
+      "avoid_language": "globally observed Lightning transactions",
+      "caveat": "A contribution can theoretically contain more than one paid payment record, so this can differ from the contribution count."
+    },
+    "recorded_lightning_contribution_sats": {
+      "definition": "Sum of the contribution amount credited by Geyser, counted once per recorded Lightning-funded contribution.",
+      "unit": "sats",
+      "safe_language": "sats credited to recorded Lightning-funded contributions",
+      "caveat": "This can be lower than the amount paid because payment or platform fees may be excluded."
+    },
+    "recorded_lightning_payment_sats": {
+      "definition": "Sum of paymentAmount for included PAID Geyser payment records whose paymentCurrency is BTCSAT.",
+      "unit": "sats",
+      "safe_language": "sats paid in the included Geyser payment records",
+      "caveat": "This may include fees and should not be described as the amount received by creators."
+    },
+    "recorded_lightning_accounting_amount_paid_sats": {
+      "definition": "Sum of Geyser's accountingAmountPaid field for the included PAID payment records.",
+      "unit": "sats",
+      "safe_language": "Geyser accounting amount paid for included records",
+      "caveat": "This is retained as an API cross-check. Use recorded_lightning_payment_sats for the contributor-facing payment amount and recorded_lightning_contribution_sats for credited funding."
+    },
+    "median_recorded_contribution_sats": {
+      "definition": "Exact median of Geyser's credited contribution amount across distinct recorded Lightning-funded contributions.",
+      "unit": "sats",
+      "caveat": "This describes Geyser-recorded contributions only, not direct-to-creator payments."
+    },
+    "unique_projects_funded": {
+      "definition": "Distinct Geyser project IDs receiving at least one recorded Lightning-funded contribution in the period.",
+      "unit": "projects",
+      "caveat": "This does not include projects funded only through unrecorded direct payments."
+    }
+  },
+  "included_payment_types": {
+    "LIGHTNING": "Contributor paid a Geyser-recorded payment over Lightning.",
+    "LIGHTNING_PODCAST_KEYSEND": "Contributor initiated a podcast keysend Lightning payment.",
+    "LIGHTNING_TO_RSK_SWAP": "Contributor initiated payment over Lightning and Geyser used a swap for the destination leg."
+  },
+  "excluded_payment_type_principle": "Do not count a payment as contributor-origin Lightning merely because Lightning appears on the payout or internal side of a fiat, on-chain, or Rootstock swap.",
+  "global_caveats": [
+    "These figures cover only contributions recorded by Geyser's public GraphQL contribution data.",
+    "Geyser's temporary direct-payment flow sends users to creator-controlled Bitcoin or Lightning addresses and explicitly does not create Geyser contribution records; those payments are not included.",
+    "Do not describe these figures as all Lightning payments associated with Geyser.",
+    "Geyser contributions are zap-like funding actions, not NIP-57 Nostr zaps.",
+    "The public GraphQL endpoint appears to be an application endpoint rather than a documented, versioned public analytics API and may change without notice.",
+    "UTC calendar days differ from the America/Chicago calendar days used by the Stacker News collector.",
+    "Treat the observations as public application data, not independently audited Lightning settlement records."
+  ]
+}

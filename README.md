@@ -1,14 +1,16 @@
-# Stacker News and Nostr payment statistics collectors
+# Stacker News, Nostr, and Geyser payment statistics collectors
 
 This small project downloads public aggregate activity data from the Stacker
 News GraphQL API, keeps reproducible daily payment and reward datasets, and
 creates weekly JSON summaries designed for analysis by ChatGPT or another LLM.
 It can also independently collect NIP-57 zap receipt events from a diversified
-set of public Nostr relays and calculate an exact rolling median zap size.
+set of public Nostr relays and recorded Geyser contributions funded over
+Lightning. Each source remains separate because its observable event and its
+coverage limitations are different.
 
-The Stacker News collector uses only Python's standard library. The optional
-Nostr collector uses two pinned open-source packages and does not require an
-API key or paid service.
+The Stacker News and Geyser collectors use only Python's standard library. The
+optional Nostr collector uses two pinned open-source packages. None of the
+collectors requires an API key or paid service.
 
 ## What it collects
 
@@ -113,6 +115,65 @@ recipient's authorized LNURL provider would require resolving historical
 recipient metadata and LNURL configuration. The output files preserve this
 caveat for downstream LLM analysis.
 
+## Collect Geyser Lightning-funded contributions
+
+The Geyser component queries the public contribution data used by Geyser's web
+application. It retains only compact payment facts needed for aggregate
+statistics—no funder identity, comment, invoice string, payment hash, or
+preimage is requested or stored.
+
+Run it independently:
+
+```bash
+python3 scripts/collect_geyser.py
+python3 scripts/summarize_geyser.py
+```
+
+The first run retrieves 30 completed UTC days. Later runs refresh seven days,
+plus a two-day creation-time buffer to catch ordinary confirmation lag. To test
+one completed day without writing anything:
+
+```bash
+python3 scripts/collect_geyser.py --days 1 --dry-run
+```
+
+The API policy is deliberately conservative. Requests are serial, carry a
+descriptive user agent, use only ten contributions per page, and are spaced two
+seconds apart. A normal run has a hard budget of ten HTTP attempts; the one-time
+backfill has a budget of 100. Only one retry is allowed after a ten-second
+backoff. Authentication failures, bans, and HTTP 429 rate limits stop
+immediately without retrying. A failure records diagnostics and leaves the
+daily observations untouched.
+
+For cross-platform charts, use
+`recorded_lightning_contribution_count` as Geyser's zap-like event count. It is
+the number of distinct confirmed Geyser contributions with a paid payment whose
+type shows that the contributor initiated payment over Lightning. The collector
+also reports the underlying payment-record count because the two could differ
+if a contribution ever contains multiple paid Lightning records.
+
+The outputs are:
+
+```text
+data/geyser/payments/YYYY-MM-DD.json.gz  privacy-minimized payment facts
+data/geyser/runs/latest.json             request, pagination, and status report
+data/geyser/daily.json                   exact daily summaries
+data/geyser/latest_30_days.json          rolling totals, median, and breakdowns
+data/geyser/config.json                  conservative request limits
+data/geyser/metric_definitions.json      definitions and publication caveats
+```
+
+These are not a census of all Lightning payments associated with Geyser.
+Geyser's temporary direct-payment flow sends contributors to creator-controlled
+addresses and explicitly does not create Geyser contribution records. The
+collector cannot observe those direct payments. Geyser contributions should be
+described as Lightning-funded contributions or zap-like funding actions, not as
+NIP-57 zaps.
+
+The GitHub workflow **Collect Geyser Lightning contributions** runs separately
+each day at 12:17 UTC. Its manual **days** input can select up to 90 completed
+days.
+
 ## Run it on Ubuntu
 
 You need Python 3.9 or newer (Ubuntu 22.04 or newer already has a suitable
@@ -205,6 +266,10 @@ https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/weekly.jso
 https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/latest_rewards_week.json
 https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/rewards_weekly.json
 https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/metric_definitions.json
+https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/nostr/latest_30_days.json
+https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/nostr/metric_definitions.json
+https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/geyser/latest_30_days.json
+https://raw.githubusercontent.com/YOURNAME/sn-payment-stats/main/data/geyser/metric_definitions.json
 ```
 
 Suggested prompt:
@@ -236,6 +301,13 @@ data/
     relay_audit.json         approved-relay evidence and candidates
     relay_config.json        approved seed relays and safety limits
     metric_definitions.json  Nostr-specific meanings and caveats
+  geyser/
+    payments/*.json.gz       privacy-minimized paid Lightning facts by UTC day
+    runs/latest.json         latest request and pagination report
+    daily.json               exact daily recorded-contribution summaries
+    latest_30_days.json      rolling Geyser totals and median
+    config.json              API load limits and retry policy
+    metric_definitions.json  Geyser-specific definitions and caveats
   raw/
     latest_response.json     latest complete GraphQL response
     history/*.json           responses keyed by collection date and request range
@@ -249,6 +321,8 @@ scripts/
   collect_nostr_zaps.py      bounded NIP-01 relay collector
   summarize_nostr_zaps.py    rolling Nostr zap statistics
   audit_nostr_relays.py      relay coverage and candidate analysis
+  collect_geyser.py          bounded public Geyser contribution collector
+  summarize_geyser.py        rolling Geyser Lightning-contribution statistics
   setup_github.sh            optional GitHub setup helper
 tests/                       offline unit tests
 ```
@@ -273,6 +347,14 @@ tests/                       offline unit tests
 - Stacker News can change its public API. The collector fails rather than
   silently accepting structurally invalid responses and archives the raw
   response needed to investigate changes.
+- Geyser's frontend GraphQL endpoint is not documented as a versioned public
+  analytics API and can change without notice. Its collector validates the
+  response and fails rather than treating an error as zero activity.
+- Geyser direct-to-creator payments are outside Geyser's contribution records
+  and therefore outside this dataset.
+- Geyser and Nostr observations use UTC calendar days; Stacker News observations
+  use America/Chicago calendar days. Align timestamps before combining daily
+  series.
 
 ## Data provenance
 
@@ -286,3 +368,5 @@ collection uses the public `rewards`, `stackingGrowth`, and `stackerGrowth`
 queries from the same deployed upstream commit.
 
 This project is independent of Stacker News and uses its public API.
+It is also independent of Geyser and uses public application data exposed by
+Geyser's frontend GraphQL endpoint.

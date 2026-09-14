@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "api_url": "https://api.geyser.fund/graphql",
+  "query": {
+    "initial_backfill_days": 30,
+    "daily_overlap_days": 7,
+    "maximum_days_per_run": 90,
+    "confirmation_lag_buffer_days": 2,
+    "page_size": 10,
+    "daily_request_budget": 10,
+    "backfill_request_budget": 100,
+    "request_delay_seconds": 2.0,
+    "request_timeout_seconds": 30,
+    "retries": 1,
+    "retry_backoff_seconds": 10.0,
+    "max_response_bytes": 2000000
+  },
+  "load_policy": {
+    "normal_run": "Refresh seven completed UTC days plus a two-day creation buffer.",
+    "initial_run": "Backfill 30 completed UTC days once; larger manual backfills remain available up to 90 days.",
+    "serial_requests_only": true,
+    "notes": [
+      "The page size is intentionally small because larger nested-payment queries timed out during development.",
+      "Every HTTP attempt, including a retry, counts against the hard request budget.",
+      "HTTP 401, 403, 407, and 429 responses stop the run without retrying.",
+      "A failed or budget-exhausted run records diagnostics but does not replace daily observations."
+    ]
+  }
+}
