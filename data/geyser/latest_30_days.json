@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T17:00:05Z",
+  "generated_at": "2026-09-18T16:24:50Z",
   "period": {
-    "start": "2026-08-18",
-    "end": "2026-09-16",
+    "start": "2026-08-19",
+    "end": "2026-09-17",
     "days": 30,
     "missing_days": [],
     "incomplete_api_coverage_days": []
@@ -11,16 +11,16 @@
   "metrics": {
     "recorded_lightning_contribution_count": 14,
     "recorded_lightning_payment_count": 14,
-    "recorded_lightning_contribution_sats": 606887,
-    "recorded_lightning_payment_sats": 633555,
-    "recorded_lightning_accounting_amount_paid_sats": 633555,
-    "average_recorded_contribution_sats": 43349.071,
-    "median_recorded_contribution_sats": 16010.5,
+    "recorded_lightning_contribution_sats": 452348,
+    "recorded_lightning_payment_sats": 470896,
+    "recorded_lightning_accounting_amount_paid_sats": 470896,
+    "average_recorded_contribution_sats": 32310.571,
+    "median_recorded_contribution_sats": 13014.0,
     "minimum_recorded_contribution_sats": 2518,
-    "maximum_recorded_contribution_sats": 167640,
-    "maximum_recorded_payment_sats": 176022,
+    "maximum_recorded_contribution_sats": 134911,
+    "maximum_recorded_payment_sats": 141657,
     "recorded_contributions_over_1m_sats": 0,
-    "unique_projects_funded": 4,
+    "unique_projects_funded": 3,
     "payments_by_type": {
       "LIGHTNING": 14
     },
@@ -31,18 +31,18 @@
   "collection_status": {
     "latest_run": {
       "schema_version": 1,
-      "collected_at": "2026-09-17T17:00:01Z",
+      "collected_at": "2026-09-18T16:24:49Z",
       "status": "complete",
       "period": {
-        "start": "2026-09-10",
-        "end": "2026-09-16",
+        "start": "2026-09-11",
+        "end": "2026-09-17",
         "days": 7,
         "day_definition": "completed UTC days, bucketed by payment paidAt"
       },
       "query_policy": {
         "api_url": "https://api.geyser.fund/graphql",
-        "query_start": "2026-09-08",
-        "query_end": "2026-09-16",
+        "query_start": "2026-09-09",
+        "query_end": "2026-09-17",
         "confirmation_lag_buffer_days": 2,
         "page_size": 10,
         "request_delay_seconds": 2.0,
@@ -51,19 +51,19 @@
       },
       "requests": 1,
       "retries_used": 0,
-      "duration_ms": 3964,
+      "duration_ms": 1044,
       "pages": 1,
       "contributions_returned": 3,
       "recorded_lightning_payments": 3,
       "error": null,
       "daily_payment_counts": {
-        "2026-09-10": 0,
         "2026-09-11": 0,
         "2026-09-12": 1,
         "2026-09-13": 0,
         "2026-09-14": 0,
         "2026-09-15": 0,
-        "2026-09-16": 1
+        "2026-09-16": 1,
+        "2026-09-17": 1
       }
     },
     "quality_status": "ok",
