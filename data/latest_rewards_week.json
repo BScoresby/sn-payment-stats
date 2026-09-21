@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T14:16:14Z",
+  "generated_at": "2026-09-21T16:29:50Z",
   "latest_completed_reward_week": {
     "period": {
       "start": "2026-09-14",
@@ -12,14 +12,14 @@
       "end": "2026-09-19"
     },
     "reward_pool_sats": 6169150,
-    "reward_distributed_sats": 5984701,
-    "reward_distribution_gap_sats": 184449,
+    "reward_distributed_sats": 6168667,
+    "reward_distribution_gap_sats": 483,
     "average_daily_reward_pool_sats": 881307.14,
-    "average_daily_reward_distributed_sats": 854957.29,
-    "average_daily_unique_reward_recipients": 76.43,
+    "average_daily_reward_distributed_sats": 881238.14,
+    "average_daily_unique_reward_recipients": 88.14,
     "peak_daily_unique_reward_recipients": 106,
-    "reward_recipient_days": 535,
-    "reward_sats_per_recipient_day": 11186.36,
+    "reward_recipient_days": 617,
+    "reward_sats_per_recipient_day": 9997.84,
     "reward_sources_msats": {
       "BOOST": 1274602416,
       "BOUNTY_PAYMENT": 593538,
@@ -50,15 +50,15 @@
     "anomaly_days": [],
     "week_over_week_pct": {
       "reward_pool_sats": 11.67,
-      "reward_distributed_sats": 8.33,
-      "average_daily_unique_reward_recipients": -4.11,
-      "reward_sats_per_recipient_day": 12.99
+      "reward_distributed_sats": 11.66,
+      "average_daily_unique_reward_recipients": 10.58,
+      "reward_sats_per_recipient_day": 0.98
     },
     "versus_prior_4_week_average_pct": {
       "reward_pool_sats": 243.57,
-      "reward_distributed_sats": 233.35,
-      "average_daily_unique_reward_recipients": 9.86,
-      "reward_sats_per_recipient_day": 229.83
+      "reward_distributed_sats": 243.6,
+      "average_daily_unique_reward_recipients": 26.69,
+      "reward_sats_per_recipient_day": 194.79
     },
     "records": {
       "reward_pool_sats_all_time_high": true,
