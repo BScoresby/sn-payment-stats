@@ -56,6 +56,11 @@ jobs:
           python scripts/audit_nostr_relays.py
           echo "status=$status" >> "$GITHUB_OUTPUT"
 
+      - name: Collect Zap Observer aggregates
+        id: zap_observer
+        if: always() && steps.collection.outcome != 'skipped'
+        run: python scripts/collect_zap_observer.py
+
       - name: Commit changed Nostr data
         if: always()
         run: |
@@ -71,7 +76,7 @@ jobs:
           git push origin main
 
       - name: Fail after preserving diagnostics
-        if: always() && (steps.collection.outcome != 'success' || steps.collection.outputs.status != '0')
+        if: always() && (steps.collection.outcome != 'success' || steps.collection.outputs.status != '0' || steps.zap_observer.outcome != 'success')
         run: |
-          echo "Collection did not meet its safety or coverage requirements. Diagnostics were preserved."
+          echo "A Nostr collection source did not meet its safety requirements. Diagnostics were preserved."
           exit 1

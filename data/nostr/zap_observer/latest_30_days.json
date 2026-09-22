@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-22T15:52:48Z",
+  "source": "zap.observer",
+  "period": {
+    "start": "2026-08-23",
+    "end": "2026-09-21",
+    "days": 30,
+    "days_present": 29,
+    "missing_days": [
+      "2026-08-23"
+    ]
+  },
+  "metrics": {
+    "zap_receipt_count": 49241,
+    "total_zap_sats": 16986702,
+    "note_zap_receipt_count": 38869,
+    "note_zap_sats": 9234057,
+    "episode_zap_receipt_count": 1254,
+    "episode_zap_sats": 1932659,
+    "track_zap_receipt_count": 188,
+    "track_zap_sats": 136574,
+    "stream_zap_receipt_count": 1041,
+    "stream_zap_sats": 1110980,
+    "average_zap_sats": 344.971
+  },
+  "collection_status": {
+    "quality_status": "warning",
+    "quality_warnings": [
+      "The rolling period is missing 1 UTC day(s).",
+      "These figures describe NIP-57 zap receipts accepted by zap.observer from its public-relay coverage, not every zap on Nostr.",
+      "A NIP-57 zap receipt is not independent proof that its Lightning invoice was real or paid.",
+      "zap.observer excludes self-zaps, so this series omits the closest Nostr analogue to a Stacker News boost.",
+      "The monitored relay set, rejection counts, exact sats cap, and complete validation implementation are not exposed by the API.",
+      "The category filters are provider-defined and are not assumed to be mutually exclusive or collectively exhaustive."
+    ]
+  },
+  "methodology": {
+    "provider_description": "NIP-57 receipts accepted and hourly aggregated by zap.observer",
+    "daily_aggregation": "Sum of 24 provider hourly buckets in each completed UTC day",
+    "self_zaps_included": false,
+    "categories_additive": false,
+    "independent_settlement_proof": false
+  }
+}

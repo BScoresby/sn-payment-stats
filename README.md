@@ -115,6 +115,40 @@ recipient's authorized LNURL provider would require resolving historical
 recipient metadata and LNURL configuration. The output files preserve this
 caveat for downstream LLM analysis.
 
+### Zap Observer comparison series
+
+The same Nostr workflow also collects a separate, provider-validated comparison
+series from [zap.observer](https://zap.observer/api/docs). It makes five serial
+requests once per daily run: the overall 30-day hourly series plus the provider's
+`notes`, `episodes`, `tracks`, and `streams` filters. It never paginates the live
+feed. Requests are spaced one second apart, have a hard five-request budget, and
+use the provider's cached aggregate endpoint rather than contacting relays.
+
+The collector reconstructs only completed UTC days containing all 24 overall
+hourly buckets. Each run refreshes the available rolling window and preserves
+older observations. Provider categories remain separate because they are not
+assumed to be mutually exclusive or collectively exhaustive.
+
+```bash
+python3 scripts/collect_zap_observer.py --dry-run
+python3 scripts/collect_zap_observer.py
+```
+
+The outputs are:
+
+```text
+data/nostr/zap_observer/raw/*.json.gz       raw cached aggregate responses
+data/nostr/zap_observer/runs/latest.json   request and failure diagnostics
+data/nostr/zap_observer/daily.json         completed UTC-day aggregates
+data/nostr/zap_observer/latest_30_days.json rolling provider totals
+data/nostr/zap_observer/metric_definitions.json definitions and caveats
+```
+
+Zap Observer excludes self-zaps, so this series is not perfectly symmetrical
+with Stacker News totals that include boosts. Its accepted NIP-57 receipts are
+also not independent proof of Lightning settlement. Public charts using this
+series must attribute the figures to `zap.observer`.
+
 ## Collect Geyser Lightning-funded contributions
 
 The Geyser component queries the public contribution data used by Geyser's web

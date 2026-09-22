@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source": "https://zap.observer/api/docs",
+  "attribution_required": "zap.observer",
+  "global_caveats": [
+    "These figures describe NIP-57 zap receipts accepted by zap.observer from its public-relay coverage, not every zap on Nostr.",
+    "A NIP-57 zap receipt is not independent proof that its Lightning invoice was real or paid.",
+    "zap.observer excludes self-zaps, so this series omits the closest Nostr analogue to a Stacker News boost.",
+    "The monitored relay set, rejection counts, exact sats cap, and complete validation implementation are not exposed by the API.",
+    "Category metrics are provider-defined and must not be summed because they may overlap and do not include every profile zap."
+  ],
+  "metrics": {
+    "zap_receipt_count": {
+      "definition": "NIP-57 kind 9735 receipt events accepted by zap.observer in 24 hourly buckets for a completed UTC day.",
+      "unit": "events",
+      "safe_language": "Nostr zaps observed by zap.observer",
+      "avoid_language": "all Nostr zaps or confirmed Lightning transactions"
+    },
+    "total_zap_sats": {
+      "definition": "Sum of BOLT11 amounts assigned by zap.observer to accepted receipt events.",
+      "unit": "sats",
+      "warning": "This is zap-denominated receipt value, not independent proof of Lightning settlement."
+    },
+    "average_zap_sats": {
+      "definition": "Total zap-denominated sats divided by accepted receipt count for the period.",
+      "unit": "sats per receipt"
+    },
+    "note_zap_receipt_count": {
+      "definition": "Provider-classified zaps returned by show=notes.",
+      "unit": "events",
+      "warning": "Provider categories are not assumed to be additive."
+    },
+    "episode_zap_receipt_count": {
+      "definition": "Provider-classified podcast boost receipts returned by show=episodes.",
+      "unit": "events",
+      "warning": "Provider categories are not assumed to be additive."
+    },
+    "track_zap_receipt_count": {
+      "definition": "Provider-classified Wavlake track zaps returned by show=tracks.",
+      "unit": "events",
+      "warning": "Provider categories are not assumed to be additive."
+    },
+    "stream_zap_receipt_count": {
+      "definition": "Provider-classified NIP-53 stream zaps returned by show=streams.",
+      "unit": "events",
+      "warning": "Provider categories are not assumed to be additive."
+    }
+  }
+}
