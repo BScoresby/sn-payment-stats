@@ -1,33 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:42:30Z",
+  "generated_at": "2026-09-24T15:31:52Z",
   "source": "zap.observer",
   "period": {
-    "start": "2026-08-23",
-    "end": "2026-09-21",
+    "start": "2026-08-25",
+    "end": "2026-09-23",
     "days": 30,
-    "days_present": 29,
-    "missing_days": [
-      "2026-08-23"
-    ]
+    "days_present": 30,
+    "missing_days": []
   },
   "metrics": {
-    "zap_receipt_count": 49241,
-    "total_zap_sats": 16986702,
-    "note_zap_receipt_count": 38869,
-    "note_zap_sats": 9234057,
-    "episode_zap_receipt_count": 1254,
-    "episode_zap_sats": 1932659,
-    "track_zap_receipt_count": 188,
-    "track_zap_sats": 136574,
-    "stream_zap_receipt_count": 1041,
-    "stream_zap_sats": 1110980,
-    "average_zap_sats": 344.971
+    "zap_receipt_count": 50860,
+    "total_zap_sats": 17413565,
+    "note_zap_receipt_count": 40201,
+    "note_zap_sats": 9403401,
+    "episode_zap_receipt_count": 1321,
+    "episode_zap_sats": 1983209,
+    "track_zap_receipt_count": 197,
+    "track_zap_sats": 140257,
+    "stream_zap_receipt_count": 1100,
+    "stream_zap_sats": 1111556,
+    "average_zap_sats": 342.382
   },
   "collection_status": {
-    "quality_status": "warning",
+    "quality_status": "ok",
     "quality_warnings": [
-      "The rolling period is missing 1 UTC day(s).",
       "These figures describe NIP-57 zap receipts accepted by zap.observer from its public-relay coverage, not every zap on Nostr.",
       "A NIP-57 zap receipt is not independent proof that its Lightning invoice was real or paid.",
       "zap.observer excludes self-zaps, so this series omits the closest Nostr analogue to a Stacker News boost.",
