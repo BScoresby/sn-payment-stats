@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T15:31:51Z",
+  "generated_at": "2026-09-25T15:35:39Z",
   "day_definition": "UTC calendar day",
-  "observation_days": 41,
+  "observation_days": 42,
   "observations": [
     {
       "date_utc": "2026-08-14",
@@ -3749,21 +3749,21 @@
     },
     {
       "date_utc": "2026-09-22",
-      "zap_receipt_count": 836,
-      "total_zap_msats": 191686000,
-      "total_zap_sats": 191686,
-      "average_zap_sats": 229.289,
+      "zap_receipt_count": 899,
+      "total_zap_msats": 193210000,
+      "total_zap_sats": 193210,
+      "average_zap_sats": 214.917,
       "median_zap_sats": 21,
-      "p25_zap_sats": 13,
-      "p75_zap_sats": 44,
+      "p25_zap_sats": 11,
+      "p75_zap_sats": 42,
       "p90_zap_sats": 100,
       "p99_zap_sats": 2100,
       "minimum_zap_sats": 1,
       "maximum_zap_sats": 42000,
-      "unique_senders": 279,
-      "unique_recipients": 321,
+      "unique_senders": 285,
+      "unique_recipients": 351,
       "receipts_over_1m_sats": 0,
-      "preimage_present_count": 751,
+      "preimage_present_count": 811,
       "relays_observed": [
         "wss://nos.lol",
         "wss://nostr.bitcoiner.social",
@@ -3772,12 +3772,12 @@
       ],
       "amount_distribution": {
         "under_1_sat": 0,
-        "1_to_10_sats": 145,
-        "11_to_21_sats": 399,
-        "22_to_50_sats": 114,
-        "51_to_100_sats": 95,
+        "1_to_10_sats": 192,
+        "11_to_21_sats": 406,
+        "22_to_50_sats": 120,
+        "51_to_100_sats": 97,
         "101_to_250_sats": 31,
-        "251_to_500_sats": 13,
+        "251_to_500_sats": 14,
         "501_to_750_sats": 4,
         "751_to_1000_sats": 12,
         "1001_to_2500_sats": 15,
@@ -3793,26 +3793,26 @@
       "most_common_amounts": [
         {
           "amount_sats": 21,
-          "receipt_count": 281
+          "receipt_count": 287
         },
         {
           "amount_sats": 10,
-          "receipt_count": 81
+          "receipt_count": 128
         },
         {
           "amount_sats": 11,
-          "receipt_count": 41
+          "receipt_count": 42
         },
         {
           "amount_sats": 42,
-          "receipt_count": 35
-        },
-        {
-          "amount_sats": 50,
-          "receipt_count": 31
+          "receipt_count": 36
         },
         {
           "amount_sats": 100,
+          "receipt_count": 32
+        },
+        {
+          "amount_sats": 50,
           "receipt_count": 31
         },
         {
@@ -3833,9 +3833,8 @@
         }
       ],
       "coverage_at_update": {
-        "complete_relay_count": 5,
+        "complete_relay_count": 4,
         "complete_relays": [
-          "wss://nos.lol",
           "wss://nostr.bitcoiner.social",
           "wss://relay.damus.io",
           "wss://relay.primal.net",
@@ -3931,9 +3930,104 @@
         }
       ],
       "coverage_at_update": {
-        "complete_relay_count": 5,
+        "complete_relay_count": 4,
         "complete_relays": [
-          "wss://nos.lol",
+          "wss://nostr.bitcoiner.social",
+          "wss://relay.damus.io",
+          "wss://relay.primal.net",
+          "wss://relay.snort.social"
+        ],
+        "configured_relay_count": 6
+      }
+    },
+    {
+      "date_utc": "2026-09-24",
+      "zap_receipt_count": 959,
+      "total_zap_msats": 348433000,
+      "total_zap_sats": 348433,
+      "average_zap_sats": 363.33,
+      "median_zap_sats": 21,
+      "p25_zap_sats": 10,
+      "p75_zap_sats": 50,
+      "p90_zap_sats": 210.4,
+      "p99_zap_sats": 7601,
+      "minimum_zap_sats": 1,
+      "maximum_zap_sats": 33600,
+      "unique_senders": 286,
+      "unique_recipients": 298,
+      "receipts_over_1m_sats": 0,
+      "preimage_present_count": 896,
+      "relays_observed": [
+        "wss://nostr.bitcoiner.social",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://relay.snort.social"
+      ],
+      "amount_distribution": {
+        "under_1_sat": 0,
+        "1_to_10_sats": 261,
+        "11_to_21_sats": 288,
+        "22_to_50_sats": 190,
+        "51_to_100_sats": 71,
+        "101_to_250_sats": 59,
+        "251_to_500_sats": 22,
+        "501_to_750_sats": 1,
+        "751_to_1000_sats": 17,
+        "1001_to_2500_sats": 24,
+        "2501_to_5000_sats": 12,
+        "5001_to_7500_sats": 2,
+        "7501_to_10000_sats": 6,
+        "10001_to_25000_sats": 5,
+        "25001_to_50000_sats": 1,
+        "50001_to_75000_sats": 0,
+        "75001_to_100000_sats": 0,
+        "over_100000_sats": 0
+      },
+      "most_common_amounts": [
+        {
+          "amount_sats": 10,
+          "receipt_count": 206
+        },
+        {
+          "amount_sats": 21,
+          "receipt_count": 196
+        },
+        {
+          "amount_sats": 50,
+          "receipt_count": 71
+        },
+        {
+          "amount_sats": 20,
+          "receipt_count": 43
+        },
+        {
+          "amount_sats": 210,
+          "receipt_count": 37
+        },
+        {
+          "amount_sats": 42,
+          "receipt_count": 30
+        },
+        {
+          "amount_sats": 100,
+          "receipt_count": 29
+        },
+        {
+          "amount_sats": 30,
+          "receipt_count": 26
+        },
+        {
+          "amount_sats": 13,
+          "receipt_count": 19
+        },
+        {
+          "amount_sats": 40,
+          "receipt_count": 18
+        }
+      ],
+      "coverage_at_update": {
+        "complete_relay_count": 4,
+        "complete_relays": [
           "wss://nostr.bitcoiner.social",
           "wss://relay.damus.io",
           "wss://relay.primal.net",
