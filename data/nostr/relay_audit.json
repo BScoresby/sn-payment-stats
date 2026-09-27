@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T14:45:58Z",
+  "generated_at": "2026-09-27T15:20:31Z",
   "method": {
     "coverage": "Fraction of the locally stored, deduplicated valid receipt union observed on this approved relay.",
     "unique_contribution": "Stored valid receipts observed on this approved relay and no other approved relay.",
@@ -11,7 +11,7 @@
       "NIP-11 metadata does not guarantee historical retention."
     ]
   },
-  "stored_valid_receipt_union": 37191,
+  "stored_valid_receipt_union": 37741,
   "approved_relays": [
     {
       "url": "wss://relay.damus.io",
@@ -44,12 +44,12 @@
         },
         "terms_of_service": null
       },
-      "observed_receipts": 4566,
-      "unique_contribution": 392,
-      "coverage_of_stored_union_pct": 12.28,
-      "requested_by_receipts": 26974,
+      "observed_receipts": 4890,
+      "unique_contribution": 440,
+      "coverage_of_stored_union_pct": 12.96,
+      "requested_by_receipts": 27428,
       "oldest_observed_receipt": "2026-09-05T13:36:11Z",
-      "newest_observed_receipt": "2026-09-25T23:59:17Z",
+      "newest_observed_receipt": "2026-09-26T23:47:53Z",
       "assessment": "adds_unique_receipts"
     },
     {
@@ -85,8 +85,8 @@
       },
       "observed_receipts": 4049,
       "unique_contribution": 644,
-      "coverage_of_stored_union_pct": 10.89,
-      "requested_by_receipts": 27091,
+      "coverage_of_stored_union_pct": 10.73,
+      "requested_by_receipts": 27498,
       "oldest_observed_receipt": "2026-08-15T04:29:35Z",
       "newest_observed_receipt": "2026-09-25T23:51:21Z",
       "assessment": "adds_unique_receipts"
@@ -95,36 +95,16 @@
       "url": "wss://nos.lol",
       "label": "nos.lol",
       "configured_rationale": "Established public relay with disclosed filtering; useful as one independent observation source, not a complete archive.",
-      "latest_query_status": "complete",
-      "latest_query_complete": true,
+      "latest_query_status": "connection_failed",
+      "latest_query_complete": false,
       "latest_nip11": {
-        "status": "ok",
-        "name": "nos.lol",
-        "description": "Generally accepts notes, except spammy ones.",
-        "software": "git+https://github.com/hoytech/strfry.git",
-        "version": "1.1.3",
-        "supported_nips": [
-          1,
-          2,
-          4,
-          9,
-          11,
-          28,
-          40,
-          45,
-          70
-        ],
-        "limitation": {
-          "max_limit": 500,
-          "max_message_length": 131072,
-          "max_subscriptions": 20
-        },
-        "terms_of_service": "https://wikifreedia.xyz/nos.lol/"
+        "status": "error",
+        "error": "HTTPError: HTTP Error 502: Bad Gateway"
       },
       "observed_receipts": 32953,
-      "unique_contribution": 15141,
-      "coverage_of_stored_union_pct": 88.6,
-      "requested_by_receipts": 29727,
+      "unique_contribution": 15050,
+      "coverage_of_stored_union_pct": 87.31,
+      "requested_by_receipts": 30153,
       "oldest_observed_receipt": "2026-08-14T00:07:04Z",
       "newest_observed_receipt": "2026-09-25T23:43:03Z",
       "assessment": "adds_unique_receipts"
@@ -142,7 +122,7 @@
       "observed_receipts": 0,
       "unique_contribution": 0,
       "coverage_of_stored_union_pct": 0.0,
-      "requested_by_receipts": 13739,
+      "requested_by_receipts": 14002,
       "oldest_observed_receipt": null,
       "newest_observed_receipt": null,
       "assessment": "no_receipts_observed"
@@ -172,12 +152,12 @@
         },
         "terms_of_service": null
       },
-      "observed_receipts": 3018,
-      "unique_contribution": 136,
-      "coverage_of_stored_union_pct": 8.11,
-      "requested_by_receipts": 13048,
+      "observed_receipts": 3382,
+      "unique_contribution": 230,
+      "coverage_of_stored_union_pct": 8.96,
+      "requested_by_receipts": 13321,
       "oldest_observed_receipt": "2026-09-12T03:48:11Z",
-      "newest_observed_receipt": "2026-09-25T23:59:17Z",
+      "newest_observed_receipt": "2026-09-26T23:51:44Z",
       "assessment": "adds_unique_receipts"
     },
     {
@@ -211,264 +191,264 @@
         },
         "terms_of_service": null
       },
-      "observed_receipts": 18056,
-      "unique_contribution": 2228,
-      "coverage_of_stored_union_pct": 48.55,
-      "requested_by_receipts": 12539,
+      "observed_receipts": 18463,
+      "unique_contribution": 2362,
+      "coverage_of_stored_union_pct": 48.92,
+      "requested_by_receipts": 12809,
       "oldest_observed_receipt": "2026-08-18T22:04:15Z",
-      "newest_observed_receipt": "2026-09-25T23:59:17Z",
+      "newest_observed_receipt": "2026-09-26T23:45:14Z",
       "assessment": "adds_unique_receipts"
     }
   ],
   "unapproved_candidates": [
     {
       "url": "wss://nostr.wine",
-      "requested_by_receipts": 14957,
+      "requested_by_receipts": 15250,
       "approved": false
     },
     {
       "url": "wss://nostr.mom",
-      "requested_by_receipts": 14386,
+      "requested_by_receipts": 14650,
       "approved": false
     },
     {
       "url": "wss://nostr.land",
-      "requested_by_receipts": 12956,
+      "requested_by_receipts": 13206,
       "approved": false
     },
     {
       "url": "wss://purplepag.es",
-      "requested_by_receipts": 11940,
+      "requested_by_receipts": 12170,
       "approved": false
     },
     {
       "url": "wss://nostr-pub.wellorder.net",
-      "requested_by_receipts": 8712,
+      "requested_by_receipts": 8890,
       "approved": false
     },
     {
       "url": "wss://nostr.einundzwanzig.space",
-      "requested_by_receipts": 7079,
+      "requested_by_receipts": 7239,
       "approved": false
     },
     {
       "url": "wss://btc.klendazu.com",
-      "requested_by_receipts": 6435,
+      "requested_by_receipts": 6595,
       "approved": false
     },
     {
       "url": "wss://relay.lexingtonbitcoin.org",
-      "requested_by_receipts": 6313,
+      "requested_by_receipts": 6460,
       "approved": false
     },
     {
       "url": "wss://nostr.cercatrova.me",
-      "requested_by_receipts": 6301,
+      "requested_by_receipts": 6452,
       "approved": false
     },
     {
       "url": "wss://relay.bullishbounty.com",
-      "requested_by_receipts": 6242,
+      "requested_by_receipts": 6389,
       "approved": false
     },
     {
       "url": "wss://relay.westernbtc.com",
-      "requested_by_receipts": 6221,
-      "approved": false
-    },
-    {
-      "url": "wss://at.nostrworks.com",
-      "requested_by_receipts": 6190,
+      "requested_by_receipts": 6368,
       "approved": false
     },
     {
       "url": "wss://nostr.semisol.dev",
-      "requested_by_receipts": 6189,
+      "requested_by_receipts": 6338,
       "approved": false
     },
     {
-      "url": "wss://nostr-verif.slothy.win",
-      "requested_by_receipts": 6142,
+      "url": "wss://at.nostrworks.com",
+      "requested_by_receipts": 6337,
       "approved": false
     },
     {
       "url": "wss://nostr.roundrockbitcoiners.com",
-      "requested_by_receipts": 6142,
+      "requested_by_receipts": 6291,
+      "approved": false
+    },
+    {
+      "url": "wss://nostr-verif.slothy.win",
+      "requested_by_receipts": 6289,
       "approved": false
     },
     {
       "url": "wss://knostr.neutrine.com",
-      "requested_by_receipts": 6132,
+      "requested_by_receipts": 6279,
       "approved": false
     },
     {
       "url": "wss://libretechsystems.nostr1.com",
-      "requested_by_receipts": 6104,
+      "requested_by_receipts": 6251,
       "approved": false
     },
     {
       "url": "wss://buzzbot-relay.bullishbounty.com",
-      "requested_by_receipts": 6102,
+      "requested_by_receipts": 6249,
       "approved": false
     },
     {
       "url": "wss://eden.nostr.land",
-      "requested_by_receipts": 5577,
+      "requested_by_receipts": 5676,
       "approved": false
     },
     {
       "url": "wss://premium.primal.net",
-      "requested_by_receipts": 3560,
-      "approved": false
-    },
-    {
-      "url": "wss://relay.ditto.pub",
-      "requested_by_receipts": 3343,
+      "requested_by_receipts": 3607,
       "approved": false
     },
     {
       "url": "wss://nostr.oxtr.dev",
-      "requested_by_receipts": 3335,
+      "requested_by_receipts": 3381,
+      "approved": false
+    },
+    {
+      "url": "wss://relay.ditto.pub",
+      "requested_by_receipts": 3370,
       "approved": false
     },
     {
       "url": "wss://offchain.pub",
-      "requested_by_receipts": 3108,
+      "requested_by_receipts": 3148,
       "approved": false
     },
     {
       "url": "wss://theforest.nostr1.com",
-      "requested_by_receipts": 2404,
+      "requested_by_receipts": 2439,
       "approved": false
     },
     {
       "url": "wss://relay.current.fyi",
-      "requested_by_receipts": 2290,
+      "requested_by_receipts": 2320,
       "approved": false
     },
     {
       "url": "wss://relay.mostr.pub",
-      "requested_by_receipts": 2195,
+      "requested_by_receipts": 2222,
       "approved": false
     },
     {
       "url": "wss://nostr-01.yakihonne.com",
-      "requested_by_receipts": 2145,
+      "requested_by_receipts": 2174,
       "approved": false
     },
     {
       "url": "wss://nostrelites.org",
-      "requested_by_receipts": 2107,
+      "requested_by_receipts": 2131,
       "approved": false
     },
     {
       "url": "wss://relay.fountain.fm",
-      "requested_by_receipts": 1833,
+      "requested_by_receipts": 1847,
       "approved": false
     },
     {
       "url": "wss://relay.nostr.build",
-      "requested_by_receipts": 1792,
-      "approved": false
-    },
-    {
-      "url": "wss://nostr.azzamo.net",
-      "requested_by_receipts": 1340,
+      "requested_by_receipts": 1808,
       "approved": false
     },
     {
       "url": "wss://wot.utxo.one",
-      "requested_by_receipts": 1336,
+      "requested_by_receipts": 1354,
+      "approved": false
+    },
+    {
+      "url": "wss://nostr.azzamo.net",
+      "requested_by_receipts": 1350,
       "approved": false
     },
     {
       "url": "wss://relay.nostr.bg",
-      "requested_by_receipts": 1287,
+      "requested_by_receipts": 1303,
       "approved": false
     },
     {
       "url": "wss://nostr21.com",
-      "requested_by_receipts": 1284,
+      "requested_by_receipts": 1298,
       "approved": false
     },
     {
       "url": "wss://atlas.nostr.land",
-      "requested_by_receipts": 1247,
+      "requested_by_receipts": 1269,
       "approved": false
     },
     {
       "url": "wss://filter.nostr.wine",
-      "requested_by_receipts": 1215,
-      "approved": false
-    },
-    {
-      "url": "wss://yabu.me",
-      "requested_by_receipts": 1193,
+      "requested_by_receipts": 1232,
       "approved": false
     },
     {
       "url": "wss://relay.nostrplebs.com",
-      "requested_by_receipts": 1192,
+      "requested_by_receipts": 1220,
+      "approved": false
+    },
+    {
+      "url": "wss://yabu.me",
+      "requested_by_receipts": 1208,
       "approved": false
     },
     {
       "url": "wss://pyramid.fiatjaf.com",
-      "requested_by_receipts": 1188,
+      "requested_by_receipts": 1199,
       "approved": false
     },
     {
       "url": "wss://hist.nostr.land",
-      "requested_by_receipts": 1136,
+      "requested_by_receipts": 1157,
       "approved": false
     },
     {
       "url": "wss://puravida.nostr.land",
-      "requested_by_receipts": 1071,
+      "requested_by_receipts": 1095,
       "approved": false
     },
     {
       "url": "wss://nostr.orangepill.dev",
-      "requested_by_receipts": 1029,
+      "requested_by_receipts": 1044,
       "approved": false
     },
     {
       "url": "wss://purplerelay.com",
-      "requested_by_receipts": 959,
-      "approved": false
-    },
-    {
-      "url": "wss://brb.io",
-      "requested_by_receipts": 939,
+      "requested_by_receipts": 967,
       "approved": false
     },
     {
       "url": "wss://nostr-02.yakihonne.com",
-      "requested_by_receipts": 935,
+      "requested_by_receipts": 955,
+      "approved": false
+    },
+    {
+      "url": "wss://brb.io",
+      "requested_by_receipts": 949,
       "approved": false
     },
     {
       "url": "wss://relayable.org",
-      "requested_by_receipts": 928,
+      "requested_by_receipts": 942,
       "approved": false
     },
     {
       "url": "wss://relay.noswhere.com",
-      "requested_by_receipts": 886,
-      "approved": false
-    },
-    {
-      "url": "wss://nostr.fmt.wiz.biz",
-      "requested_by_receipts": 863,
+      "requested_by_receipts": 898,
       "approved": false
     },
     {
       "url": "wss://relay.momostr.pink",
-      "requested_by_receipts": 862,
+      "requested_by_receipts": 879,
       "approved": false
     },
     {
-      "url": "wss://relay.nostr.net",
-      "requested_by_receipts": 849,
+      "url": "wss://nostr.walletofsatoshi.com",
+      "requested_by_receipts": 876,
+      "approved": false
+    },
+    {
+      "url": "wss://nostr.fmt.wiz.biz",
+      "requested_by_receipts": 871,
       "approved": false
     }
   ]
