@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T15:20:31Z",
+  "generated_at": "2026-09-28T18:17:08Z",
   "day_definition": "UTC calendar day",
-  "observation_days": 44,
+  "observation_days": 45,
   "observations": [
     {
       "date_utc": "2026-08-14",
@@ -4040,21 +4040,21 @@
     },
     {
       "date_utc": "2026-09-25",
-      "zap_receipt_count": 782,
-      "total_zap_msats": 586445000,
-      "total_zap_sats": 586445,
-      "average_zap_sats": 749.93,
+      "zap_receipt_count": 800,
+      "total_zap_msats": 587187000,
+      "total_zap_sats": 587187,
+      "average_zap_sats": 733.984,
       "median_zap_sats": 21,
-      "p25_zap_sats": 19.25,
+      "p25_zap_sats": 20,
       "p75_zap_sats": 69,
       "p90_zap_sats": 333,
-      "p99_zap_sats": 7291.81,
+      "p99_zap_sats": 7183.99,
       "minimum_zap_sats": 1,
       "maximum_zap_sats": 180234,
-      "unique_senders": 276,
-      "unique_recipients": 278,
+      "unique_senders": 281,
+      "unique_recipients": 282,
       "receipts_over_1m_sats": 0,
-      "preimage_present_count": 706,
+      "preimage_present_count": 720,
       "relays_observed": [
         "wss://nos.lol",
         "wss://nostr.bitcoiner.social",
@@ -4064,11 +4064,11 @@
       ],
       "amount_distribution": {
         "under_1_sat": 0,
-        "1_to_10_sats": 108,
-        "11_to_21_sats": 341,
-        "22_to_50_sats": 102,
-        "51_to_100_sats": 108,
-        "101_to_250_sats": 38,
+        "1_to_10_sats": 111,
+        "11_to_21_sats": 349,
+        "22_to_50_sats": 106,
+        "51_to_100_sats": 109,
+        "101_to_250_sats": 40,
         "251_to_500_sats": 27,
         "501_to_750_sats": 4,
         "751_to_1000_sats": 18,
@@ -4085,11 +4085,11 @@
       "most_common_amounts": [
         {
           "amount_sats": 21,
-          "receipt_count": 240
+          "receipt_count": 247
         },
         {
           "amount_sats": 10,
-          "receipt_count": 48
+          "receipt_count": 49
         },
         {
           "amount_sats": 11,
@@ -4101,15 +4101,15 @@
         },
         {
           "amount_sats": 69,
-          "receipt_count": 24
+          "receipt_count": 25
+        },
+        {
+          "amount_sats": 50,
+          "receipt_count": 23
         },
         {
           "amount_sats": 42,
           "receipt_count": 22
-        },
-        {
-          "amount_sats": 50,
-          "receipt_count": 21
         },
         {
           "amount_sats": 13,
@@ -4117,7 +4117,7 @@
         },
         {
           "amount_sats": 210,
-          "receipt_count": 19
+          "receipt_count": 20
         },
         {
           "amount_sats": 7,
@@ -4137,19 +4137,19 @@
     },
     {
       "date_utc": "2026-09-26",
-      "zap_receipt_count": 507,
-      "total_zap_msats": 123852000,
-      "total_zap_sats": 123852,
-      "average_zap_sats": 244.284,
+      "zap_receipt_count": 508,
+      "total_zap_msats": 123870000,
+      "total_zap_sats": 123870,
+      "average_zap_sats": 243.839,
       "median_zap_sats": 21,
       "p25_zap_sats": 11,
       "p75_zap_sats": 42,
       "p90_zap_sats": 105,
-      "p99_zap_sats": 2703.48,
+      "p99_zap_sats": 2697.06,
       "minimum_zap_sats": 1,
       "maximum_zap_sats": 21000,
       "unique_senders": 203,
-      "unique_recipients": 185,
+      "unique_recipients": 186,
       "receipts_over_1m_sats": 0,
       "preimage_present_count": 453,
       "relays_observed": [
@@ -4160,7 +4160,7 @@
       "amount_distribution": {
         "under_1_sat": 0,
         "1_to_10_sats": 104,
-        "11_to_21_sats": 227,
+        "11_to_21_sats": 228,
         "22_to_50_sats": 70,
         "51_to_100_sats": 53,
         "101_to_250_sats": 28,
@@ -4217,6 +4217,101 @@
         {
           "amount_sats": 50,
           "receipt_count": 13
+        }
+      ],
+      "coverage_at_update": {
+        "complete_relay_count": 4,
+        "complete_relays": [
+          "wss://nostr.bitcoiner.social",
+          "wss://relay.damus.io",
+          "wss://relay.primal.net",
+          "wss://relay.snort.social"
+        ],
+        "configured_relay_count": 6
+      }
+    },
+    {
+      "date_utc": "2026-09-27",
+      "zap_receipt_count": 481,
+      "total_zap_msats": 34525000,
+      "total_zap_sats": 34525,
+      "average_zap_sats": 71.778,
+      "median_zap_sats": 21,
+      "p25_zap_sats": 11,
+      "p75_zap_sats": 42,
+      "p90_zap_sats": 100,
+      "p99_zap_sats": 1111,
+      "minimum_zap_sats": 1,
+      "maximum_zap_sats": 5000,
+      "unique_senders": 212,
+      "unique_recipients": 222,
+      "receipts_over_1m_sats": 0,
+      "preimage_present_count": 447,
+      "relays_observed": [
+        "wss://nostr.bitcoiner.social",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net"
+      ],
+      "amount_distribution": {
+        "under_1_sat": 0,
+        "1_to_10_sats": 77,
+        "11_to_21_sats": 250,
+        "22_to_50_sats": 58,
+        "51_to_100_sats": 52,
+        "101_to_250_sats": 26,
+        "251_to_500_sats": 9,
+        "501_to_750_sats": 0,
+        "751_to_1000_sats": 3,
+        "1001_to_2500_sats": 5,
+        "2501_to_5000_sats": 1,
+        "5001_to_7500_sats": 0,
+        "7501_to_10000_sats": 0,
+        "10001_to_25000_sats": 0,
+        "25001_to_50000_sats": 0,
+        "50001_to_75000_sats": 0,
+        "75001_to_100000_sats": 0,
+        "over_100000_sats": 0
+      },
+      "most_common_amounts": [
+        {
+          "amount_sats": 21,
+          "receipt_count": 162
+        },
+        {
+          "amount_sats": 11,
+          "receipt_count": 54
+        },
+        {
+          "amount_sats": 100,
+          "receipt_count": 28
+        },
+        {
+          "amount_sats": 42,
+          "receipt_count": 27
+        },
+        {
+          "amount_sats": 10,
+          "receipt_count": 24
+        },
+        {
+          "amount_sats": 3,
+          "receipt_count": 12
+        },
+        {
+          "amount_sats": 7,
+          "receipt_count": 10
+        },
+        {
+          "amount_sats": 13,
+          "receipt_count": 9
+        },
+        {
+          "amount_sats": 69,
+          "receipt_count": 9
+        },
+        {
+          "amount_sats": 210,
+          "receipt_count": 9
         }
       ],
       "coverage_at_update": {
