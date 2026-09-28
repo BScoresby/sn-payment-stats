@@ -3,8 +3,8 @@
   "source": "https://stacker.news/api/graphql",
   "bucket_timezone": "America/Chicago",
   "date_semantics": "reward_date is the payout date; source_activity_date is the preceding America/Chicago day whose activity funded that payout",
-  "updated_at": "2026-09-27T15:11:18Z",
-  "observation_count": 109,
+  "updated_at": "2026-09-28T18:11:33Z",
+  "observation_count": 110,
   "observations": [
     {
       "reward_date": "2026-06-11",
@@ -2416,6 +2416,28 @@
         "ZAP": 8413298
       },
       "reward_source_total_msats": 46558186,
+      "quality_status": "ok",
+      "quality_warnings": [],
+      "anomaly_flags": []
+    },
+    {
+      "reward_date": "2026-09-28",
+      "source_activity_date": "2026-09-27",
+      "reward_pool_sats": 52617,
+      "reward_distributed_sats": 52616,
+      "reward_distribution_gap_sats": 1,
+      "daily_unique_reward_recipients": 68,
+      "reward_sources_msats": {
+        "BOOST": 10863907,
+        "BOUNTY_PAYMENT": 60900,
+        "DONATE": 1000,
+        "DOWN_ZAP": 30953000,
+        "ITEM_CREATE": 3615100,
+        "POLL_VOTE": 7500,
+        "PROXY_PAYMENT": 90996,
+        "ZAP": 7024583
+      },
+      "reward_source_total_msats": 52616986,
       "quality_status": "ok",
       "quality_warnings": [],
       "anomaly_flags": []
