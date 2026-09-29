@@ -1,13 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T18:17:08Z",
+  "generated_at": "2026-09-29T16:39:46Z",
   "period": {
-    "start": "2026-08-29",
-    "end": "2026-09-27",
+    "start": "2026-08-30",
+    "end": "2026-09-28",
     "days": 30,
     "missing_days": [],
     "incomplete_relay_coverage_days": [
-      "2026-08-29",
       "2026-08-30",
       "2026-08-31",
       "2026-09-01",
@@ -36,14 +35,15 @@
       "2026-09-24",
       "2026-09-25",
       "2026-09-26",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-28"
     ]
   },
   "metrics": {
-    "zap_receipt_count": 25697,
-    "total_zap_msats": 9170265000,
-    "total_zap_sats": 9170265,
-    "average_zap_sats": 356.861,
+    "zap_receipt_count": 25929,
+    "total_zap_msats": 8992030000,
+    "total_zap_sats": 8992030,
+    "average_zap_sats": 346.794,
     "median_zap_sats": 21,
     "p25_zap_sats": 12,
     "p75_zap_sats": 42,
@@ -51,10 +51,10 @@
     "p99_zap_sats": 4750,
     "minimum_zap_sats": 1,
     "maximum_zap_sats": 799339,
-    "unique_senders": 2356,
-    "unique_recipients": 1715,
+    "unique_senders": 2339,
+    "unique_recipients": 1722,
     "receipts_over_1m_sats": 0,
-    "preimage_present_count": 23437,
+    "preimage_present_count": 23627,
     "relays_observed": [
       "wss://nos.lol",
       "wss://nostr.bitcoiner.social",
@@ -64,74 +64,74 @@
     ],
     "amount_distribution": {
       "under_1_sat": 0,
-      "1_to_10_sats": 5669,
-      "11_to_21_sats": 10881,
-      "22_to_50_sats": 3724,
-      "51_to_100_sats": 2346,
-      "101_to_250_sats": 1093,
-      "251_to_500_sats": 744,
-      "501_to_750_sats": 109,
-      "751_to_1000_sats": 432,
-      "1001_to_2500_sats": 389,
-      "2501_to_5000_sats": 131,
-      "5001_to_7500_sats": 30,
-      "7501_to_10000_sats": 50,
+      "1_to_10_sats": 5690,
+      "11_to_21_sats": 11050,
+      "22_to_50_sats": 3707,
+      "51_to_100_sats": 2372,
+      "101_to_250_sats": 1117,
+      "251_to_500_sats": 748,
+      "501_to_750_sats": 108,
+      "751_to_1000_sats": 429,
+      "1001_to_2500_sats": 394,
+      "2501_to_5000_sats": 132,
+      "5001_to_7500_sats": 31,
+      "7501_to_10000_sats": 53,
       "10001_to_25000_sats": 57,
       "25001_to_50000_sats": 25,
       "50001_to_75000_sats": 4,
       "75001_to_100000_sats": 2,
-      "over_100000_sats": 11
+      "over_100000_sats": 10
     },
     "most_common_amounts": [
       {
         "amount_sats": 21,
-        "receipt_count": 7744
+        "receipt_count": 7892
       },
       {
         "amount_sats": 10,
-        "receipt_count": 3317
+        "receipt_count": 3328
       },
       {
         "amount_sats": 100,
-        "receipt_count": 1087
+        "receipt_count": 1097
       },
       {
         "amount_sats": 20,
-        "receipt_count": 1039
+        "receipt_count": 1036
       },
       {
         "amount_sats": 42,
-        "receipt_count": 1030
+        "receipt_count": 1031
       },
       {
         "amount_sats": 50,
-        "receipt_count": 780
+        "receipt_count": 774
       },
       {
         "amount_sats": 1,
-        "receipt_count": 727
+        "receipt_count": 741
       },
       {
         "amount_sats": 11,
-        "receipt_count": 615
+        "receipt_count": 638
       },
       {
         "amount_sats": 69,
-        "receipt_count": 484
+        "receipt_count": 488
       },
       {
-        "amount_sats": 13,
-        "receipt_count": 451
+        "amount_sats": 210,
+        "receipt_count": 455
       }
     ]
   },
   "collection_status": {
     "latest_run": {
       "schema_version": 2,
-      "collected_at": "2026-09-28T18:16:57Z",
+      "collected_at": "2026-09-29T16:39:36Z",
       "period": {
-        "start": "2026-09-25",
-        "end": "2026-09-27",
+        "start": "2026-09-26",
+        "end": "2026-09-28",
         "days": 3,
         "day_definition": "completed UTC days"
       },
@@ -143,7 +143,7 @@
         "explicit_eose_required": true
       },
       "configured_relay_count": 6,
-      "complete_relay_count": 4,
+      "complete_relay_count": 5,
       "minimum_complete_relays": 3,
       "coverage_gate_passed": true,
       "relays": [
@@ -152,11 +152,11 @@
           "label": "Damus",
           "status": "complete",
           "complete": true,
-          "events_returned": 653,
+          "events_returned": 644,
           "partial_events_discarded": 0,
           "requests": 12,
           "request_budget": 20,
-          "duration_ms": 12987,
+          "duration_ms": 11618,
           "close_reason": null,
           "error": null,
           "notices": [],
@@ -187,52 +187,12 @@
           },
           "windows": [
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T00:00:00Z",
-              "end_exclusive": "2026-09-25T06:00:00Z",
-              "status": "complete_eose",
-              "event_count": 182,
-              "duration_ms": 296,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T06:00:00Z",
-              "end_exclusive": "2026-09-25T12:00:00Z",
-              "status": "complete_eose",
-              "event_count": 129,
-              "duration_ms": 187,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T12:00:00Z",
-              "end_exclusive": "2026-09-25T18:00:00Z",
-              "status": "complete_eose",
-              "event_count": 250,
-              "duration_ms": 167,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T18:00:00Z",
-              "end_exclusive": "2026-09-26T00:00:00Z",
-              "status": "complete_eose",
-              "event_count": 12,
-              "duration_ms": 109,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
               "date_utc": "2026-09-26",
               "start": "2026-09-26T00:00:00Z",
               "end_exclusive": "2026-09-26T06:00:00Z",
               "status": "complete_eose",
-              "event_count": 10,
-              "duration_ms": 108,
+              "event_count": 176,
+              "duration_ms": 59,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -241,8 +201,8 @@
               "start": "2026-09-26T06:00:00Z",
               "end_exclusive": "2026-09-26T12:00:00Z",
               "status": "complete_eose",
-              "event_count": 12,
-              "duration_ms": 108,
+              "event_count": 129,
+              "duration_ms": 64,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -251,8 +211,8 @@
               "start": "2026-09-26T12:00:00Z",
               "end_exclusive": "2026-09-26T18:00:00Z",
               "status": "complete_eose",
-              "event_count": 10,
-              "duration_ms": 107,
+              "event_count": 176,
+              "duration_ms": 49,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -261,8 +221,8 @@
               "start": "2026-09-26T18:00:00Z",
               "end_exclusive": "2026-09-27T00:00:00Z",
               "status": "complete_eose",
-              "event_count": 10,
-              "duration_ms": 110,
+              "event_count": 92,
+              "duration_ms": 42,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -271,8 +231,8 @@
               "start": "2026-09-27T00:00:00Z",
               "end_exclusive": "2026-09-27T06:00:00Z",
               "status": "complete_eose",
-              "event_count": 9,
-              "duration_ms": 108,
+              "event_count": 8,
+              "duration_ms": 32,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -282,7 +242,7 @@
               "end_exclusive": "2026-09-27T12:00:00Z",
               "status": "complete_eose",
               "event_count": 9,
-              "duration_ms": 107,
+              "duration_ms": 35,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -291,8 +251,8 @@
               "start": "2026-09-27T12:00:00Z",
               "end_exclusive": "2026-09-27T18:00:00Z",
               "status": "complete_eose",
-              "event_count": 10,
-              "duration_ms": 108,
+              "event_count": 9,
+              "duration_ms": 37,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -301,20 +261,60 @@
               "start": "2026-09-27T18:00:00Z",
               "end_exclusive": "2026-09-28T00:00:00Z",
               "status": "complete_eose",
-              "event_count": 10,
-              "duration_ms": 110,
+              "event_count": 9,
+              "duration_ms": 34,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T00:00:00Z",
+              "end_exclusive": "2026-09-28T06:00:00Z",
+              "status": "complete_eose",
+              "event_count": 9,
+              "duration_ms": 32,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T06:00:00Z",
+              "end_exclusive": "2026-09-28T12:00:00Z",
+              "status": "complete_eose",
+              "event_count": 9,
+              "duration_ms": 38,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T12:00:00Z",
+              "end_exclusive": "2026-09-28T18:00:00Z",
+              "status": "complete_eose",
+              "event_count": 9,
+              "duration_ms": 36,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T18:00:00Z",
+              "end_exclusive": "2026-09-29T00:00:00Z",
+              "status": "complete_eose",
+              "event_count": 9,
+              "duration_ms": 34,
               "close_reason": null,
               "auth_challenge": false
             }
           ],
           "qualification": {
-            "valid_receipts": 368,
-            "invalid_receipts": 285,
-            "unique_contribution": 198,
-            "coverage_of_valid_union_pct": 25.68,
+            "valid_receipts": 348,
+            "invalid_receipts": 296,
+            "unique_contribution": 130,
+            "coverage_of_valid_union_pct": 19.09,
             "median_zap_sats": 21.0,
-            "oldest_valid_receipt": "2026-09-25T00:01:07Z",
-            "newest_valid_receipt": "2026-09-27T23:57:01Z"
+            "oldest_valid_receipt": "2026-09-26T00:06:02Z",
+            "newest_valid_receipt": "2026-09-28T23:58:32Z"
           }
         },
         {
@@ -322,11 +322,11 @@
           "label": "Primal",
           "status": "complete",
           "complete": true,
-          "events_returned": 546,
+          "events_returned": 1983,
           "partial_events_discarded": 0,
           "requests": 12,
           "request_budget": 20,
-          "duration_ms": 19946,
+          "duration_ms": 17128,
           "close_reason": null,
           "error": null,
           "notices": [],
@@ -357,52 +357,12 @@
           },
           "windows": [
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T00:00:00Z",
-              "end_exclusive": "2026-09-25T06:00:00Z",
-              "status": "complete_eose",
-              "event_count": 4,
-              "duration_ms": 461,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T06:00:00Z",
-              "end_exclusive": "2026-09-25T12:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 461,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T12:00:00Z",
-              "end_exclusive": "2026-09-25T18:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 554,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T18:00:00Z",
-              "end_exclusive": "2026-09-26T00:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 460,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
               "date_utc": "2026-09-26",
               "start": "2026-09-26T00:00:00Z",
               "end_exclusive": "2026-09-26T06:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 461,
+              "duration_ms": 189,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -412,7 +372,7 @@
               "end_exclusive": "2026-09-26T12:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 483,
+              "duration_ms": 193,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -422,7 +382,7 @@
               "end_exclusive": "2026-09-26T18:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 460,
+              "duration_ms": 188,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -432,7 +392,7 @@
               "end_exclusive": "2026-09-27T00:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 461,
+              "duration_ms": 188,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -442,7 +402,7 @@
               "end_exclusive": "2026-09-27T06:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 461,
+              "duration_ms": 200,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -451,8 +411,8 @@
               "start": "2026-09-27T06:00:00Z",
               "end_exclusive": "2026-09-27T12:00:00Z",
               "status": "complete_eose",
-              "event_count": 1,
-              "duration_ms": 463,
+              "event_count": 7,
+              "duration_ms": 190,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -462,7 +422,7 @@
               "end_exclusive": "2026-09-27T18:00:00Z",
               "status": "complete_eose",
               "event_count": 307,
-              "duration_ms": 1710,
+              "duration_ms": 911,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -471,33 +431,73 @@
               "start": "2026-09-27T18:00:00Z",
               "end_exclusive": "2026-09-28T00:00:00Z",
               "status": "complete_eose",
-              "event_count": 234,
-              "duration_ms": 1085,
+              "event_count": 235,
+              "duration_ms": 726,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T00:00:00Z",
+              "end_exclusive": "2026-09-28T06:00:00Z",
+              "status": "complete_eose",
+              "event_count": 198,
+              "duration_ms": 550,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T06:00:00Z",
+              "end_exclusive": "2026-09-28T12:00:00Z",
+              "status": "complete_eose",
+              "event_count": 500,
+              "duration_ms": 905,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T12:00:00Z",
+              "end_exclusive": "2026-09-28T18:00:00Z",
+              "status": "complete_eose",
+              "event_count": 500,
+              "duration_ms": 726,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T18:00:00Z",
+              "end_exclusive": "2026-09-29T00:00:00Z",
+              "status": "complete_eose",
+              "event_count": 236,
+              "duration_ms": 548,
               "close_reason": null,
               "auth_challenge": false
             }
           ],
           "qualification": {
-            "valid_receipts": 228,
-            "invalid_receipts": 318,
-            "unique_contribution": 164,
-            "coverage_of_valid_union_pct": 15.91,
+            "valid_receipts": 887,
+            "invalid_receipts": 1096,
+            "unique_contribution": 476,
+            "coverage_of_valid_union_pct": 48.66,
             "median_zap_sats": 21.0,
-            "oldest_valid_receipt": "2026-09-27T12:50:30Z",
-            "newest_valid_receipt": "2026-09-27T23:57:01Z"
+            "oldest_valid_receipt": "2026-09-27T07:28:33Z",
+            "newest_valid_receipt": "2026-09-28T23:58:32Z"
           }
         },
         {
           "url": "wss://nos.lol",
           "label": "nos.lol",
-          "status": "connection_closed",
-          "complete": false,
+          "status": "complete",
+          "complete": true,
           "events_returned": 0,
-          "partial_events_discarded": 252,
-          "requests": 2,
+          "partial_events_discarded": 0,
+          "requests": 12,
           "request_budget": 20,
-          "duration_ms": 6758,
-          "close_reason": "no close frame received or sent",
+          "duration_ms": 13677,
+          "close_reason": null,
           "error": null,
           "notices": [],
           "nip11": {
@@ -526,23 +526,123 @@
           },
           "windows": [
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T00:00:00Z",
-              "end_exclusive": "2026-09-25T06:00:00Z",
-              "status": "complete_eose",
-              "event_count": 252,
-              "duration_ms": 702,
+              "date_utc": "2026-09-26",
+              "start": "2026-09-26T00:00:00Z",
+              "end_exclusive": "2026-09-26T06:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
               "close_reason": null,
               "auth_challenge": false
             },
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T06:00:00Z",
-              "end_exclusive": "2026-09-25T12:00:00Z",
-              "status": "connection_closed",
+              "date_utc": "2026-09-26",
+              "start": "2026-09-26T06:00:00Z",
+              "end_exclusive": "2026-09-26T12:00:00Z",
+              "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 4590,
-              "close_reason": "no close frame received or sent",
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-26",
+              "start": "2026-09-26T12:00:00Z",
+              "end_exclusive": "2026-09-26T18:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-26",
+              "start": "2026-09-26T18:00:00Z",
+              "end_exclusive": "2026-09-27T00:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-27",
+              "start": "2026-09-27T00:00:00Z",
+              "end_exclusive": "2026-09-27T06:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 159,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-27",
+              "start": "2026-09-27T06:00:00Z",
+              "end_exclusive": "2026-09-27T12:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 184,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-27",
+              "start": "2026-09-27T12:00:00Z",
+              "end_exclusive": "2026-09-27T18:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-27",
+              "start": "2026-09-27T18:00:00Z",
+              "end_exclusive": "2026-09-28T00:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T00:00:00Z",
+              "end_exclusive": "2026-09-28T06:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T06:00:00Z",
+              "end_exclusive": "2026-09-28T12:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 158,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T12:00:00Z",
+              "end_exclusive": "2026-09-28T18:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 159,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T18:00:00Z",
+              "end_exclusive": "2026-09-29T00:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 332,
+              "close_reason": null,
               "auth_challenge": false
             }
           ],
@@ -565,7 +665,7 @@
           "partial_events_discarded": 0,
           "requests": 0,
           "request_budget": 20,
-          "duration_ms": 31021,
+          "duration_ms": 31024,
           "close_reason": null,
           "error": "TimeoutError: timed out during opening handshake",
           "notices": [],
@@ -593,7 +693,7 @@
           "partial_events_discarded": 0,
           "requests": 12,
           "request_budget": 20,
-          "duration_ms": 13270,
+          "duration_ms": 13743,
           "close_reason": null,
           "error": null,
           "notices": [],
@@ -618,52 +718,12 @@
           },
           "windows": [
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T00:00:00Z",
-              "end_exclusive": "2026-09-25T06:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 149,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T06:00:00Z",
-              "end_exclusive": "2026-09-25T12:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 149,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T12:00:00Z",
-              "end_exclusive": "2026-09-25T18:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 149,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T18:00:00Z",
-              "end_exclusive": "2026-09-26T00:00:00Z",
-              "status": "complete_but_zero",
-              "event_count": 0,
-              "duration_ms": 149,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
               "date_utc": "2026-09-26",
               "start": "2026-09-26T00:00:00Z",
               "end_exclusive": "2026-09-26T06:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 150,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -673,7 +733,7 @@
               "end_exclusive": "2026-09-26T12:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 149,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -683,7 +743,7 @@
               "end_exclusive": "2026-09-26T18:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 151,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -693,7 +753,7 @@
               "end_exclusive": "2026-09-27T00:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 149,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -703,7 +763,7 @@
               "end_exclusive": "2026-09-27T06:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 150,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -713,7 +773,7 @@
               "end_exclusive": "2026-09-27T12:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 149,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -723,7 +783,7 @@
               "end_exclusive": "2026-09-27T18:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 149,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -733,7 +793,47 @@
               "end_exclusive": "2026-09-28T00:00:00Z",
               "status": "complete_but_zero",
               "event_count": 0,
-              "duration_ms": 149,
+              "duration_ms": 164,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T00:00:00Z",
+              "end_exclusive": "2026-09-28T06:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 164,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T06:00:00Z",
+              "end_exclusive": "2026-09-28T12:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 169,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T12:00:00Z",
+              "end_exclusive": "2026-09-28T18:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 164,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T18:00:00Z",
+              "end_exclusive": "2026-09-29T00:00:00Z",
+              "status": "complete_but_zero",
+              "event_count": 0,
+              "duration_ms": 164,
               "close_reason": null,
               "auth_challenge": false
             }
@@ -753,11 +853,11 @@
           "label": "bitcoiner.social",
           "status": "complete",
           "complete": true,
-          "events_returned": 1644,
+          "events_returned": 2107,
           "partial_events_discarded": 0,
           "requests": 12,
           "request_budget": 20,
-          "duration_ms": 13357,
+          "duration_ms": 11697,
           "close_reason": null,
           "error": null,
           "notices": [],
@@ -788,52 +888,12 @@
           },
           "windows": [
             {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T00:00:00Z",
-              "end_exclusive": "2026-09-25T06:00:00Z",
-              "status": "complete_eose",
-              "event_count": 160,
-              "duration_ms": 203,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T06:00:00Z",
-              "end_exclusive": "2026-09-25T12:00:00Z",
-              "status": "complete_eose",
-              "event_count": 81,
-              "duration_ms": 152,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T12:00:00Z",
-              "end_exclusive": "2026-09-25T18:00:00Z",
-              "status": "complete_eose",
-              "event_count": 191,
-              "duration_ms": 200,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
-              "date_utc": "2026-09-25",
-              "start": "2026-09-25T18:00:00Z",
-              "end_exclusive": "2026-09-26T00:00:00Z",
-              "status": "complete_eose",
-              "event_count": 111,
-              "duration_ms": 153,
-              "close_reason": null,
-              "auth_challenge": false
-            },
-            {
               "date_utc": "2026-09-26",
               "start": "2026-09-26T00:00:00Z",
               "end_exclusive": "2026-09-26T06:00:00Z",
               "status": "complete_eose",
               "event_count": 156,
-              "duration_ms": 209,
+              "duration_ms": 54,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -843,7 +903,7 @@
               "end_exclusive": "2026-09-26T12:00:00Z",
               "status": "complete_eose",
               "event_count": 97,
-              "duration_ms": 155,
+              "duration_ms": 40,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -853,7 +913,7 @@
               "end_exclusive": "2026-09-26T18:00:00Z",
               "status": "complete_eose",
               "event_count": 131,
-              "duration_ms": 199,
+              "duration_ms": 52,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -863,7 +923,7 @@
               "end_exclusive": "2026-09-27T00:00:00Z",
               "status": "complete_eose",
               "event_count": 198,
-              "duration_ms": 200,
+              "duration_ms": 54,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -873,7 +933,7 @@
               "end_exclusive": "2026-09-27T06:00:00Z",
               "status": "complete_eose",
               "event_count": 92,
-              "duration_ms": 153,
+              "duration_ms": 40,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -882,8 +942,8 @@
               "start": "2026-09-27T06:00:00Z",
               "end_exclusive": "2026-09-27T12:00:00Z",
               "status": "complete_eose",
-              "event_count": 100,
-              "duration_ms": 153,
+              "event_count": 101,
+              "duration_ms": 44,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -893,7 +953,7 @@
               "end_exclusive": "2026-09-27T18:00:00Z",
               "status": "complete_eose",
               "event_count": 140,
-              "duration_ms": 200,
+              "duration_ms": 52,
               "close_reason": null,
               "auth_challenge": false
             },
@@ -903,36 +963,76 @@
               "end_exclusive": "2026-09-28T00:00:00Z",
               "status": "complete_eose",
               "event_count": 187,
-              "duration_ms": 200,
+              "duration_ms": 53,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T00:00:00Z",
+              "end_exclusive": "2026-09-28T06:00:00Z",
+              "status": "complete_eose",
+              "event_count": 117,
+              "duration_ms": 42,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T06:00:00Z",
+              "end_exclusive": "2026-09-28T12:00:00Z",
+              "status": "complete_eose",
+              "event_count": 425,
+              "duration_ms": 68,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T12:00:00Z",
+              "end_exclusive": "2026-09-28T18:00:00Z",
+              "status": "complete_eose",
+              "event_count": 343,
+              "duration_ms": 64,
+              "close_reason": null,
+              "auth_challenge": false
+            },
+            {
+              "date_utc": "2026-09-28",
+              "start": "2026-09-28T18:00:00Z",
+              "end_exclusive": "2026-09-29T00:00:00Z",
+              "status": "complete_eose",
+              "event_count": 120,
+              "duration_ms": 40,
               "close_reason": null,
               "auth_challenge": false
             }
           ],
           "qualification": {
-            "valid_receipts": 1069,
-            "invalid_receipts": 575,
-            "unique_contribution": 841,
-            "coverage_of_valid_union_pct": 74.6,
+            "valid_receipts": 1210,
+            "invalid_receipts": 897,
+            "unique_contribution": 603,
+            "coverage_of_valid_union_pct": 66.37,
             "median_zap_sats": 21.0,
-            "oldest_valid_receipt": "2026-09-25T00:01:21Z",
-            "newest_valid_receipt": "2026-09-27T23:57:01Z"
+            "oldest_valid_receipt": "2026-09-26T00:02:49Z",
+            "newest_valid_receipt": "2026-09-28T23:58:32Z"
           }
         }
       ],
-      "deduplicated_events_received": 2383,
-      "valid_receipts_received": 1433,
-      "invalid_receipts_received": 950,
+      "deduplicated_events_received": 3469,
+      "valid_receipts_received": 1823,
+      "invalid_receipts_received": 1646,
       "invalid_reasons": {
-        "BOLT11 description hash does not match zap request": 915,
-        "expected exactly one bolt11 tag": 27,
-        "preimage is not valid hexadecimal": 6,
+        "BOLT11 description hash does not match zap request": 1552,
+        "expected exactly one bolt11 tag": 81,
+        "preimage is not valid hexadecimal": 11,
         "invalid BOLT11 invoice: Bech32 string is not valid.": 1,
         "description is not a JSON zap request": 1
       },
       "stored_receipts_by_day": {
-        "2026-09-25": 800,
-        "2026-09-26": 508,
-        "2026-09-27": 481
+        "2026-09-26": 585,
+        "2026-09-27": 485,
+        "2026-09-28": 810
       },
       "dry_run": false,
       "quality_status": "warning",
