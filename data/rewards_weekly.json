@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T16:34:58Z",
+  "generated_at": "2026-10-01T17:03:25Z",
   "week_definition": "Monday through Sunday reward dates in America/Chicago",
   "date_semantics": "Each reward week contains payouts made during the period; the funding activity occurred one day earlier, as shown in source_activity_period",
   "week_count": 15,
