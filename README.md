@@ -115,6 +115,45 @@ recipient's authorized LNURL provider would require resolving historical
 recipient metadata and LNURL configuration. The output files preserve this
 caveat for downstream LLM analysis.
 
+## Generate daily and Friday social recaps
+
+The main pipeline also creates ready-to-review social post drafts from the
+collected Stacker News data. The daily recap covers the latest complete day.
+The Friday recap covers the most recent complete Saturday-through-Friday
+period, so the scheduled Saturday-morning run produces a full Friday recap.
+
+Run the generator by itself with:
+
+```bash
+python3 scripts/generate_recaps.py
+```
+
+The outputs are:
+
+```text
+data/recaps/daily/YYYY-MM-DD.json        daily metrics and provenance
+data/recaps/daily/YYYY-MM-DD.md          daily post draft
+data/recaps/friday/YYYY-MM-DD.json       Saturday-Friday metrics and provenance
+data/recaps/friday/YYYY-MM-DD.md         Friday post draft
+data/recaps/latest_daily.json            latest daily metrics
+data/recaps/latest_daily.md              latest daily post draft
+data/recaps/latest_friday.json           latest Friday-period metrics
+data/recaps/latest_friday.md             latest Friday post draft
+data/recaps/methodology.md                reusable public methodology note
+```
+
+The drafts use “zaps” as a broad social-media label for `ZAP`, `BOOST`, and
+`DOWN_ZAP` actions, and state that definition in the post. They describe
+application-level actions, not confirmed Lightning transactions. Daily unique
+zappers cover ZAP users only and are never summed into a weekly distinct-user
+figure; Friday recaps use the average daily value instead.
+
+If any source day is missing or carries a collector quality warning, that recap
+is skipped rather than publishing a questionable number. Reward-pool anomaly
+flags do not suppress the draft, but mark its JSON record `review` so a person
+can check the result before posting. GitHub Actions places the newest drafts in
+the workflow run summary; it does not publish them automatically.
+
 ### Zap Observer comparison series
 
 The same Nostr workflow also collects a separate, provider-validated comparison

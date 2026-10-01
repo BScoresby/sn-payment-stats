@@ -32,6 +32,26 @@ jobs:
       - name: Collect and summarize
         run: python scripts/run_pipeline.py
 
+      - name: Show social recap drafts
+        run: |
+          for recap in daily friday; do
+            if [[ "$recap" == "daily" ]]; then
+              title="Daily recap draft"
+            else
+              title="Latest Friday recap draft"
+            fi
+            echo "## $title" >> "$GITHUB_STEP_SUMMARY"
+            if [[ ! -f "data/recaps/latest_${recap}.md" ]]; then
+              echo "> No safe $recap recap was generated. Check the collection log." >> "$GITHUB_STEP_SUMMARY"
+              continue
+            fi
+            cat "data/recaps/latest_${recap}.md" >> "$GITHUB_STEP_SUMMARY"
+            if [[ -f "data/recaps/latest_${recap}.json" ]] && \
+               [[ "$(python -c 'import json, sys; print(json.load(open(sys.argv[1]))["quality_status"])' "data/recaps/latest_${recap}.json")" != "ok" ]]; then
+              echo "> **Review required:** this recap contains an anomaly advisory. Check the JSON diagnostics before posting." >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
       - name: Commit changed data
         run: |
           git config user.name "SN Stats Bot"
@@ -43,4 +63,3 @@ jobs:
           fi
           git commit -m "Update SN statistics"
           git push
-

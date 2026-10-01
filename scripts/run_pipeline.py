@@ -23,6 +23,9 @@ def main() -> int:
         subprocess.run(
             [sys.executable, str(SCRIPTS_DIR / "summarize_rewards.py")], check=True
         )
+        subprocess.run(
+            [sys.executable, str(SCRIPTS_DIR / "generate_recaps.py")], check=True
+        )
     return 0
 
 

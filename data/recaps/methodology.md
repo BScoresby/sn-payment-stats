@@ -1,0 +1,1 @@
+Methodology: SN public aggregates, America/Chicago dates. “Zaps” = ZAP + BOOST + DOWN_ZAP. Sats may include Cowboy Credits; not confirmed Lightning payments. “Daily unique zappers” covers ZAP users only and is not period-distinct. Rewards are custodial SN payouts.
