@@ -1,13 +1,13 @@
 ⚡ Stacker News Friday Recap ⚡
-September 12–18
+September 19–25
 
-⚡ 19,219 zaps*
-💰 11.43M sats zapped
-💸 29,602 tracked spend actions
-📝 7,387 paid item creations
-👥 115 avg. daily unique zappers
-🎁 7.07M reward sats distributed
+⚡ 9,921 zaps*
+💰 1.67M sats zapped
+💸 17,886 tracked spend actions
+📝 5,479 paid item creations
+👥 104 avg. daily unique zappers
+🎁 690,364 reward sats distributed
 
-One zap every 31 seconds.
+One zap every 61 seconds.
 
 *Includes boosts & downzaps.
