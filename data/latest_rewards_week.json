@@ -1,66 +1,62 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T14:45:27Z",
+  "generated_at": "2026-10-04T15:24:52Z",
   "latest_completed_reward_week": {
     "period": {
-      "start": "2026-09-21",
-      "end": "2026-09-27",
+      "start": "2026-09-28",
+      "end": "2026-10-04",
       "days": 7
     },
     "source_activity_period": {
-      "start": "2026-09-20",
-      "end": "2026-09-26"
+      "start": "2026-09-27",
+      "end": "2026-10-03"
     },
-    "reward_pool_sats": 408605,
-    "reward_distributed_sats": 360535,
-    "reward_distribution_gap_sats": 48070,
-    "average_daily_reward_pool_sats": 58372.14,
-    "average_daily_reward_distributed_sats": 51505.0,
-    "average_daily_unique_reward_recipients": 64,
-    "peak_daily_unique_reward_recipients": 83,
-    "reward_recipient_days": 448,
-    "reward_sats_per_recipient_day": 804.77,
+    "reward_pool_sats": 1509017,
+    "reward_distributed_sats": 1505308,
+    "reward_distribution_gap_sats": 3709,
+    "average_daily_reward_pool_sats": 215573.86,
+    "average_daily_reward_distributed_sats": 215044.0,
+    "average_daily_unique_reward_recipients": 70,
+    "peak_daily_unique_reward_recipients": 78,
+    "reward_recipient_days": 490,
+    "reward_sats_per_recipient_day": 3072.06,
     "reward_sources_msats": {
-      "BOOST": 64598645,
-      "BOUNTY_PAYMENT": 938885,
-      "DONATE": 10379000,
-      "DOWN_ZAP": 198477000,
-      "ITEM_CREATE": 34647500,
-      "ITEM_UPDATE": 346200,
-      "MEDIA_UPLOAD": 130000,
-      "POLL_VOTE": 65400,
-      "PROXY_PAYMENT": 365317,
-      "ZAP": 98657173
+      "BOOST": 259685326,
+      "BOUNTY_PAYMENT": 778429,
+      "DONATE": 10750200,
+      "DOWN_ZAP": 1097745000,
+      "ITEM_CREATE": 31065400,
+      "ITEM_UPDATE": 242400,
+      "POLL_VOTE": 19500,
+      "PROXY_PAYMENT": 1418639,
+      "ZAP": 107312382
     },
     "reward_source_shares_pct": {
-      "BOOST": 15.81,
-      "BOUNTY_PAYMENT": 0.23,
-      "DONATE": 2.54,
-      "DOWN_ZAP": 48.57,
-      "ITEM_CREATE": 8.48,
-      "ITEM_UPDATE": 0.08,
-      "MEDIA_UPLOAD": 0.03,
-      "POLL_VOTE": 0.02,
+      "BOOST": 17.21,
+      "BOUNTY_PAYMENT": 0.05,
+      "DONATE": 0.71,
+      "DOWN_ZAP": 72.75,
+      "ITEM_CREATE": 2.06,
+      "ITEM_UPDATE": 0.02,
+      "POLL_VOTE": 0.0,
       "PROXY_PAYMENT": 0.09,
-      "ZAP": 24.14
+      "ZAP": 7.11
     },
-    "boost_and_downzap_reward_share_pct": 64.38,
+    "boost_and_downzap_reward_share_pct": 89.95,
     "quality_status": "ok",
     "warning_days": [],
-    "anomaly_days": [
-      "2026-09-21"
-    ],
+    "anomaly_days": [],
     "week_over_week_pct": {
-      "reward_pool_sats": -93.38,
-      "reward_distributed_sats": -94.16,
-      "average_daily_unique_reward_recipients": -27.39,
-      "reward_sats_per_recipient_day": -91.95
+      "reward_pool_sats": 269.31,
+      "reward_distributed_sats": 317.52,
+      "average_daily_unique_reward_recipients": 9.38,
+      "reward_sats_per_recipient_day": 281.73
     },
     "versus_prior_4_week_average_pct": {
-      "reward_pool_sats": -87.38,
-      "reward_distributed_sats": -88.86,
-      "average_daily_unique_reward_recipients": -13.09,
-      "reward_sats_per_recipient_day": -85.86
+      "reward_pool_sats": -53.38,
+      "reward_distributed_sats": -53.32,
+      "average_daily_unique_reward_recipients": -4.43,
+      "reward_sats_per_recipient_day": -45.81
     },
     "records": {
       "reward_pool_sats_all_time_high": false,
@@ -68,7 +64,7 @@
     }
   },
   "analysis_context": {
-    "prior_completed_weeks_available": 14,
+    "prior_completed_weeks_available": 15,
     "reward_caveats": [
       "Reward dates are payout dates; reward-source activity occurred on the preceding America/Chicago calendar day.",
       "Reward payouts are custodial SN reward sats and must not be described as confirmed Lightning payments.",
