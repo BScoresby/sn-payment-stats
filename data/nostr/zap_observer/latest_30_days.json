@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T14:57:15Z",
+  "generated_at": "2026-10-04T15:31:42Z",
   "source": "zap.observer",
   "period": {
-    "start": "2026-09-03",
-    "end": "2026-10-02",
+    "start": "2026-09-04",
+    "end": "2026-10-03",
     "days": 30,
     "days_present": 30,
     "missing_days": []
   },
   "metrics": {
-    "zap_receipt_count": 51388,
-    "total_zap_sats": 17046742,
-    "note_zap_receipt_count": 40050,
-    "note_zap_sats": 9581885,
-    "episode_zap_receipt_count": 1344,
-    "episode_zap_sats": 2157471,
-    "track_zap_receipt_count": 214,
-    "track_zap_sats": 150344,
-    "stream_zap_receipt_count": 1210,
-    "stream_zap_sats": 988220,
-    "average_zap_sats": 331.726
+    "zap_receipt_count": 50234,
+    "total_zap_sats": 16991003,
+    "note_zap_receipt_count": 39223,
+    "note_zap_sats": 9706682,
+    "episode_zap_receipt_count": 1320,
+    "episode_zap_sats": 2109021,
+    "track_zap_receipt_count": 212,
+    "track_zap_sats": 145436,
+    "stream_zap_receipt_count": 1173,
+    "stream_zap_sats": 944836,
+    "average_zap_sats": 338.237
   },
   "collection_status": {
     "quality_status": "ok",

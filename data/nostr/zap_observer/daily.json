@@ -3,8 +3,8 @@
   "source": "https://zap.observer/api/stats",
   "source_attribution": "zap.observer",
   "bucket_timezone": "UTC",
-  "updated_at": "2026-10-03T14:57:15Z",
-  "observation_count": 40,
+  "updated_at": "2026-10-04T15:31:42Z",
+  "observation_count": 41,
   "observations": [
     {
       "date_utc": "2026-08-24",
@@ -603,6 +603,21 @@
       "track_zap_sats": 1811,
       "stream_zap_receipt_count": 24,
       "stream_zap_sats": 31048,
+      "quality_status": "ok",
+      "quality_warnings": []
+    },
+    {
+      "date_utc": "2026-10-03",
+      "zap_receipt_count": 1740,
+      "total_zap_sats": 407144,
+      "note_zap_receipt_count": 1379,
+      "note_zap_sats": 319786,
+      "episode_zap_receipt_count": 35,
+      "episode_zap_sats": 57571,
+      "track_zap_receipt_count": 6,
+      "track_zap_sats": 2875,
+      "stream_zap_receipt_count": 15,
+      "stream_zap_sats": 6804,
       "quality_status": "ok",
       "quality_warnings": []
     }
