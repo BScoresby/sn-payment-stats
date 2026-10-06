@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "provider": "zap.observer",
-  "started_at": "2026-10-05T19:30:14Z",
-  "completed_at": "2026-10-05T19:30:20Z",
+  "started_at": "2026-10-06T16:58:11Z",
+  "completed_at": "2026-10-06T16:58:17Z",
   "status": "success",
   "request_count": 5,
   "request_budget": 5,
@@ -11,52 +11,52 @@
       "dataset": "all",
       "url": "https://zap.observer/api/stats?range=30d",
       "http_status": 200,
-      "response_bytes": 31574,
-      "duration_ms": 551,
+      "response_bytes": 31584,
+      "duration_ms": 901,
       "cache_control": "public, s-maxage=60, max-age=30",
-      "date": "Mon, 05 Oct 2026 19:30:14 GMT"
+      "date": "Tue, 06 Oct 2026 16:58:12 GMT"
     },
     {
       "dataset": "notes",
       "url": "https://zap.observer/api/stats?range=30d&show=notes",
       "http_status": 200,
-      "response_bytes": 31311,
-      "duration_ms": 381,
+      "response_bytes": 31322,
+      "duration_ms": 365,
       "cache_control": "public, s-maxage=60, max-age=30",
-      "date": "Mon, 05 Oct 2026 19:30:16 GMT"
+      "date": "Tue, 06 Oct 2026 16:58:13 GMT"
     },
     {
       "dataset": "episodes",
       "url": "https://zap.observer/api/stats?range=30d&show=episodes",
       "http_status": 200,
-      "response_bytes": 22082,
-      "duration_ms": 322,
+      "response_bytes": 21920,
+      "duration_ms": 328,
       "cache_control": "public, s-maxage=60, max-age=30",
-      "date": "Mon, 05 Oct 2026 19:30:17 GMT"
+      "date": "Tue, 06 Oct 2026 16:58:14 GMT"
     },
     {
       "dataset": "tracks",
       "url": "https://zap.observer/api/stats?range=30d&show=tracks",
       "http_status": 200,
-      "response_bytes": 5460,
-      "duration_ms": 300,
+      "response_bytes": 5499,
+      "duration_ms": 236,
       "cache_control": "public, s-maxage=60, max-age=30",
-      "date": "Mon, 05 Oct 2026 19:30:18 GMT"
+      "date": "Tue, 06 Oct 2026 16:58:16 GMT"
     },
     {
       "dataset": "streams",
       "url": "https://zap.observer/api/stats?range=30d&show=streams",
       "http_status": 200,
-      "response_bytes": 12261,
-      "duration_ms": 634,
+      "response_bytes": 12054,
+      "duration_ms": 757,
       "cache_control": "public, s-maxage=60, max-age=30",
-      "date": "Mon, 05 Oct 2026 19:30:20 GMT"
+      "date": "Tue, 06 Oct 2026 16:58:17 GMT"
     }
   ],
   "days_updated": 29,
-  "first_updated_day": "2026-09-06",
-  "last_updated_day": "2026-10-04",
+  "first_updated_day": "2026-09-07",
+  "last_updated_day": "2026-10-05",
   "quality_warnings": [
-    "Excluded partial UTC day(s): 2026-09-05"
+    "Excluded partial UTC day(s): 2026-09-06"
   ]
 }
