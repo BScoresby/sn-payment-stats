@@ -1,11 +1,62 @@
 {
   "schema_version": 1,
   "provider": "zap.observer",
-  "started_at": "2026-10-07T17:34:15Z",
-  "completed_at": "2026-10-07T17:34:45Z",
-  "status": "failed",
-  "request_count": 0,
+  "started_at": "2026-10-08T17:37:41Z",
+  "completed_at": "2026-10-08T17:37:48Z",
+  "status": "success",
+  "request_count": 5,
   "request_budget": 5,
-  "requests": [],
-  "error": "zap.observer request failed: The read operation timed out"
+  "requests": [
+    {
+      "dataset": "all",
+      "url": "https://zap.observer/api/stats?range=30d",
+      "http_status": 200,
+      "response_bytes": 31599,
+      "duration_ms": 323,
+      "cache_control": "public, s-maxage=60, max-age=30",
+      "date": "Thu, 08 Oct 2026 17:37:41 GMT"
+    },
+    {
+      "dataset": "notes",
+      "url": "https://zap.observer/api/stats?range=30d&show=notes",
+      "http_status": 200,
+      "response_bytes": 31336,
+      "duration_ms": 637,
+      "cache_control": "public, s-maxage=60, max-age=30",
+      "date": "Thu, 08 Oct 2026 17:37:43 GMT"
+    },
+    {
+      "dataset": "episodes",
+      "url": "https://zap.observer/api/stats?range=30d&show=episodes",
+      "http_status": 200,
+      "response_bytes": 21765,
+      "duration_ms": 927,
+      "cache_control": "public, s-maxage=60, max-age=30",
+      "date": "Thu, 08 Oct 2026 17:37:44 GMT"
+    },
+    {
+      "dataset": "tracks",
+      "url": "https://zap.observer/api/stats?range=30d&show=tracks",
+      "http_status": 200,
+      "response_bytes": 5168,
+      "duration_ms": 670,
+      "cache_control": "public, s-maxage=60, max-age=30",
+      "date": "Thu, 08 Oct 2026 17:37:46 GMT"
+    },
+    {
+      "dataset": "streams",
+      "url": "https://zap.observer/api/stats?range=30d&show=streams",
+      "http_status": 200,
+      "response_bytes": 12498,
+      "duration_ms": 927,
+      "cache_control": "public, s-maxage=60, max-age=30",
+      "date": "Thu, 08 Oct 2026 17:37:48 GMT"
+    }
+  ],
+  "days_updated": 29,
+  "first_updated_day": "2026-09-09",
+  "last_updated_day": "2026-10-07",
+  "quality_warnings": [
+    "Excluded partial UTC day(s): 2026-09-08"
+  ]
 }
