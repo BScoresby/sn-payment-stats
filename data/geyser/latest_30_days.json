@@ -1,48 +1,48 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T18:21:29Z",
+  "generated_at": "2026-10-10T17:20:54Z",
   "period": {
-    "start": "2026-09-09",
-    "end": "2026-10-08",
+    "start": "2026-09-10",
+    "end": "2026-10-09",
     "days": 30,
     "missing_days": [],
     "incomplete_api_coverage_days": []
   },
   "metrics": {
-    "recorded_lightning_contribution_count": 5,
-    "recorded_lightning_payment_count": 5,
-    "recorded_lightning_contribution_sats": 110085,
-    "recorded_lightning_payment_sats": 113210,
-    "recorded_lightning_accounting_amount_paid_sats": 113210,
-    "average_recorded_contribution_sats": 22017.0,
-    "median_recorded_contribution_sats": 12927,
-    "minimum_recorded_contribution_sats": 5951,
+    "recorded_lightning_contribution_count": 8,
+    "recorded_lightning_payment_count": 8,
+    "recorded_lightning_contribution_sats": 136877,
+    "recorded_lightning_payment_sats": 141341,
+    "recorded_lightning_accounting_amount_paid_sats": 141341,
+    "average_recorded_contribution_sats": 17109.625,
+    "median_recorded_contribution_sats": 12146.0,
+    "minimum_recorded_contribution_sats": 2500,
     "maximum_recorded_contribution_sats": 66209,
     "maximum_recorded_payment_sats": 67533,
     "recorded_contributions_over_1m_sats": 0,
-    "unique_projects_funded": 3,
+    "unique_projects_funded": 5,
     "payments_by_type": {
-      "LIGHTNING": 5
+      "LIGHTNING": 8
     },
     "payments_by_method": {
-      "STRIKE": 5
+      "STRIKE": 8
     }
   },
   "collection_status": {
     "latest_run": {
       "schema_version": 1,
-      "collected_at": "2026-10-09T18:21:28Z",
+      "collected_at": "2026-10-10T17:20:52Z",
       "status": "complete",
       "period": {
-        "start": "2026-10-02",
-        "end": "2026-10-08",
+        "start": "2026-10-03",
+        "end": "2026-10-09",
         "days": 7,
         "day_definition": "completed UTC days, bucketed by payment paidAt"
       },
       "query_policy": {
         "api_url": "https://api.geyser.fund/graphql",
-        "query_start": "2026-09-30",
-        "query_end": "2026-10-08",
+        "query_start": "2026-10-01",
+        "query_end": "2026-10-09",
         "confirmation_lag_buffer_days": 2,
         "page_size": 10,
         "request_delay_seconds": 2.0,
@@ -51,19 +51,19 @@
       },
       "requests": 1,
       "retries_used": 0,
-      "duration_ms": 734,
+      "duration_ms": 1137,
       "pages": 1,
-      "contributions_returned": 1,
-      "recorded_lightning_payments": 0,
+      "contributions_returned": 4,
+      "recorded_lightning_payments": 3,
       "error": null,
       "daily_payment_counts": {
-        "2026-10-02": 0,
         "2026-10-03": 0,
         "2026-10-04": 0,
         "2026-10-05": 0,
         "2026-10-06": 0,
         "2026-10-07": 0,
-        "2026-10-08": 0
+        "2026-10-08": 0,
+        "2026-10-09": 3
       }
     },
     "quality_status": "ok",
