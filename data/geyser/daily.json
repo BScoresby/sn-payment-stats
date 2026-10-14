@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T19:17:59Z",
+  "generated_at": "2026-10-14T17:11:23Z",
   "day_definition": "UTC calendar day, bucketed by payment paidAt",
-  "observation_days": 59,
+  "observation_days": 60,
   "observations": [
     {
       "date_utc": "2026-08-15",
@@ -1517,11 +1517,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
@@ -1544,11 +1544,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
@@ -1575,11 +1575,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
@@ -1602,11 +1602,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
@@ -1629,11 +1629,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
@@ -1656,11 +1656,42 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 4,
+        "contributions_returned": 7,
         "direct_payments_included": false,
         "pages": 1,
-        "query_end": "2026-10-12",
-        "query_start": "2026-10-04",
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
+        "requests": 1,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-10-13",
+      "recorded_lightning_contribution_count": 3,
+      "recorded_lightning_payment_count": 3,
+      "recorded_lightning_contribution_sats": 35967,
+      "recorded_lightning_payment_sats": 37167,
+      "recorded_lightning_accounting_amount_paid_sats": 37167,
+      "average_recorded_contribution_sats": 11989.0,
+      "median_recorded_contribution_sats": 11983,
+      "minimum_recorded_contribution_sats": 11969,
+      "maximum_recorded_contribution_sats": 12015,
+      "maximum_recorded_payment_sats": 12616,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 3
+      },
+      "payments_by_method": {
+        "STRIKE": 3
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 7,
+        "direct_payments_included": false,
+        "pages": 1,
+        "query_end": "2026-10-13",
+        "query_start": "2026-10-05",
         "requests": 1,
         "status": "complete"
       }
