@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T17:11:23Z",
+  "generated_at": "2026-10-15T17:01:37Z",
   "period": {
-    "start": "2026-09-14",
-    "end": "2026-10-13",
+    "start": "2026-09-15",
+    "end": "2026-10-14",
     "days": 30,
     "missing_days": [],
     "incomplete_api_coverage_days": []
@@ -31,18 +31,18 @@
   "collection_status": {
     "latest_run": {
       "schema_version": 1,
-      "collected_at": "2026-10-14T17:11:21Z",
+      "collected_at": "2026-10-15T17:01:35Z",
       "status": "complete",
       "period": {
-        "start": "2026-10-07",
-        "end": "2026-10-13",
+        "start": "2026-10-08",
+        "end": "2026-10-14",
         "days": 7,
         "day_definition": "completed UTC days, bucketed by payment paidAt"
       },
       "query_policy": {
         "api_url": "https://api.geyser.fund/graphql",
-        "query_start": "2026-10-05",
-        "query_end": "2026-10-13",
+        "query_start": "2026-10-06",
+        "query_end": "2026-10-14",
         "confirmation_lag_buffer_days": 2,
         "page_size": 10,
         "request_delay_seconds": 2.0,
@@ -51,19 +51,19 @@
       },
       "requests": 1,
       "retries_used": 0,
-      "duration_ms": 1529,
+      "duration_ms": 1754,
       "pages": 1,
-      "contributions_returned": 7,
+      "contributions_returned": 6,
       "recorded_lightning_payments": 6,
       "error": null,
       "daily_payment_counts": {
-        "2026-10-07": 0,
         "2026-10-08": 0,
         "2026-10-09": 3,
         "2026-10-10": 0,
         "2026-10-11": 0,
         "2026-10-12": 0,
-        "2026-10-13": 3
+        "2026-10-13": 3,
+        "2026-10-14": 0
       }
     },
     "quality_status": "ok",
