@@ -1,75 +1,14 @@
 {
-  "collected_at": "2026-10-15T15:06:33Z",
+  "collected_at": "2026-10-16T14:54:33Z",
   "source": "https://stacker.news/api/graphql",
   "request": {
-    "from": "2026-09-10T05:00:00Z",
-    "to_exclusive": "2026-10-15T05:00:00Z",
+    "from": "2026-09-11T05:00:00Z",
+    "to_exclusive": "2026-10-16T05:00:00Z",
     "days": 35
   },
   "response": {
     "data": {
       "spending": [
-        {
-          "time": "2026-09-10T05:00:00.000Z",
-          "data": [
-            {
-              "name": "ITEM_CREATE",
-              "value": 16864
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 253
-            },
-            {
-              "name": "ZAP",
-              "value": 180655
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 489788
-            },
-            {
-              "name": "BOOST",
-              "value": 485588
-            },
-            {
-              "name": "DONATE",
-              "value": 91
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 35
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            }
-          ]
-        },
         {
           "time": "2026-09-11T05:00:00.000Z",
           "data": [
@@ -2143,39 +2082,37 @@
               "value": 0
             }
           ]
-        }
-      ],
-      "actions": [
+        },
         {
-          "time": "2026-09-10T05:00:00.000Z",
+          "time": "2026-10-15T05:00:00.000Z",
           "data": [
             {
               "name": "ITEM_CREATE",
-              "value": 1097
+              "value": 12268
             },
             {
               "name": "ITEM_UPDATE",
-              "value": 254
+              "value": 0
             },
             {
               "name": "ZAP",
-              "value": 2503
+              "value": 120084
             },
             {
               "name": "DOWN_ZAP",
-              "value": 145
+              "value": 39022
             },
             {
               "name": "BOOST",
-              "value": 40
+              "value": 10020
             },
             {
               "name": "DONATE",
-              "value": 3
+              "value": 2220
             },
             {
               "name": "POLL_VOTE",
-              "value": 35
+              "value": 2
             },
             {
               "name": "INVITE_GIFT",
@@ -2187,11 +2124,11 @@
             },
             {
               "name": "TERRITORY_UPDATE",
-              "value": 1
+              "value": 0
             },
             {
               "name": "TERRITORY_BILLING",
-              "value": 0
+              "value": 50000
             },
             {
               "name": "TERRITORY_UNARCHIVE",
@@ -2199,14 +2136,16 @@
             },
             {
               "name": "MEDIA_UPLOAD",
-              "value": 186
+              "value": 0
             },
             {
               "name": "BOUNTY_PAYMENT",
               "value": 0
             }
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "time": "2026-09-11T05:00:00.000Z",
           "data": [
@@ -4280,39 +4219,37 @@
               "value": 0
             }
           ]
-        }
-      ],
-      "spenders": [
+        },
         {
-          "time": "2026-09-10T05:00:00.000Z",
+          "time": "2026-10-15T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 30
-            },
-            {
-              "name": "DONATE",
-              "value": 2
+              "name": "ITEM_CREATE",
+              "value": 614
             },
             {
               "name": "ITEM_UPDATE",
-              "value": 59
+              "value": 79
+            },
+            {
+              "name": "ZAP",
+              "value": 1000
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 120
             },
             {
               "name": "BOOST",
-              "value": 10
+              "value": 16
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 1
+              "name": "DONATE",
+              "value": 52
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 161
+              "name": "POLL_VOTE",
+              "value": 2
             },
             {
               "name": "INVITE_GIFT",
@@ -4323,89 +4260,87 @@
               "value": 0
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 13
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
+              "name": "TERRITORY_UPDATE",
               "value": 0
             },
             {
-              "name": "MEDIA_UPLOAD",
-              "value": 39
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "ZAP",
-              "value": 112
+              "name": "MEDIA_UPLOAD",
+              "value": 94
             },
             {
-              "name": "total",
-              "value": 213
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
             }
           ]
-        },
+        }
+      ],
+      "spenders": [
         {
           "time": "2026-09-11T05:00:00.000Z",
           "data": [
             {
-              "name": "DOWN_ZAP",
-              "value": 11
-            },
-            {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_BILLING",
               "value": 0
-            },
-            {
-              "name": "DONATE",
-              "value": 4
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 1
             },
             {
               "name": "POLL_VOTE",
               "value": 38
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 149
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "BOOST",
-              "value": 10
-            },
-            {
-              "name": "ZAP",
-              "value": 108
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 45
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "DONATE",
+              "value": 4
             },
             {
               "name": "ITEM_UPDATE",
               "value": 49
             },
             {
+              "name": "BOOST",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 1
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 149
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 11
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 45
+            },
+            {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 108
             },
             {
               "name": "total",
@@ -4417,35 +4352,11 @@
           "time": "2026-09-12T05:00:00.000Z",
           "data": [
             {
-              "name": "POLL_VOTE",
-              "value": 32
-            },
-            {
               "name": "DOWN_ZAP",
               "value": 11
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 39
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 136
-            },
-            {
-              "name": "TERRITORY_BILLING",
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -4453,11 +4364,23 @@
               "value": 2
             },
             {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_UPDATE",
               "value": 0
             },
             {
+              "name": "POLL_VOTE",
+              "value": 32
+            },
+            {
               "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 136
+            },
+            {
+              "name": "TERRITORY_BILLING",
               "value": 0
             },
             {
@@ -4469,8 +4392,20 @@
               "value": 103
             },
             {
+              "name": "MEDIA_UPLOAD",
+              "value": 39
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
               "name": "ITEM_UPDATE",
               "value": 39
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
             },
             {
               "name": "total",
@@ -4482,19 +4417,19 @@
           "time": "2026-09-13T05:00:00.000Z",
           "data": [
             {
-              "name": "ZAP",
-              "value": 123
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
               "name": "POLL_VOTE",
               "value": 23
             },
             {
-              "name": "TERRITORY_CREATE",
+              "name": "DOWN_ZAP",
+              "value": 6
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
@@ -4502,15 +4437,27 @@
               "value": 2
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 39
+              "name": "MEDIA_UPLOAD",
+              "value": 40
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 143
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "DONATE",
               "value": 3
             },
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -4518,24 +4465,12 @@
               "value": 12
             },
             {
-              "name": "MEDIA_UPLOAD",
-              "value": 40
+              "name": "ZAP",
+              "value": 123
             },
             {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 143
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 6
+              "name": "ITEM_UPDATE",
+              "value": 39
             },
             {
               "name": "total",
@@ -4547,35 +4482,47 @@
           "time": "2026-09-14T05:00:00.000Z",
           "data": [
             {
-              "name": "DONATE",
-              "value": 2
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 137
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
+              "name": "ZAP",
+              "value": 108
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "ZAP",
-              "value": 108
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 14
+              "name": "POLL_VOTE",
+              "value": 39
             },
             {
               "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 42
+            },
+            {
+              "name": "DONATE",
+              "value": 2
+            },
+            {
               "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "BOOST",
+              "value": 11
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 38
+            },
+            {
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -4583,24 +4530,12 @@
               "value": 0
             },
             {
-              "name": "MEDIA_UPLOAD",
-              "value": 38
+              "name": "ITEM_CREATE",
+              "value": 137
             },
             {
-              "name": "POLL_VOTE",
-              "value": 39
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 42
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
-            },
-            {
-              "name": "BOOST",
-              "value": 11
+              "name": "DOWN_ZAP",
+              "value": 14
             },
             {
               "name": "total",
@@ -4616,56 +4551,56 @@
               "value": 4
             },
             {
-              "name": "BOOST",
-              "value": 15
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 56
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 45
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
               "name": "ITEM_CREATE",
               "value": 172
-            },
-            {
-              "name": "ZAP",
-              "value": 131
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 43
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 13
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 131
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 13
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
               "name": "TERRITORY_UPDATE",
               "value": 1
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 45
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 43
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 56
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "BOOST",
+              "value": 15
             },
             {
               "name": "total",
@@ -4677,7 +4612,43 @@
           "time": "2026-09-16T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "DONATE",
+              "value": 2
+            },
+            {
+              "name": "BOOST",
+              "value": 14
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 55
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 41
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 167
+            },
+            {
+              "name": "ZAP",
+              "value": 116
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 13
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -4685,52 +4656,16 @@
               "value": 1
             },
             {
-              "name": "ZAP",
-              "value": 116
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
+              "name": "DOWN_ZAP",
+              "value": 10
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 10
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 55
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
+              "name": "TERRITORY_UPDATE",
               "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 41
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 167
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "BOOST",
-              "value": 14
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 13
-            },
-            {
-              "name": "DONATE",
-              "value": 2
             },
             {
               "name": "total",
@@ -4742,20 +4677,12 @@
           "time": "2026-09-17T05:00:00.000Z",
           "data": [
             {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_UPDATE",
               "value": 0
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 55
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 47
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "ZAP",
@@ -4766,11 +4693,31 @@
               "value": 0
             },
             {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
               "name": "DOWN_ZAP",
               "value": 11
             },
             {
-              "name": "TERRITORY_BILLING",
+              "name": "ITEM_UPDATE",
+              "value": 55
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 47
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 161
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 1
             },
             {
@@ -4778,24 +4725,12 @@
               "value": 16
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "DONATE",
-              "value": 2
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 1
-            },
-            {
               "name": "POLL_VOTE",
               "value": 12
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 161
+              "name": "DONATE",
+              "value": 2
             },
             {
               "name": "total",
@@ -4807,6 +4742,14 @@
           "time": "2026-09-18T05:00:00.000Z",
           "data": [
             {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
               "name": "ITEM_UPDATE",
               "value": 47
             },
@@ -4815,28 +4758,24 @@
               "value": 48
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 1
-            },
-            {
               "name": "ZAP",
               "value": 107
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 22
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
+              "name": "DOWN_ZAP",
+              "value": 8
+            },
+            {
               "name": "TERRITORY_BILLING",
               "value": 0
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 160
+              "name": "BOOST",
+              "value": 11
             },
             {
               "name": "TERRITORY_UPDATE",
@@ -4847,20 +4786,16 @@
               "value": 2
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 8
-            },
-            {
-              "name": "BOOST",
-              "value": 11
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
+              "name": "TERRITORY_CREATE",
               "value": 1
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 22
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 160
             },
             {
               "name": "total",
@@ -4872,27 +4807,27 @@
           "time": "2026-09-19T05:00:00.000Z",
           "data": [
             {
-              "name": "ZAP",
-              "value": 101
+              "name": "ITEM_UPDATE",
+              "value": 32
             },
             {
-              "name": "BOUNTY_PAYMENT",
+              "name": "MEDIA_UPLOAD",
+              "value": 37
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 32
+              "name": "ZAP",
+              "value": 101
             },
             {
               "name": "POLL_VOTE",
               "value": 39
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 12
-            },
-            {
-              "name": "TERRITORY_CREATE",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
@@ -4900,31 +4835,31 @@
               "value": 1
             },
             {
-              "name": "MEDIA_UPLOAD",
-              "value": 37
+              "name": "ITEM_CREATE",
+              "value": 144
             },
             {
-              "name": "BOOST",
-              "value": 15
+              "name": "TERRITORY_UPDATE",
+              "value": 0
             },
             {
               "name": "DONATE",
               "value": 2
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
+              "name": "DOWN_ZAP",
+              "value": 12
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 144
+              "name": "BOOST",
+              "value": 15
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "BOUNTY_PAYMENT",
               "value": 0
             },
             {
@@ -4937,16 +4872,32 @@
           "time": "2026-09-20T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_BILLING",
-              "value": 1
+              "name": "ZAP",
+              "value": 113
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 2
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 37
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 34
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 9
             },
             {
               "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 37
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "MEDIA_UPLOAD",
@@ -4957,40 +4908,24 @@
               "value": 11
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 140
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 34
+              "name": "DONATE",
+              "value": 2
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "DONATE",
-              "value": 2
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 9
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 2
+              "name": "ITEM_CREATE",
+              "value": 140
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "ZAP",
-              "value": 113
+              "name": "TERRITORY_UPDATE",
+              "value": 0
             },
             {
               "name": "total",
@@ -5002,60 +4937,60 @@
           "time": "2026-09-21T05:00:00.000Z",
           "data": [
             {
-              "name": "DONATE",
-              "value": 2
-            },
-            {
               "name": "TERRITORY_BILLING",
               "value": 1
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 9
             },
             {
               "name": "TERRITORY_CREATE",
               "value": 1
             },
             {
-              "name": "ZAP",
-              "value": 104
+              "name": "ITEM_UPDATE",
+              "value": 42
             },
             {
               "name": "MEDIA_UPLOAD",
               "value": 46
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 163
+              "name": "BOOST",
+              "value": 11
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
+              "name": "ITEM_CREATE",
+              "value": 163
             },
             {
               "name": "POLL_VOTE",
               "value": 34
             },
             {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 42
-            },
-            {
-              "name": "BOOST",
-              "value": 11
+              "name": "DONATE",
+              "value": 2
             },
             {
               "name": "TERRITORY_UPDATE",
               "value": 5
             },
             {
+              "name": "DOWN_ZAP",
+              "value": 9
+            },
+            {
               "name": "BOUNTY_PAYMENT",
               "value": 1
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 104
             },
             {
               "name": "total",
@@ -5067,16 +5002,20 @@
           "time": "2026-09-22T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 162
+              "name": "DONATE",
+              "value": 1
             },
             {
               "name": "TERRITORY_BILLING",
               "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 1
             },
             {
               "name": "ZAP",
@@ -5087,16 +5026,16 @@
               "value": 41
             },
             {
-              "name": "BOOST",
-              "value": 15
+              "name": "ITEM_CREATE",
+              "value": 162
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 10
-            },
-            {
-              "name": "TERRITORY_UPDATE",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 41
             },
             {
               "name": "INVITE_GIFT",
@@ -5107,20 +5046,16 @@
               "value": 53
             },
             {
-              "name": "DONATE",
-              "value": 1
+              "name": "BOOST",
+              "value": 15
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 1
+              "name": "TERRITORY_UPDATE",
+              "value": 0
             },
             {
               "name": "BOUNTY_PAYMENT",
               "value": 0
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 41
             },
             {
               "name": "total",
@@ -5132,51 +5067,39 @@
           "time": "2026-09-23T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 31
-            },
-            {
-              "name": "DONATE",
-              "value": 2
-            },
-            {
-              "name": "BOOST",
-              "value": 15
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "ZAP",
-              "value": 99
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 2
             },
             {
               "name": "ITEM_CREATE",
               "value": 148
             },
             {
-              "name": "POLL_VOTE",
-              "value": 54
+              "name": "TERRITORY_BILLING",
+              "value": 2
             },
             {
-              "name": "BOUNTY_PAYMENT",
+              "name": "ZAP",
+              "value": 99
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 31
+            },
+            {
+              "name": "BOOST",
+              "value": 15
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 9
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -5184,8 +5107,20 @@
               "value": 37
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 9
+              "name": "DONATE",
+              "value": 2
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 54
             },
             {
               "name": "total",
@@ -5197,10 +5132,6 @@
           "time": "2026-09-24T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
               "name": "TERRITORY_UPDATE",
               "value": 0
             },
@@ -5209,48 +5140,52 @@
               "value": 51
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 43
+              "name": "DONATE",
+              "value": 1
             },
             {
               "name": "BOOST",
               "value": 10
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 159
-            },
-            {
-              "name": "DONATE",
-              "value": 1
-            },
-            {
               "name": "INVITE_GIFT",
               "value": 0
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 7
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
             },
             {
               "name": "ZAP",
               "value": 104
             },
             {
-              "name": "POLL_VOTE",
-              "value": 15
+              "name": "TERRITORY_CREATE",
+              "value": 0
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 159
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 15
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 43
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 7
             },
             {
               "name": "total",
@@ -5262,7 +5197,39 @@
           "time": "2026-09-25T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 45
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 45
+            },
+            {
+              "name": "BOOST",
+              "value": 10
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 144
+            },
+            {
+              "name": "DONATE",
+              "value": 1
+            },
+            {
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -5278,43 +5245,11 @@
               "value": 109
             },
             {
-              "name": "BOOST",
-              "value": 10
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 45
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 45
-            },
-            {
-              "name": "DONATE",
-              "value": 1
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 144
-            },
-            {
               "name": "POLL_VOTE",
               "value": 3
             },
             {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
@@ -5327,40 +5262,12 @@
           "time": "2026-09-26T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_CREATE",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
               "name": "DOWN_ZAP",
               "value": 5
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 0
-            },
-            {
-              "name": "DONATE",
-              "value": 3
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 28
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 28
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "BOOST",
-              "value": 11
             },
             {
               "name": "TERRITORY_BILLING",
@@ -5371,16 +5278,44 @@
               "value": 87
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "BOOST",
+              "value": 11
+            },
+            {
+              "name": "TERRITORY_UPDATE",
               "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 28
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 28
+            },
+            {
+              "name": "DONATE",
+              "value": 3
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 2
             },
             {
               "name": "ITEM_CREATE",
               "value": 118
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 2
+              "name": "POLL_VOTE",
+              "value": 0
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
             },
             {
               "name": "total",
@@ -5392,56 +5327,56 @@
           "time": "2026-09-27T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_BILLING",
+              "name": "TERRITORY_CREATE",
               "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 145
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 33
-            },
-            {
-              "name": "ZAP",
-              "value": 87
             },
             {
               "name": "DOWN_ZAP",
               "value": 5
             },
             {
-              "name": "BOOST",
-              "value": 10
+              "name": "POLL_VOTE",
+              "value": 23
             },
             {
               "name": "DONATE",
               "value": 1
             },
             {
-              "name": "POLL_VOTE",
-              "value": 23
+              "name": "ITEM_UPDATE",
+              "value": 33
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 0
+              "name": "MEDIA_UPLOAD",
+              "value": 28
             },
             {
               "name": "TERRITORY_UPDATE",
               "value": 1
             },
             {
+              "name": "BOOST",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 87
+            },
+            {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "MEDIA_UPLOAD",
-              "value": 28
+              "name": "ITEM_CREATE",
+              "value": 145
             },
             {
               "name": "BOUNTY_PAYMENT",
@@ -5457,60 +5392,60 @@
           "time": "2026-09-28T05:00:00.000Z",
           "data": [
             {
-              "name": "DONATE",
-              "value": 1
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 33
-            },
-            {
-              "name": "ZAP",
-              "value": 116
-            },
-            {
-              "name": "TERRITORY_UPDATE",
+              "name": "TERRITORY_BILLING",
               "value": 0
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 11
             },
             {
               "name": "ITEM_CREATE",
               "value": 147
             },
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
+              "name": "ITEM_UPDATE",
+              "value": 38
+            },
+            {
+              "name": "ZAP",
+              "value": 116
             },
             {
               "name": "DOWN_ZAP",
               "value": 9
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
               "name": "BOOST",
               "value": 9
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 38
+              "name": "DONATE",
+              "value": 1
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 11
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 33
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
             },
             {
               "name": "total",
@@ -5522,36 +5457,28 @@
           "time": "2026-09-29T05:00:00.000Z",
           "data": [
             {
-              "name": "ITEM_CREATE",
-              "value": 161
-            },
-            {
               "name": "DONATE",
               "value": 1
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
+              "name": "MEDIA_UPLOAD",
+              "value": 42
             },
             {
               "name": "ZAP",
               "value": 109
             },
             {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
               "name": "POLL_VOTE",
               "value": 13
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 45
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 42
+              "name": "ITEM_CREATE",
+              "value": 161
             },
             {
               "name": "TERRITORY_BILLING",
@@ -5562,7 +5489,7 @@
               "value": 10
             },
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -5570,11 +5497,19 @@
               "value": 12
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "ITEM_UPDATE",
+              "value": 45
+            },
+            {
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "TERRITORY_CREATE",
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
@@ -5587,20 +5522,8 @@
           "time": "2026-09-30T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 4
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "BOOST",
-              "value": 12
+              "name": "ITEM_CREATE",
+              "value": 147
             },
             {
               "name": "DONATE",
@@ -5611,24 +5534,28 @@
               "value": 0
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
+              "name": "ZAP",
+              "value": 116
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 147
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
+              "name": "POLL_VOTE",
+              "value": 4
             },
             {
               "name": "ITEM_UPDATE",
               "value": 44
             },
             {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
               "name": "MEDIA_UPLOAD",
               "value": 39
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
             },
             {
               "name": "DOWN_ZAP",
@@ -5639,8 +5566,16 @@
               "value": 3
             },
             {
-              "name": "ZAP",
-              "value": 116
+              "name": "BOOST",
+              "value": 12
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
             },
             {
               "name": "total",
@@ -5652,19 +5587,11 @@
           "time": "2026-10-01T05:00:00.000Z",
           "data": [
             {
-              "name": "BOOST",
-              "value": 13
-            },
-            {
-              "name": "INVITE_GIFT",
+              "name": "TERRITORY_BILLING",
               "value": 0
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "DONATE",
+              "name": "POLL_VOTE",
               "value": 2
             },
             {
@@ -5672,36 +5599,44 @@
               "value": 0
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 169
+              "name": "BOOST",
+              "value": 13
+            },
+            {
+              "name": "DONATE",
+              "value": 2
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
             },
             {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 1
+              "name": "ITEM_CREATE",
+              "value": 169
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 49
             },
             {
               "name": "MEDIA_UPLOAD",
               "value": 46
             },
             {
-              "name": "POLL_VOTE",
-              "value": 2
-            },
-            {
               "name": "DOWN_ZAP",
               "value": 15
             },
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 49
+              "name": "TERRITORY_UPDATE",
+              "value": 1
             },
             {
               "name": "ZAP",
@@ -5717,51 +5652,11 @@
           "time": "2026-10-02T05:00:00.000Z",
           "data": [
             {
-              "name": "ZAP",
-              "value": 97
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 2
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 37
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 3
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 133
-            },
-            {
-              "name": "DONATE",
-              "value": 7
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 10
-            },
-            {
               "name": "BOOST",
               "value": 10
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -5769,8 +5664,48 @@
               "value": 2
             },
             {
+              "name": "DONATE",
+              "value": 7
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 133
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 2
+            },
+            {
               "name": "MEDIA_UPLOAD",
               "value": 41
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 3
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 37
+            },
+            {
+              "name": "ZAP",
+              "value": 97
             },
             {
               "name": "total",
@@ -5782,8 +5717,73 @@
           "time": "2026-10-03T05:00:00.000Z",
           "data": [
             {
+              "name": "ZAP",
+              "value": 88
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 38
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 3
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 125
+            },
+            {
+              "name": "DONATE",
+              "value": 5
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 13
+            },
+            {
+              "name": "BOOST",
+              "value": 12
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
               "name": "MEDIA_UPLOAD",
               "value": 37
+            },
+            {
+              "name": "total",
+              "value": 159
+            }
+          ]
+        },
+        {
+          "time": "2026-10-04T05:00:00.000Z",
+          "data": [
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 30
             },
             {
               "name": "BOUNTY_PAYMENT",
@@ -5799,59 +5799,18 @@
             },
             {
               "name": "ZAP",
-              "value": 88
+              "value": 87
             },
-            {
-              "name": "DOWN_ZAP",
-              "value": 13
-            },
-            {
-              "name": "DONATE",
-              "value": 5
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 125
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 38
-            },
-            {
-              "name": "BOOST",
-              "value": 12
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 3
-            },
-            {
-              "name": "total",
-              "value": 159
-            }
-          ]
-        },
-        {
-          "time": "2026-10-04T05:00:00.000Z",
-          "data": [
             {
               "name": "DOWN_ZAP",
               "value": 11
             },
             {
-              "name": "INVITE_GIFT",
+              "name": "DONATE",
+              "value": 4
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -5867,40 +5826,16 @@
               "value": 6
             },
             {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 8
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 30
-            },
-            {
-              "name": "DONATE",
-              "value": 4
-            },
-            {
-              "name": "ZAP",
-              "value": 87
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
               "name": "TERRITORY_BILLING",
               "value": 1
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 8
             },
             {
               "name": "total",
@@ -5912,47 +5847,27 @@
           "time": "2026-10-05T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "BOOST",
+              "name": "DOWN_ZAP",
               "value": 13
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 25
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 168
             },
             {
               "name": "INVITE_GIFT",
               "value": 1
             },
             {
-              "name": "DOWN_ZAP",
-              "value": 13
+              "name": "ITEM_CREATE",
+              "value": 168
             },
             {
               "name": "ITEM_UPDATE",
               "value": 41
             },
             {
-              "name": "ZAP",
-              "value": 107
+              "name": "BOOST",
+              "value": 13
             },
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -5960,12 +5875,32 @@
               "value": 2
             },
             {
-              "name": "DONATE",
-              "value": 5
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 25
             },
             {
               "name": "MEDIA_UPLOAD",
               "value": 37
+            },
+            {
+              "name": "DONATE",
+              "value": 5
+            },
+            {
+              "name": "ZAP",
+              "value": 107
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "total",
@@ -5977,32 +5912,20 @@
           "time": "2026-10-06T05:00:00.000Z",
           "data": [
             {
-              "name": "ITEM_UPDATE",
-              "value": 41
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
               "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "ZAP",
-              "value": 104
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 7
+              "name": "TERRITORY_CREATE",
+              "value": 0
             },
             {
               "name": "BOOST",
               "value": 9
             },
             {
-              "name": "DONATE",
-              "value": 6
+              "name": "TERRITORY_BILLING",
+              "value": 1
             },
             {
               "name": "POLL_VOTE",
@@ -6017,16 +5940,28 @@
               "value": 0
             },
             {
-              "name": "TERRITORY_BILLING",
-              "value": 1
+              "name": "DOWN_ZAP",
+              "value": 7
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 41
+            },
+            {
+              "name": "ZAP",
+              "value": 104
             },
             {
               "name": "TERRITORY_UPDATE",
               "value": 0
             },
             {
-              "name": "TERRITORY_CREATE",
+              "name": "BOUNTY_PAYMENT",
               "value": 0
+            },
+            {
+              "name": "DONATE",
+              "value": 6
             },
             {
               "name": "MEDIA_UPLOAD",
@@ -6042,36 +5977,40 @@
           "time": "2026-10-07T05:00:00.000Z",
           "data": [
             {
-              "name": "ITEM_CREATE",
-              "value": 142
-            },
-            {
-              "name": "DONATE",
-              "value": 6
-            },
-            {
-              "name": "BOOST",
-              "value": 12
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 1
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 38
+              "name": "ITEM_UPDATE",
+              "value": 47
             },
             {
               "name": "BOUNTY_PAYMENT",
               "value": 0
             },
             {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 103
+            },
+            {
               "name": "DOWN_ZAP",
               "value": 8
+            },
+            {
+              "name": "BOOST",
+              "value": 12
+            },
+            {
+              "name": "DONATE",
+              "value": 6
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 142
             },
             {
               "name": "INVITE_GIFT",
@@ -6082,20 +6021,16 @@
               "value": 0
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 47
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 0
-            },
-            {
-              "name": "ZAP",
-              "value": 103
+              "name": "TERRITORY_UPDATE",
+              "value": 1
             },
             {
               "name": "TERRITORY_CREATE",
               "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 38
             },
             {
               "name": "total",
@@ -6107,48 +6042,12 @@
           "time": "2026-10-08T05:00:00.000Z",
           "data": [
             {
-              "name": "DONATE",
-              "value": 4
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 38
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 1
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 1
-            },
-            {
-              "name": "POLL_VOTE",
-              "value": 7
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 10
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 40
-            },
-            {
               "name": "ITEM_CREATE",
               "value": 148
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 1
+              "name": "DONATE",
+              "value": 4
             },
             {
               "name": "BOOST",
@@ -6159,8 +6058,44 @@
               "value": 0
             },
             {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 40
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 10
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 1
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 38
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 7
+            },
+            {
               "name": "ZAP",
               "value": 99
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 1
             },
             {
               "name": "total",
@@ -6172,20 +6107,44 @@
           "time": "2026-10-09T05:00:00.000Z",
           "data": [
             {
-              "name": "POLL_VOTE",
-              "value": 0
+              "name": "DONATE",
+              "value": 4
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "ITEM_UPDATE",
+              "value": 32
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "DONATE",
-              "value": 4
+              "name": "POLL_VOTE",
+              "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 8
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 39
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 135
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
             },
             {
               "name": "TERRITORY_CREATE",
@@ -6196,36 +6155,12 @@
               "value": 10
             },
             {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 8
-            },
-            {
-              "name": "TERRITORY_BILLING",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
               "name": "ZAP",
               "value": 85
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 32
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 39
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 135
             },
             {
               "name": "total",
@@ -6237,51 +6172,11 @@
           "time": "2026-10-10T05:00:00.000Z",
           "data": [
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_CREATE",
-              "value": 0
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 33
-            },
-            {
-              "name": "ZAP",
-              "value": 82
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 135
-            },
-            {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 5
-            },
-            {
               "name": "POLL_VOTE",
               "value": 0
             },
             {
-              "name": "ITEM_UPDATE",
-              "value": 31
-            },
-            {
-              "name": "BOOST",
-              "value": 6
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_UPDATE",
+              "name": "BOUNTY_PAYMENT",
               "value": 0
             },
             {
@@ -6291,6 +6186,46 @@
             {
               "name": "DONATE",
               "value": 7
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "BOOST",
+              "value": 6
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 5
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 82
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 31
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 33
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 135
             },
             {
               "name": "total",
@@ -6302,44 +6237,24 @@
           "time": "2026-10-11T05:00:00.000Z",
           "data": [
             {
-              "name": "POLL_VOTE",
-              "value": 8
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 35
-            },
-            {
-              "name": "TERRITORY_UNARCHIVE",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 153
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "ZAP",
-              "value": 87
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 39
-            },
-            {
-              "name": "DONATE",
-              "value": 3
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
             },
             {
               "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
-              "name": "BOOST",
-              "value": 9
+              "name": "MEDIA_UPLOAD",
+              "value": 35
+            },
+            {
+              "name": "ZAP",
+              "value": 87
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 153
             },
             {
               "name": "TERRITORY_BILLING",
@@ -6350,12 +6265,32 @@
               "value": 7
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "POLL_VOTE",
+              "value": 8
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 39
+            },
+            {
+              "name": "BOOST",
+              "value": 9
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
+              "value": 0
             },
             {
               "name": "TERRITORY_UPDATE",
               "value": 1
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "DONATE",
+              "value": 3
             },
             {
               "name": "total",
@@ -6367,59 +6302,59 @@
           "time": "2026-10-12T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 36
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
-            },
-            {
-              "name": "ZAP",
-              "value": 103
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 8
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
+              "name": "POLL_VOTE",
+              "value": 10
             },
             {
               "name": "MEDIA_UPLOAD",
               "value": 38
             },
             {
-              "name": "ITEM_CREATE",
-              "value": 144
-            },
-            {
-              "name": "BOOST",
-              "value": 11
-            },
-            {
-              "name": "TERRITORY_CREATE",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
-              "name": "DONATE",
-              "value": 4
+              "name": "ITEM_CREATE",
+              "value": 144
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "POLL_VOTE",
-              "value": 10
+              "name": "ZAP",
+              "value": 103
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "ITEM_UPDATE",
+              "value": 36
+            },
+            {
+              "name": "DONATE",
+              "value": 4
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "BOOST",
+              "value": 11
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 0
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 8
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
+              "name": "TERRITORY_UPDATE",
               "value": 0
             },
             {
@@ -6432,11 +6367,43 @@
           "time": "2026-10-13T05:00:00.000Z",
           "data": [
             {
+              "name": "TERRITORY_BILLING",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 37
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
               "name": "ZAP",
               "value": 90
             },
             {
-              "name": "TERRITORY_UNARCHIVE",
+              "name": "DOWN_ZAP",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 33
+            },
+            {
+              "name": "ITEM_CREATE",
+              "value": 137
+            },
+            {
+              "name": "BOOST",
+              "value": 10
+            },
+            {
+              "name": "TERRITORY_CREATE",
               "value": 0
             },
             {
@@ -6444,47 +6411,15 @@
               "value": 4
             },
             {
-              "name": "POLL_VOTE",
-              "value": 4
-            },
-            {
-              "name": "BOOST",
-              "value": 10
-            },
-            {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 0
+              "name": "POLL_VOTE",
+              "value": 4
             },
             {
-              "name": "TERRITORY_BILLING",
-              "value": 0
-            },
-            {
-              "name": "ITEM_CREATE",
-              "value": 137
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 37
-            },
-            {
-              "name": "DOWN_ZAP",
-              "value": 10
-            },
-            {
-              "name": "MEDIA_UPLOAD",
-              "value": 33
-            },
-            {
-              "name": "TERRITORY_UPDATE",
-              "value": 0
-            },
-            {
-              "name": "TERRITORY_CREATE",
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
             },
             {
@@ -6497,8 +6432,16 @@
           "time": "2026-10-14T05:00:00.000Z",
           "data": [
             {
-              "name": "TERRITORY_UPDATE",
+              "name": "ZAP",
+              "value": 84
+            },
+            {
+              "name": "TERRITORY_UNARCHIVE",
               "value": 0
+            },
+            {
+              "name": "DONATE",
+              "value": 4
             },
             {
               "name": "POLL_VOTE",
@@ -6509,12 +6452,8 @@
               "value": 7
             },
             {
-              "name": "TERRITORY_CREATE",
+              "name": "INVITE_GIFT",
               "value": 0
-            },
-            {
-              "name": "ITEM_UPDATE",
-              "value": 32
             },
             {
               "name": "BOUNTY_PAYMENT",
@@ -6525,12 +6464,73 @@
               "value": 0
             },
             {
+              "name": "ITEM_CREATE",
+              "value": 126
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 32
+            },
+            {
+              "name": "DOWN_ZAP",
+              "value": 7
+            },
+            {
+              "name": "MEDIA_UPLOAD",
+              "value": 34
+            },
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "total",
+              "value": 157
+            }
+          ]
+        },
+        {
+          "time": "2026-10-15T05:00:00.000Z",
+          "data": [
+            {
+              "name": "TERRITORY_UPDATE",
+              "value": 0
+            },
+            {
+              "name": "POLL_VOTE",
+              "value": 2
+            },
+            {
+              "name": "BOOST",
+              "value": 8
+            },
+            {
+              "name": "TERRITORY_CREATE",
+              "value": 0
+            },
+            {
+              "name": "ITEM_UPDATE",
+              "value": 29
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "TERRITORY_BILLING",
+              "value": 1
+            },
+            {
               "name": "ZAP",
-              "value": 84
+              "value": 76
             },
             {
               "name": "DONATE",
-              "value": 4
+              "value": 5
             },
             {
               "name": "INVITE_GIFT",
@@ -6542,19 +6542,19 @@
             },
             {
               "name": "ITEM_CREATE",
-              "value": 126
+              "value": 143
             },
             {
               "name": "MEDIA_UPLOAD",
-              "value": 34
+              "value": 37
             },
             {
               "name": "DOWN_ZAP",
-              "value": 7
+              "value": 12
             },
             {
               "name": "total",
-              "value": 157
+              "value": 169
             }
           ]
         }
