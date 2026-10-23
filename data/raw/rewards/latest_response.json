@@ -1,40 +1,15 @@
 {
-  "collected_at": "2026-10-22T15:21:17Z",
+  "collected_at": "2026-10-23T15:11:02Z",
   "source": "https://stacker.news/api/graphql",
   "request": {
-    "first_reward_date": "2026-10-20",
-    "last_reward_date": "2026-10-22",
+    "first_reward_date": "2026-10-21",
+    "last_reward_date": "2026-10-23",
     "days": 3,
     "detail_batch_size": 7
   },
   "growth_response": {
     "data": {
       "payouts": [
-        {
-          "time": "2026-10-16T05:00:00.000Z",
-          "data": [
-            {
-              "name": "TERRITORY_REVENUE",
-              "value": 54739
-            },
-            {
-              "name": "ZAP",
-              "value": 126817
-            },
-            {
-              "name": "REWARD",
-              "value": 59981
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 10000
-            }
-          ]
-        },
         {
           "time": "2026-10-17T05:00:00.000Z",
           "data": [
@@ -165,15 +140,40 @@
           "data": [
             {
               "name": "TERRITORY_REVENUE",
-              "value": 15044
+              "value": 69297
             },
             {
               "name": "ZAP",
-              "value": 27193
+              "value": 112317
             },
             {
               "name": "REWARD",
               "value": 131955
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "time": "2026-10-23T05:00:00.000Z",
+          "data": [
+            {
+              "name": "TERRITORY_REVENUE",
+              "value": 28181
+            },
+            {
+              "name": "ZAP",
+              "value": 32972
+            },
+            {
+              "name": "REWARD",
+              "value": 192342
             },
             {
               "name": "INVITE_GIFT",
@@ -188,35 +188,6 @@
       ],
       "recipients": [
         {
-          "time": "2026-10-16T05:00:00.000Z",
-          "data": [
-            {
-              "name": "REWARD",
-              "value": 44
-            },
-            {
-              "name": "TERRITORY_REVENUE",
-              "value": 38
-            },
-            {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
-            },
-            {
-              "name": "ZAP",
-              "value": 134
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
-              "name": "total",
-              "value": 169
-            }
-          ]
-        },
-        {
           "time": "2026-10-17T05:00:00.000Z",
           "data": [
             {
@@ -224,19 +195,19 @@
               "value": 53
             },
             {
-              "name": "ZAP",
-              "value": 114
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
-            },
-            {
               "name": "TERRITORY_REVENUE",
               "value": 36
             },
             {
               "name": "BOUNTY_PAYMENT",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 114
+            },
+            {
+              "name": "INVITE_GIFT",
               "value": 0
             },
             {
@@ -249,24 +220,24 @@
           "time": "2026-10-18T05:00:00.000Z",
           "data": [
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "REWARD",
+              "value": 48
             },
             {
               "name": "ZAP",
               "value": 100
             },
             {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
               "name": "TERRITORY_REVENUE",
               "value": 35
             },
             {
-              "name": "REWARD",
-              "value": 48
-            },
-            {
-              "name": "INVITE_GIFT",
-              "value": 0
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
             },
             {
               "name": "total",
@@ -278,24 +249,24 @@
           "time": "2026-10-19T05:00:00.000Z",
           "data": [
             {
-              "name": "REWARD",
-              "value": 60
-            },
-            {
-              "name": "TERRITORY_REVENUE",
-              "value": 34
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
             },
             {
               "name": "ZAP",
               "value": 127
             },
             {
-              "name": "INVITE_GIFT",
-              "value": 0
+              "name": "TERRITORY_REVENUE",
+              "value": 34
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
+              "name": "REWARD",
+              "value": 60
+            },
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
             },
             {
               "name": "total",
@@ -307,24 +278,24 @@
           "time": "2026-10-20T05:00:00.000Z",
           "data": [
             {
+              "name": "REWARD",
+              "value": 50
+            },
+            {
               "name": "TERRITORY_REVENUE",
               "value": 40
             },
             {
-              "name": "BOUNTY_PAYMENT",
-              "value": 1
-            },
-            {
-              "name": "REWARD",
-              "value": 50
+              "name": "ZAP",
+              "value": 154
             },
             {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
-              "name": "ZAP",
-              "value": 154
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
             },
             {
               "name": "total",
@@ -344,16 +315,16 @@
               "value": 0
             },
             {
+              "name": "REWARD",
+              "value": 61
+            },
+            {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
               "name": "ZAP",
               "value": 137
-            },
-            {
-              "name": "REWARD",
-              "value": 61
             },
             {
               "name": "total",
@@ -365,20 +336,49 @@
           "time": "2026-10-22T05:00:00.000Z",
           "data": [
             {
+              "name": "TERRITORY_REVENUE",
+              "value": 38
+            },
+            {
+              "name": "BOUNTY_PAYMENT",
+              "value": 1
+            },
+            {
               "name": "INVITE_GIFT",
               "value": 0
             },
             {
               "name": "ZAP",
-              "value": 78
+              "value": 127
             },
             {
               "name": "REWARD",
               "value": 62
             },
             {
+              "name": "total",
+              "value": 171
+            }
+          ]
+        },
+        {
+          "time": "2026-10-23T05:00:00.000Z",
+          "data": [
+            {
+              "name": "INVITE_GIFT",
+              "value": 0
+            },
+            {
+              "name": "ZAP",
+              "value": 73
+            },
+            {
+              "name": "REWARD",
+              "value": 56
+            },
+            {
               "name": "TERRITORY_REVENUE",
-              "value": 32
+              "value": 35
             },
             {
               "name": "BOUNTY_PAYMENT",
@@ -386,7 +386,7 @@
             },
             {
               "name": "total",
-              "value": 130
+              "value": 124
             }
           ]
         }
@@ -396,57 +396,13 @@
   "detail_responses": [
     {
       "dates": [
-        "2026-10-20",
         "2026-10-21",
-        "2026-10-22"
+        "2026-10-22",
+        "2026-10-23"
       ],
       "response": {
         "data": {
           "reward_0": [
-            {
-              "total": 53451,
-              "time": "2026-10-20T05:00:00.000Z",
-              "sources": [
-                {
-                  "name": "ITEM_CREATE",
-                  "value": 4292600
-                },
-                {
-                  "name": "ITEM_UPDATE",
-                  "value": 14700
-                },
-                {
-                  "name": "ZAP",
-                  "value": 10298498
-                },
-                {
-                  "name": "DOWN_ZAP",
-                  "value": 29953000
-                },
-                {
-                  "name": "BOOST",
-                  "value": 8363703
-                },
-                {
-                  "name": "DONATE",
-                  "value": 353800
-                },
-                {
-                  "name": "POLL_VOTE",
-                  "value": 2100
-                },
-                {
-                  "name": "PROXY_PAYMENT",
-                  "value": 28079
-                },
-                {
-                  "name": "BOUNTY_PAYMENT",
-                  "value": 145000
-                }
-              ]
-            }
-          ],
-          "reward_1": [
             {
               "total": 93976,
               "time": "2026-10-21T05:00:00.000Z",
@@ -490,7 +446,7 @@
               ]
             }
           ],
-          "reward_2": [
+          "reward_1": [
             {
               "total": 131956,
               "time": "2026-10-22T05:00:00.000Z",
@@ -526,6 +482,50 @@
                 {
                   "name": "PROXY_PAYMENT",
                   "value": 308682
+                }
+              ]
+            }
+          ],
+          "reward_2": [
+            {
+              "total": 192342,
+              "time": "2026-10-23T05:00:00.000Z",
+              "sources": [
+                {
+                  "name": "ITEM_CREATE",
+                  "value": 8893200
+                },
+                {
+                  "name": "ITEM_UPDATE",
+                  "value": 30000
+                },
+                {
+                  "name": "ZAP",
+                  "value": 15033667
+                },
+                {
+                  "name": "DOWN_ZAP",
+                  "value": 161312000
+                },
+                {
+                  "name": "BOOST",
+                  "value": 6454500
+                },
+                {
+                  "name": "DONATE",
+                  "value": 584800
+                },
+                {
+                  "name": "POLL_VOTE",
+                  "value": 3300
+                },
+                {
+                  "name": "PROXY_PAYMENT",
+                  "value": 1000
+                },
+                {
+                  "name": "BOUNTY_PAYMENT",
+                  "value": 30000
                 }
               ]
             }
