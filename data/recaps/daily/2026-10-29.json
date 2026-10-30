@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "recap_type": "daily",
+  "period": {
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "days": 1,
+    "timezone": "America/Chicago"
+  },
+  "metrics": {
+    "zaplike_actions": 1260,
+    "zaplike_sats": 238800,
+    "standard_zap_actions": 1128,
+    "standard_zap_sats": 152179,
+    "boost_actions": 49,
+    "boost_sats": 65358,
+    "downzap_actions": 83,
+    "downzap_sats": 21263,
+    "tracked_spend_actions": 2273,
+    "tracked_spending_sats": 259370,
+    "paid_item_creation_actions": 728,
+    "average_daily_unique_zappers": 108.0,
+    "peak_daily_unique_zappers": 108,
+    "reward_sats_distributed": 38547,
+    "reward_recipient_days": 54,
+    "seconds_per_zap": 68.57,
+    "reward_anomaly_flags": []
+  },
+  "post_text": "\u26a1 Stacker News Daily Recap \u26a1\nOctober 29\n\n\u26a1 1,260 zaps*\n\ud83d\udcb0 238,800 sats zapped\n\ud83d\udcb8 2,273 tracked spend actions\n\ud83d\udcdd 728 paid item creations\n\ud83d\udc65 108 daily unique zappers\n\ud83c\udf81 38,547 reward sats distributed\n\nOne zap every 69 seconds.\n\n*Includes boosts & downzaps.",
+  "post_character_count": 249,
+  "quality_status": "ok",
+  "caveats": [
+    "Zaps include ZAP, BOOST, and DOWN_ZAP action groups.",
+    "Sats-denominated aggregates may include Cowboy Credits and do not prove Lightning settlement.",
+    "Daily unique zappers covers ZAP users only and must not be described as period-level distinct users.",
+    "Reward figures are custodial Stacker News payouts selected by reward_date."
+  ]
+}
