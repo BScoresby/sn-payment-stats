@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T18:00:26Z",
+  "generated_at": "2026-10-31T17:14:54Z",
   "day_definition": "UTC calendar day, bucketed by payment paidAt",
-  "observation_days": 76,
+  "observation_days": 77,
   "observations": [
     {
       "date_utc": "2026-08-15",
@@ -1988,12 +1988,12 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     },
@@ -2015,12 +2015,12 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     },
@@ -2046,12 +2046,12 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     },
@@ -2073,12 +2073,12 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     },
@@ -2104,12 +2104,12 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     },
@@ -2135,12 +2135,43 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 10,
+        "contributions_returned": 9,
         "direct_payments_included": false,
-        "pages": 2,
-        "query_end": "2026-10-29",
-        "query_start": "2026-10-21",
-        "requests": 2,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-10-30",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 13010,
+      "recorded_lightning_payment_sats": 13661,
+      "recorded_lightning_accounting_amount_paid_sats": 13661,
+      "average_recorded_contribution_sats": 13010.0,
+      "median_recorded_contribution_sats": 13010,
+      "minimum_recorded_contribution_sats": 13010,
+      "maximum_recorded_contribution_sats": 13010,
+      "maximum_recorded_payment_sats": 13661,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 9,
+        "direct_payments_included": false,
+        "pages": 1,
+        "query_end": "2026-10-30",
+        "query_start": "2026-10-22",
+        "requests": 1,
         "status": "complete"
       }
     }
