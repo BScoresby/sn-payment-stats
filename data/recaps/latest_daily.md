@@ -1,13 +1,13 @@
 ⚡ Stacker News Daily Recap ⚡
-October 30
+October 31
 
-⚡ 1,277 zaps*
-💰 183,764 sats zapped
-💸 2,279 tracked spend actions
-📝 726 paid item creations
-👥 93 daily unique zappers
-🎁 65,002 reward sats distributed
+⚡ 685 zaps*
+💰 131,669 sats zapped
+💸 1,265 tracked spend actions
+📝 415 paid item creations
+👥 71 daily unique zappers
+🎁 0 reward sats distributed
 
-One zap every 68 seconds.
+One zap every 126 seconds.
 
 *Includes boosts & downzaps.
