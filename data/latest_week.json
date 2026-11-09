@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T16:43:11Z",
+  "generated_at": "2026-11-09T20:50:06Z",
   "latest_completed_week": {
     "period": {
-      "start": "2026-10-26",
-      "end": "2026-11-01",
+      "start": "2026-11-02",
+      "end": "2026-11-08",
       "days": 7
     },
-    "zap_actions": 6872,
-    "zap_sats": 857543,
-    "tracked_paid_actions": 13892,
-    "content_items_created": 4470,
-    "zaps_per_day": 981.71,
-    "seconds_per_zap": 88.01,
-    "average_zap_sats": 124.79,
-    "average_daily_unique_zappers": 88.29,
-    "peak_daily_unique_zappers": 108,
-    "average_daily_unique_spenders": 173.71,
-    "zap_share_of_tracked_paid_actions_pct": 49.47,
-    "zaps_per_100_content_items": 153.74,
+    "zap_actions": 6307,
+    "zap_sats": 726794,
+    "tracked_paid_actions": 12708,
+    "content_items_created": 4058,
+    "zaps_per_day": 901.0,
+    "seconds_per_zap": 95.89,
+    "average_zap_sats": 115.24,
+    "average_daily_unique_zappers": 79,
+    "peak_daily_unique_zappers": 84,
+    "average_daily_unique_spenders": 163.57,
+    "zap_share_of_tracked_paid_actions_pct": 49.63,
+    "zaps_per_100_content_items": 155.42,
     "quality_status": "ok",
     "warning_days": [],
     "week_over_week_pct": {
-      "zap_actions": -3.39,
-      "zap_sats": -3.88,
-      "tracked_paid_actions": -2.11,
-      "content_items_created": 1.66
+      "zap_actions": -8.22,
+      "zap_sats": -15.25,
+      "tracked_paid_actions": -8.52,
+      "content_items_created": -9.22
     },
     "versus_prior_4_week_average_pct": {
-      "zap_actions": -13.86,
-      "zap_sats": -16.18,
-      "tracked_paid_actions": -10.18,
-      "content_items_created": -3.68
+      "zap_actions": -13.64,
+      "zap_sats": -23.87,
+      "tracked_paid_actions": -11.99,
+      "content_items_created": -9.44
     },
     "records": {
       "zap_actions_all_time_high": false,
@@ -39,7 +39,7 @@
     }
   },
   "analysis_context": {
-    "prior_completed_weeks_available": 20,
+    "prior_completed_weeks_available": 21,
     "global_caveats": [
       "Never describe zap_actions as Lightning transactions without separate settlement data.",
       "Never sum daily_unique_zappers to obtain weekly distinct zappers.",
