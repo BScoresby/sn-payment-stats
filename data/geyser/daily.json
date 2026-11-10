@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T22:22:27Z",
+  "generated_at": "2026-11-10T19:44:13Z",
   "day_definition": "UTC calendar day, bucketed by payment paidAt",
-  "observation_days": 86,
+  "observation_days": 87,
   "observations": [
     {
       "date_utc": "2026-08-15",
@@ -2282,11 +2282,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
@@ -2309,11 +2309,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
@@ -2340,11 +2340,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
@@ -2371,11 +2371,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
@@ -2398,11 +2398,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
@@ -2429,11 +2429,42 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 16,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-08",
-        "query_start": "2026-10-31",
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
+        "requests": 2,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-11-09",
+      "recorded_lightning_contribution_count": 1,
+      "recorded_lightning_payment_count": 1,
+      "recorded_lightning_contribution_sats": 4006,
+      "recorded_lightning_payment_sats": 4206,
+      "recorded_lightning_accounting_amount_paid_sats": 4206,
+      "average_recorded_contribution_sats": 4006.0,
+      "median_recorded_contribution_sats": 4006,
+      "minimum_recorded_contribution_sats": 4006,
+      "maximum_recorded_contribution_sats": 4006,
+      "maximum_recorded_payment_sats": 4206,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 1,
+      "payments_by_type": {
+        "LIGHTNING": 1
+      },
+      "payments_by_method": {
+        "STRIKE": 1
+      },
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 17,
+        "direct_payments_included": false,
+        "pages": 2,
+        "query_end": "2026-11-09",
+        "query_start": "2026-11-01",
         "requests": 2,
         "status": "complete"
       }
