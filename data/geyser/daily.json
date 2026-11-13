@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:54:31Z",
+  "generated_at": "2026-11-13T19:42:37Z",
   "day_definition": "UTC calendar day, bucketed by payment paidAt",
-  "observation_days": 89,
+  "observation_days": 90,
   "observations": [
     {
       "date_utc": "2026-08-15",
@@ -2371,11 +2371,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
@@ -2398,11 +2398,11 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
@@ -2429,11 +2429,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
@@ -2460,11 +2460,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
@@ -2491,11 +2491,11 @@
       },
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
@@ -2518,11 +2518,38 @@
       "payments_by_method": {},
       "coverage_at_update": {
         "confirmation_lag_buffer_days": 2,
-        "contributions_returned": 18,
+        "contributions_returned": 17,
         "direct_payments_included": false,
         "pages": 2,
-        "query_end": "2026-11-11",
-        "query_start": "2026-11-03",
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
+        "requests": 2,
+        "status": "complete"
+      }
+    },
+    {
+      "date_utc": "2026-11-12",
+      "recorded_lightning_contribution_count": 0,
+      "recorded_lightning_payment_count": 0,
+      "recorded_lightning_contribution_sats": 0,
+      "recorded_lightning_payment_sats": 0,
+      "recorded_lightning_accounting_amount_paid_sats": 0,
+      "average_recorded_contribution_sats": null,
+      "median_recorded_contribution_sats": null,
+      "minimum_recorded_contribution_sats": null,
+      "maximum_recorded_contribution_sats": null,
+      "maximum_recorded_payment_sats": null,
+      "recorded_contributions_over_1m_sats": 0,
+      "unique_projects_funded": 0,
+      "payments_by_type": {},
+      "payments_by_method": {},
+      "coverage_at_update": {
+        "confirmation_lag_buffer_days": 2,
+        "contributions_returned": 17,
+        "direct_payments_included": false,
+        "pages": 2,
+        "query_end": "2026-11-12",
+        "query_start": "2026-11-04",
         "requests": 2,
         "status": "complete"
       }
