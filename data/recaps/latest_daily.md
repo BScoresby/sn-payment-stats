@@ -1,13 +1,13 @@
 ⚡ Stacker News Daily Recap ⚡
-November 11
+November 12
 
-⚡ 1,110 zaps*
-💰 411,184 sats zapped
-💸 1,864 tracked spend actions
-📝 557 paid item creations
-👥 75 daily unique zappers
-🎁 41,974 reward sats distributed
+⚡ 956 zaps*
+💰 160,491 sats zapped
+💸 1,764 tracked spend actions
+📝 581 paid item creations
+👥 70 daily unique zappers
+🎁 172,780 reward sats distributed
 
-One zap every 78 seconds.
+One zap every 90 seconds.
 
 *Includes boosts & downzaps.
